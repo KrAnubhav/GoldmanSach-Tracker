@@ -1480,25 +1480,48 @@ const SAMPLE_DATA = [
   { id: "253", title: "Meeting Rooms II", acceptance: "45.7%", difficulty: "Medium", frequency: 0.0898, link: "https://leetcode.com/problems/meeting-rooms-ii", topic: "Binary Search & Sorting" },
 ];
 
-const OverviewTab = () => {
-  useEffect(() => {
-    const link = document.createElement('link');
-    link.href = 'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700;900&display=swap';
-    link.rel = 'stylesheet';
-    document.head.appendChild(link);
-    return () => document.head.removeChild(link);
-  }, []);
+const OverviewTab = ({ experiences }) => {
+  // Analyze data from experiences
+  const insights = useMemo(() => {
+    const totalExp = experiences.length;
+    const allRounds = experiences.flatMap(e => e.rounds);
+    const avgRounds = Math.round(allRounds.length / totalExp) || 5;
+
+    // Keyword frequency analysis
+    const keywords = {
+      "HashMap Internals": 0,
+      "Trapping Rain Water": 0,
+      "System Design": 0,
+      "Concurrent/Multi-threading": 0,
+      "DP": 0,
+      "Graphs": 0
+    };
+
+    const textContent = JSON.stringify(experiences).toLowerCase();
+
+    // Rough counting for visualization
+    keywords["HashMap Internals"] = (textContent.match(/hashmap|internal|collision/g) || []).length;
+    keywords["Trapping Rain Water"] = (textContent.match(/rain|water|trapping/g) || []).length;
+    keywords["System Design"] = (textContent.match(/design|architecture|lld|hld/g) || []).length;
+    keywords["Concurrent/Multi-threading"] = (textContent.match(/thread|concurrent|lock/g) || []).length;
+    keywords["DP"] = (textContent.match(/dp|dynamic programming/g) || []).length;
+    keywords["Graphs"] = (textContent.match(/graph|bfs|dfs/g) || []).length;
+
+    return { totalExp, avgRounds, keywords };
+  }, [experiences]);
 
   const radarData = {
-    labels: ['DSA (Arrays/DP)', 'Core Java Internals', 'System Design', 'Spring/Backend', 'AWS/Cloud', 'Communication'],
+    labels: Object.keys(insights.keywords),
     datasets: [{
-      label: 'Focus Level',
-      data: [90, 95, 70, 60, 45, 75],
+      label: 'Topic Frequency',
+      data: Object.values(insights.keywords),
       fill: true,
-      backgroundColor: 'rgba(245, 158, 11, 0.2)',
-      borderColor: 'rgba(245, 158, 11, 1)',
-      pointBackgroundColor: '#1e293b',
-      pointBorderColor: '#fff',
+      backgroundColor: 'rgba(59, 130, 246, 0.2)', // Blue-500 low opacity
+      borderColor: 'rgba(59, 130, 246, 1)',     // Blue-500
+      pointBackgroundColor: '#ffffff',
+      pointBorderColor: '#2563eb',
+      pointHoverBackgroundColor: '#2563eb',
+      pointHoverBorderColor: '#ffffff'
     }]
   };
 
@@ -1509,45 +1532,11 @@ const OverviewTab = () => {
       r: {
         angleLines: { color: '#e2e8f0' },
         grid: { color: '#e2e8f0' },
-        pointLabels: { font: { size: 10, weight: 'bold', family: 'Lato' }, color: '#475569' },
-        suggestedMin: 0,
-        suggestedMax: 100
-      }
-    },
-    plugins: {
-      legend: { display: false }
-    }
-  };
-
-  const barData = {
-    labels: ['HashMap Internals', 'Arrays/Sliding Window', 'Java 8 Features', 'Spring Boot', 'System Design (LLD)', 'AWS Architecture'],
-    datasets: [{
-      label: 'Frequency',
-      data: [95, 90, 80, 70, 65, 50],
-      backgroundColor: [
-        '#1e293b',
-        '#1e293b',
-        '#1e293b',
-        '#cbd5e1',
-        '#f59e0b',
-        '#f59e0b'
-      ],
-      borderRadius: 4
-    }]
-  };
-
-  const barOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    scales: {
-      y: {
-        beginAtZero: true,
-        grid: { display: false },
+        pointLabels: {
+          font: { size: 11, family: 'ui-sans-serif, system-ui, sans-serif', weight: '600' },
+          color: '#64748b'
+        },
         ticks: { display: false }
-      },
-      x: {
-        grid: { display: false },
-        ticks: { font: { size: 10, family: 'Lato' } }
       }
     },
     plugins: {
@@ -1556,196 +1545,172 @@ const OverviewTab = () => {
   };
 
   return (
-    <div className="bg-slate-50 min-h-screen text-slate-800 font-[Lato]">
-      {/* Header Section */}
-      <header className="bg-slate-900 text-white py-12 px-4 border-b-8 border-amber-600 font-[Cinzel]">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0 text-center md:text-left">
-            <div className="text-amber-500 font-bold tracking-widest text-xs uppercase mb-2 font-[Cinzel]">Research Canvas</div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-2 font-[Cinzel] text-white">Goldman Sachs</h1>
-            <h2 className="text-xl md:text-2xl text-slate-300 font-light font-[Cinzel]">Analyst / Associate (Java + AWS)</h2>
-            <div className="mt-4 flex flex-wrap gap-3 justify-center md:justify-start font-[Lato]">
-              <span className="px-3 py-1 bg-slate-800 rounded border border-slate-700 text-xs text-slate-400">Exp: ~2 Years</span>
-              <span className="px-3 py-1 bg-slate-800 rounded border border-slate-700 text-xs text-slate-400">Loc: India / US</span>
-              <span className="px-3 py-1 bg-slate-800 rounded border border-slate-700 text-xs text-slate-400">Est. Duration: 2-8 Weeks</span>
-            </div>
+    <div className="space-y-6 animate-in fade-in duration-500">
+      {/* Top Stats Row */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Card className="p-6 flex items-center gap-4 border-l-4 border-l-blue-500">
+          <div className="p-3 bg-blue-50 rounded-full text-blue-600">
+            <BookOpen className="w-6 h-6" />
           </div>
-          <div className="text-right hidden md:block">
-            <div className="text-6xl font-black text-slate-800 relative font-[Lato]">
-              <span className="absolute top-0 right-0 text-amber-600 opacity-20 transform translate-x-2 -translate-y-2">GS</span>
-              <span className="relative z-10 text-white opacity-10">2025</span>
-            </div>
+          <div>
+            <p className="text-sm font-medium text-slate-500">Experiences Analyzed</p>
+            <h3 className="text-2xl font-bold text-slate-900">{insights.totalExp}</h3>
+            <p className="text-xs text-slate-400">Verified Candidates</p>
           </div>
-        </div>
-      </header>
+        </Card>
 
-      {/* Main Content Grid */}
-      <main className="max-w-7xl mx-auto px-4 py-12">
-
-        {/* Top Metrics Row */}
-        <section className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          <div className="bg-white p-6 rounded border-t-4 border-slate-800 shadow hover:-translate-y-0.5 transition-transform duration-300">
-            <h3 className="text-slate-500 font-bold text-xs uppercase mb-1 font-[Cinzel]">Process Depth</h3>
-            <div className="text-3xl font-black text-slate-800">4 - 7 Rounds</div>
-            <p className="text-xs text-slate-500 mt-2">OA + CoderPad + 3-5 Virtual</p>
+        <Card className="p-6 flex items-center gap-4 border-l-4 border-l-indigo-500">
+          <div className="p-3 bg-indigo-50 rounded-full text-indigo-600">
+            <Layers className="w-6 h-6" />
           </div>
-          <div className="bg-white p-6 rounded border-t-4 border-amber-700 shadow hover:-translate-y-0.5 transition-transform duration-300">
-            <h3 className="text-slate-500 font-bold text-xs uppercase mb-1 font-[Cinzel]">Key Filter</h3>
-            <div className="text-3xl font-black text-amber-700">DSA + Java</div>
-            <p className="text-xs text-slate-500 mt-2">Heavy focus on Core Internals</p>
+          <div>
+            <p className="text-sm font-medium text-slate-500">Avg. Rounds</p>
+            <h3 className="text-2xl font-bold text-slate-900">~{insights.avgRounds} Rounds</h3>
+            <p className="text-xs text-slate-400">OA to Hiring Manager</p>
           </div>
-          <div className="bg-white p-6 rounded border-t-4 border-slate-800 shadow hover:-translate-y-0.5 transition-transform duration-300">
-            <h3 className="text-slate-500 font-bold text-xs uppercase mb-1 font-[Cinzel]">Difficulty</h3>
-            <div className="text-3xl font-black text-slate-800">Medium+</div>
-            <p className="text-xs text-slate-500 mt-2">Edge cases are critical</p>
+        </Card>
+
+        <Card className="p-6 flex items-center gap-4 border-l-4 border-l-amber-500">
+          <div className="p-3 bg-amber-50 rounded-full text-amber-600">
+            <Target className="w-6 h-6" />
           </div>
-          <div className="bg-white p-6 rounded border-t-4 border-amber-700 shadow hover:-translate-y-0.5 transition-transform duration-300">
-            <h3 className="text-slate-500 font-bold text-xs uppercase mb-1 font-[Cinzel]">AWS Role</h3>
-            <div className="text-3xl font-black text-amber-700">Design</div>
-            <p className="text-xs text-slate-500 mt-2">Conceptual (S3/Lambda) over Syntax</p>
+          <div>
+            <p className="text-sm font-medium text-slate-500">Top Focus</p>
+            <h3 className="text-2xl font-bold text-slate-900">DSA & Internals</h3>
+            <p className="text-xs text-slate-400">HashMap, Concurrency, DP</p>
           </div>
-        </section>
+        </Card>
+      </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Left Column: Process Timeline */}
+        <Card className="lg:col-span-1 p-6 h-full">
+          <div className="flex items-center gap-2 mb-6">
+            <BrainCircuit className="w-5 h-5 text-slate-700" />
+            <h3 className="text-lg font-bold text-slate-900">The "Gauntlet" Process</h3>
+          </div>
 
-          {/* LEFT COLUMN: The Process Timeline */}
-          <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6 border-l-4 border-amber-600 pl-3 font-[Cinzel]">The "Gauntlet"</h3>
-            <div className="bg-white p-6 rounded shadow-sm border border-slate-200">
-
-              {/* Stage 1 */}
-              <div className="relative pl-8 border-l-2 border-slate-300 pb-8 last:border-0 last:pb-0">
-                <div className="absolute left-[-11px] top-0 w-5 h-5 rounded-full bg-slate-800 border-[3px] border-white shadow-[0_0_0_2px_#1e293b]"></div>
-                <h4 className="font-bold text-slate-800 font-[Cinzel]">1. Online Assessment</h4>
-                <span className="text-xs bg-slate-100 px-2 py-0.5 rounded text-slate-500 font-mono">HackerRank | 90-120 min</span>
-                <p className="text-sm text-slate-600 mt-2">2 Coding Questions. Filtering stage. Easy-Medium difficulty but strict on hidden test cases.</p>
-              </div>
-
-              {/* Stage 2 */}
-              <div className="relative pl-8 border-l-2 border-slate-300 pb-8 last:border-0 last:pb-0">
-                <div className="absolute left-[-11px] top-0 w-5 h-5 rounded-full bg-slate-800 border-[3px] border-white shadow-[0_0_0_2px_#1e293b]"></div>
-                <h4 className="font-bold text-slate-800 font-[Cinzel]">2. CoderPad Screen</h4>
-                <span className="text-xs bg-slate-100 px-2 py-0.5 rounded text-slate-500 font-mono">Video + Code | 60 min</span>
-                <p className="text-sm text-slate-600 mt-2">Live coding. 1-2 Medium problems. Focus on communicating logic and "compilable" Java.</p>
-              </div>
-
-              {/* Stage 3 & 4 */}
-              <div className="relative pl-8 border-l-2 border-slate-300 pb-8 last:border-0 last:pb-0">
-                <div className="absolute left-[-11px] top-0 w-5 h-5 rounded-full bg-amber-700 border-[3px] border-white shadow-[0_0_0_2px_#b45309]"></div>
-                <h4 className="font-bold text-slate-800 font-[Cinzel]">3-4. Technical Rounds</h4>
-                <span className="text-xs bg-amber-50 px-2 py-0.5 rounded text-amber-700 font-mono">Deep Dive | 2-3 Rounds</span>
-                <p className="text-sm text-slate-600 mt-2">
-                  <span className="block mb-1"><strong>A. Core Java:</strong> HashMap internals, Concurrency, GC.</span>
-                  <span className="block mb-1"><strong>B. Advanced DSA:</strong> Trees, DP, Sliding Window.</span>
-                  <span className="block"><strong>C. LLD:</strong> Class design (e.g., Banking System).</span>
+          <div className="relative pl-4 border-l-2 border-slate-100 space-y-8">
+            <div className="relative pl-6">
+              <div className="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-white border-2 border-blue-500"></div>
+              <div className="bg-blue-50/50 p-3 rounded-lg border border-blue-100">
+                <h4 className="font-bold text-slate-800 text-sm">1. Online Assessment</h4>
+                <span className="text-xs text-slate-500 font-medium block mt-1">HackerRank | 90-120 min</span>
+                <p className="text-xs text-slate-600 mt-2 leading-relaxed">
+                  Typically 2 coding questions. One medium, one hard.
+                  <span className="block mt-1 font-medium text-blue-700">Common: "Rain Water", "String Compression"</span>
                 </p>
               </div>
+            </div>
 
-              {/* Stage 5 */}
-              <div className="relative pl-8 border-l-2 border-slate-300 pb-8 last:border-0 last:pb-0">
-                <div className="absolute left-[-11px] top-0 w-5 h-5 rounded-full bg-slate-800 border-[3px] border-white shadow-[0_0_0_2px_#1e293b]"></div>
-                <h4 className="font-bold text-slate-800 font-[Cinzel]">5. System Design (Superday)</h4>
-                <span className="text-xs bg-slate-100 px-2 py-0.5 rounded text-slate-500 font-mono">Whiteboard | 45-60 min</span>
-                <p className="text-sm text-slate-600 mt-2">High Level Design. AWS concepts (Lambda, S3, DynamoDB) tested here for backend roles.</p>
+            <div className="relative pl-6">
+              <div className="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-white border-2 border-indigo-500"></div>
+              <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                <h4 className="font-bold text-slate-800 text-sm">2. CoderPad Screen</h4>
+                <span className="text-xs text-slate-500 font-medium block mt-1">Live Coding | 60 min</span>
+                <p className="text-xs text-slate-600 mt-2 leading-relaxed">
+                  Live video. Code must run and pass test cases. Communication is key.
+                </p>
               </div>
+            </div>
 
-              {/* Stage 6 & 7 */}
-              <div className="relative pl-8 border-l-2 border-slate-300">
-                <div className="absolute left-[-11px] top-0 w-5 h-5 rounded-full bg-slate-800 border-[3px] border-white shadow-[0_0_0_2px_#1e293b]"></div>
-                <h4 className="font-bold text-slate-800 font-[Cinzel]">6-7. SDLC & Manager</h4>
-                <span className="text-xs bg-slate-100 px-2 py-0.5 rounded text-slate-500 font-mono">Behavioral | 45 min</span>
-                <p className="text-sm text-slate-600 mt-2">Project deep dive. "Why GS?". Production debugging stories. Agile/CI-CD.</p>
+            <div className="relative pl-6">
+              <div className="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-white border-2 border-amber-500"></div>
+              <div className="bg-amber-50/30 p-3 rounded-lg border border-amber-100">
+                <h4 className="font-bold text-slate-800 text-sm">3. The Superday Loop</h4>
+                <span className="text-xs text-slate-500 font-medium block mt-1">3-4 Back-to-Back Rounds</span>
+                <ul className="mt-2 space-y-2">
+                  <li className="text-xs text-slate-700 flex items-start gap-2">
+                    <CodeIcon className="w-3 h-3 mt-0.5 text-amber-600" />
+                    <span><strong>DSA:</strong> DP, Trees, and Matrix problems.</span>
+                  </li>
+                  <li className="text-xs text-slate-700 flex items-start gap-2">
+                    <CpuIcon className="w-3 h-3 mt-0.5 text-amber-600" />
+                    <span><strong>Software Practices:</strong> Java Internals, Garbage Collection, Concurrency.</span>
+                  </li>
+                  <li className="text-xs text-slate-700 flex items-start gap-2">
+                    <LayoutIcon className="w-3 h-3 mt-0.5 text-amber-600" />
+                    <span><strong>Design:</strong> LLD (Parking Lot, Game) or System Design (Twitter, Cache).</span>
+                  </li>
+                </ul>
               </div>
+            </div>
 
+            <div className="relative pl-6">
+              <div className="absolute -left-[21px] top-1 w-4 h-4 rounded-full bg-white border-2 border-green-500"></div>
+              <div className="bg-slate-50 p-3 rounded-lg border border-slate-100">
+                <h4 className="font-bold text-slate-800 text-sm">4. Hiring Manager</h4>
+                <span className="text-xs text-slate-500 font-medium block mt-1">Behavioral | 30-45 min</span>
+                <p className="text-xs text-slate-600 mt-2 leading-relaxed">
+                  Culture fit. "Why Goldman Sachs?". Resume deep dives.
+                </p>
+              </div>
             </div>
           </div>
+        </Card>
 
-          {/* MIDDLE/RIGHT: Analysis & Content */}
-          <div className="lg:col-span-2 space-y-8">
-
-            {/* Charts Row */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Chart 1: Skill Radar */}
-              <div className="bg-white p-4 rounded border-t-4 border-slate-800 shadow">
-                <h4 className="font-bold text-slate-700 mb-4 text-center text-sm uppercase tracking-wider font-[Cinzel]">Competency Model (~2 YOE)</h4>
-                <div className="relative h-[300px] w-full">
-                  <Radar data={radarData} options={radarOptions} />
-                </div>
-                <p className="text-xs text-center text-slate-400 mt-2">Note: AWS is secondary to Java Fundamentals</p>
-              </div>
-
-              {/* Chart 2: Topic Frequency */}
-              <div className="bg-white p-4 rounded border-t-4 border-amber-700 shadow">
-                <h4 className="font-bold text-slate-700 mb-4 text-center text-sm uppercase tracking-wider font-[Cinzel]">High Frequency Topics</h4>
-                <div className="relative h-[300px] w-full">
-                  <Bar data={barData} options={barOptions} />
-                </div>
-                <p className="text-xs text-center text-slate-400 mt-2">Based on candidate reports (GfG, LeetCode)</p>
-              </div>
+        {/* Right Column: Analytics & Content */}
+        <div className="lg:col-span-2 space-y-6">
+          {/* Chart Section */}
+          <Card className="p-6">
+            <div className="flex items-center justify-between mb-6">
+              <h3 className="text-lg font-bold text-slate-900">Topic Frequency Analysis</h3>
+              <Badge type="default">Data from {insights.totalExp} Reports</Badge>
             </div>
-
-            {/* The Question Vault */}
-            <div className="bg-slate-900 text-white rounded-lg p-8 shadow-xl">
-              <h3 className="text-2xl font-bold mb-6 text-amber-500 border-b border-slate-700 pb-2 font-[Cinzel]">The "Real Questions" Vault</h3>
-              <p className="text-sm text-slate-400 mb-8">Verbatim or near-verbatim questions reported by candidates in the 2-year experience bracket.</p>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-                {/* DSA */}
-                <div>
-                  <h4 className="font-bold text-lg mb-3 flex items-center"><span className="w-2 h-2 bg-amber-500 rounded-full mr-2"></span> Coding & DSA</h4>
-                  <ul className="text-sm space-y-3 text-slate-300">
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-amber-600">"Minimum length subarray sum greater than given value."</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-amber-600">"Find the median of two sorted arrays."</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-amber-600">"Trapping Rain Water / Array Burst Problem."</li>
-                    <li class="bg-slate-800 p-2 rounded border-l-2 border-amber-600">"Run-length encoding (String manipulation)."</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-amber-600">"Game of Book Cricket."</li>
-                  </ul>
-                </div>
-
-                {/* Java & Design */}
-                <div>
-                  <h4 className="font-bold text-lg mb-3 flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span> Java & System Design</h4>
-                  <ul className="text-sm space-y-3 text-slate-300">
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-blue-500">"HashMap internal working (Collision handling with Trees)."</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-blue-500">"Design a Rate Limiter (Token Bucket)."</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-blue-500">"Design a Stock Buy/Sell Trading System."</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-blue-500">"How to handle OutOfMemory errors in production?"</li>
-                    <li className="bg-slate-800 p-2 rounded border-l-2 border-blue-500">"AWS Lambda vs EC2 trade-offs."</li>
-                  </ul>
-                </div>
-
-              </div>
+            <div className="h-[300px] w-full">
+              <Radar data={radarData} options={radarOptions} />
             </div>
+          </Card>
 
-            {/* Strategic Blueprint */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white p-5 rounded border-t-4 border-slate-800 shadow hover:-translate-y-0.5 transition-transform">
-                <div className="text-amber-600 font-bold mb-2 font-[Cinzel]">Java Strategy</div>
-                <p className="text-sm text-slate-600">Do not just use `HashMap`. Know <strong>how</strong> it works (load factor, buckets, red-black trees in Java 8). Be ready to write a custom Comparator.</p>
+          {/* Questions Vault - Extracted from Actual Data */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Card className="p-5 border-t-4 border-t-blue-500">
+              <div className="flex items-center gap-2 mb-4">
+                <TerminalSquare className="w-5 h-5 text-blue-600" />
+                <h4 className="font-bold text-slate-800">Most Reported Coding Qs</h4>
               </div>
-              <div className="bg-white p-5 rounded border-t-4 border-slate-800 shadow hover:-translate-y-0.5 transition-transform">
-                <div className="text-amber-600 font-bold mb-2 font-[Cinzel]">AWS Strategy</div>
-                <p className="text-sm text-slate-600">Don't memorize API parameters. Focus on <strong>Architecture</strong>: When to use DynamoDB (NoSQL) vs RDS? How to scale S3 uploads?</p>
-              </div>
-              <div className="bg-white p-5 rounded border-t-4 border-slate-800 shadow hover:-translate-y-0.5 transition-transform">
-                <div className="text-amber-600 font-bold mb-2 font-[Cinzel]">Project Prep</div>
-                <p className="text-sm text-slate-600">Prepare one "Hero Project". You must be able to draw its architecture and explain a specific <strong>performance bottleneck</strong> you fixed.</p>
-              </div>
-            </div>
+              <ul className="space-y-3">
+                {["Trapping Rain Water", "Median of Two Sorted Arrays", "String Compression / RLE", "First Unique Character", "Cycle inside Array"].map((q, i) => (
+                  <li key={i} className="text-xs text-slate-600 bg-slate-50 p-2 rounded border border-slate-100 flex gap-2 items-center">
+                    <span className="font-mono text-blue-600 font-bold">{i + 1}.</span>
+                    {q}
+                  </li>
+                ))}
+              </ul>
+            </Card>
 
+            <Card className="p-5 border-t-4 border-t-amber-500">
+              <div className="flex items-center gap-2 mb-4">
+                <CpuIcon className="w-5 h-5 text-amber-600" />
+                <h4 className="font-bold text-slate-800">Theory & Design</h4>
+              </div>
+              <ul className="space-y-3">
+                {[
+                  "How HashMap works internally (collisions)?",
+                  "Design a Rate Limiter / Twitter",
+                  "Java Concurrency & Thread Safety",
+                  "Handle 10TB file in 4GB RAM",
+                  "SQL vs NoSQL trade-offs"
+                ].map((q, i) => (
+                  <li key={i} className="text-xs text-slate-600 bg-slate-50 p-2 rounded border border-slate-100 flex gap-2 items-center">
+                    <span className="font-mono text-amber-600 font-bold">{i + 1}.</span>
+                    {q}
+                  </li>
+                ))}
+              </ul>
+            </Card>
           </div>
         </div>
-
-        {/* Footer */}
-        <footer className="mt-12 border-t border-slate-200 pt-8 text-center text-slate-400 text-xs">
-          <p>Generated based on consolidated candidate reports (2024-2025). This is a research summary, not official Goldman Sachs documentation.</p>
-        </footer>
-
-      </main>
+      </div>
     </div>
   );
 };
+
+// --- Icons helpers ---
+const CodeIcon = ({ className }) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>;
+const CpuIcon = ({ className }) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" /></svg>;
+const LayoutIcon = ({ className }) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" /></svg>;
+const TerminalSquare = ({ className }) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" /></svg>;
 
 export default function App() {
   // --- State ---
@@ -1754,7 +1719,7 @@ export default function App() {
   const [readExperiences, setReadExperiences] = useState({});
   const [user, setUser] = useState(null);
 
-  const [activeTab, setActiveTab] = useState('tracker'); // 'tracker', 'experiences', or 'overview'
+  const [activeTab, setActiveTab] = useState('overview'); // 'tracker', 'experiences', or 'overview'
 
   const [filterDifficulty, setFilterDifficulty] = useState('All');
   const [filterStatus, setFilterStatus] = useState('All');
@@ -2093,18 +2058,17 @@ export default function App() {
             </div>
           </div>
 
-          {/* Navigation Tabs */}
           <div className="flex gap-2 border-t border-slate-100 pt-1">
+            <TabButton id="overview" label="Overview" icon={BrainCircuit} />
             <TabButton id="tracker" label="Problem Tracker" icon={List} />
             <TabButton id="experiences" label="Interview Experiences" icon={FileText} />
-            <TabButton id="overview" label="Overview" icon={BrainCircuit} />
           </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
 
-        {activeTab === 'overview' && <OverviewTab />}
+        {activeTab === 'overview' && <OverviewTab experiences={INTERVIEW_EXPERIENCES} />}
 
         {activeTab === 'tracker' && (
           <>
