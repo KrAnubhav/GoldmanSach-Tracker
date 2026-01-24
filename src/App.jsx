@@ -838,526 +838,526 @@ const INTERVIEW_EXPERIENCES = [
         name: "Background",
         content: "I applied directly on the GS career portal. The job title was \"Global Banking & Markets - Eq GSET Platform - Associate - Bengaluru\". I received a HackerRank test link after 8 days, which the recruiter had mentioned needed to be completed within 24 hours in the email. There were a total of 5 rounds. A peculiar thing to note was that all communications (OA/Interviews) were sent by email and not by any phone calls."
       },
-  {
-    name: "Online Assessment (120 minutes)",
-    content: "Non-repeating digit in product - GFG Count numbers in range such that digits in it and it's product with q are unequal\\nCoding Wars - LC 1395. Count Number of Teams\\n\\nI got an email the next day stating that I cleared the test and they are moving my candidature ahead for the next level of interview processes. They also asked for some basic details and mentioned that the opportunity is a complete WFO. After 8 days, I received an email to provide my next 2 weeks availability for the CoderPad round."
+      {
+        name: "Online Assessment (120 minutes)",
+        content: "Non-repeating digit in product - GFG Count numbers in range such that digits in it and it's product with q are unequal\\nCoding Wars - LC 1395. Count Number of Teams\\n\\nI got an email the next day stating that I cleared the test and they are moving my candidature ahead for the next level of interview processes. They also asked for some basic details and mentioned that the opportunity is a complete WFO. After 8 days, I received an email to provide my next 2 weeks availability for the CoderPad round."
+      },
+      {
+        name: "CoderPad Interview Round (60 minutes)",
+        content: "The interviewer began with the introduction and mentioned that he was among the sister teams for whom they were hiring. The coderpad was initially set up for the Java language, although in the email, I had mentioned C++ as my preferred language. Upon request, the interviewer allowed me to use C++ and mentioned that for the upcoming rounds to use Java. The interviewer was engaging and helpful.\\n\\nApache log file contains a list of IP addresses. Find the IP address with the highest frequency. If multiple IP addresses tie for the highest frequency, then return the values in a comma-separated format.\\n\\nAnalogous to LC 42. Trapping Rain Water (given as snow instead of rain).\\n\\nFor the trapping rain water problem, I initially gave the O(N) space approach, and since there was time remaining, he asked me to optimise and then gave the two-pointer approach, but could not complete the coding. The interviewer said that I was on the right track for the optimal solution, just had to consider a few edge cases and mentioned that he was anyway happy with the previous approach.\\n\\nNote: By this time, all those who are preparing for GS Interviews would know that the Trapping Rainwater problem is one of Goldman Sachs' all-time favourite problems, so make sure to practice and be familiar with all approaches (brute, better, and optimal).\\n\\nOverall, I was satisfied with my performance and hoped to receive a call for Superday. Soon, I got an email within 45 minutes post-interview asking about my availability for the next rounds, and I gave my preference for next week."
+      },
+      {
+        name: "Panel Interview - Round 1 - DSA (60 minutes)",
+        content: "I was expecting all 3 interviews to happen the same day. However got the invite to Panel Interview for Round 1 and 2 back-to-back on the same day. They also mentioned that each interview is an eliminatory round. It was supposed to be 1 week later, but unfortunately, I fell sick, so it had to be pushed further 1 more week. One thing I liked very much about GS is their flexibility to schedule interviews based on the candidate's availability. My preparation for the next rounds was from the past 3 months Goldman Sachs interview experience found on the Leetcode Discuss section.\\n\\nThis round was taken by 2 VPs. Began with introductions, and the first interviewer gave a problem with very little context. You are given a list of cities and a function/API boolean isDirectConnected(c1, c2). Implement boolean isConnected(c1, c2). While coding, I had to ask follow-ups, and both interviewers were helpful enough to provide hints if I was stuck anywhere. I took around 40 minutes, including recognising it was a graph + DFS problem and writing pseudocode, as the interviewers also stopped me in between asking some why/hows on the code. Later, the interviewer mentioned that the graph could be bi-directional, and I had forgotten initially to keep a visited array, so I had fixed that too.\\n\\nThe second interviewer then asked a question that if we have 1B numbers and want to find the top 1M numbers, which data structure would you use and what would be the time complexity of it? I told that we would use a min-heap and the T.C. would be O(NLogK). However, the interviewer had a slightly different opinion around the TC, and the interview was wrapped up by me asking a question on the GBM team."
+      },
+      {
+        name: "Verdict - Rejected",
+        content: "I felt that the interview went good and was honestly preparing to appear for the 'Software Engineering Practices' round. However, I was a bit shocked to receive the rejection mail 10 minutes after the interview. I am not sure how I have messed up, perhaps taking hints to solve. All I know is that I could not have done much better, although I could be more confident. Maybe it's god's plan, anyway, back to square 1!"
+      }
+    ]
   },
   {
-    name: "CoderPad Interview Round (60 minutes)",
-    content: "The interviewer began with the introduction and mentioned that he was among the sister teams for whom they were hiring. The coderpad was initially set up for the Java language, although in the email, I had mentioned C++ as my preferred language. Upon request, the interviewer allowed me to use C++ and mentioned that for the upcoming rounds to use Java. The interviewer was engaging and helpful.\\n\\nApache log file contains a list of IP addresses. Find the IP address with the highest frequency. If multiple IP addresses tie for the highest frequency, then return the values in a comma-separated format.\\n\\nAnalogous to LC 42. Trapping Rain Water (given as snow instead of rain).\\n\\nFor the trapping rain water problem, I initially gave the O(N) space approach, and since there was time remaining, he asked me to optimise and then gave the two-pointer approach, but could not complete the coding. The interviewer said that I was on the right track for the optimal solution, just had to consider a few edge cases and mentioned that he was anyway happy with the previous approach.\\n\\nNote: By this time, all those who are preparing for GS Interviews would know that the Trapping Rainwater problem is one of Goldman Sachs' all-time favourite problems, so make sure to practice and be familiar with all approaches (brute, better, and optimal).\\n\\nOverall, I was satisfied with my performance and hoped to receive a call for Superday. Soon, I got an email within 45 minutes post-interview asking about my availability for the next rounds, and I gave my preference for next week."
-  },
-  {
-    name: "Panel Interview - Round 1 - DSA (60 minutes)",
-    content: "I was expecting all 3 interviews to happen the same day. However got the invite to Panel Interview for Round 1 and 2 back-to-back on the same day. They also mentioned that each interview is an eliminatory round. It was supposed to be 1 week later, but unfortunately, I fell sick, so it had to be pushed further 1 more week. One thing I liked very much about GS is their flexibility to schedule interviews based on the candidate's availability. My preparation for the next rounds was from the past 3 months Goldman Sachs interview experience found on the Leetcode Discuss section.\\n\\nThis round was taken by 2 VPs. Began with introductions, and the first interviewer gave a problem with very little context. You are given a list of cities and a function/API boolean isDirectConnected(c1, c2). Implement boolean isConnected(c1, c2). While coding, I had to ask follow-ups, and both interviewers were helpful enough to provide hints if I was stuck anywhere. I took around 40 minutes, including recognising it was a graph + DFS problem and writing pseudocode, as the interviewers also stopped me in between asking some why/hows on the code. Later, the interviewer mentioned that the graph could be bi-directional, and I had forgotten initially to keep a visited array, so I had fixed that too.\\n\\nThe second interviewer then asked a question that if we have 1B numbers and want to find the top 1M numbers, which data structure would you use and what would be the time complexity of it? I told that we would use a min-heap and the T.C. would be O(NLogK). However, the interviewer had a slightly different opinion around the TC, and the interview was wrapped up by me asking a question on the GBM team."
-  },
-  {
-    name: "Verdict - Rejected",
-    content: "I felt that the interview went good and was honestly preparing to appear for the 'Software Engineering Practices' round. However, I was a bit shocked to receive the rejection mail 10 minutes after the interview. I am not sure how I have messed up, perhaps taking hints to solve. All I know is that I could not have done much better, although I could be more confident. Maybe it's god's plan, anyway, back to square 1!"
-  }
-]
-},
-{
-  id: 20,
+    id: 20,
     role: "Analyst",
-      yoe: "1.10 Years",
-        date: "Jun 12, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "Current Experience: 1.10 Years\\nCollege: Tier-2\\nPrevious Organization: One of the MNCs\\n\\nOne Employee referred me."
-              },
-              {
-                name: "OA",
-                content: "Online Assessment completed"
-              },
-              {
-                name: "Coder pad round",
-                content: "1st questions -\\nReturn an array containing prime numbers whose product is x\\nExamples:\\nprimeFactorization( 6 ) == [2,3]\\nprimeFactorization( 5 ) == [5]\\nprimeFactorization( 12 ) == [2,2,3]\\n\\n2nd question -\\nGiven an array of non-negative integers representing the elevations\\nfrom the vertical cross section of a range of hills, determine how\\nmany units of snow could be captured between the hills.\\n\\nSee the example array and elevation map below.\\n                            ___\\n        ___                |   |        ___\\n       |   |        ___    |   |___    |   |\\n    ___|   |    ___|   |   |   |   |   |   |\\n___|___|___|___|___|___|___|___|___|___|___|___\\n[0,  1,  3,  0,  1,  2,  0,  4,  2,  0,  3,  0]\\n                            ___\\n        ___                |   |        ___\\n       |   | *   *  _*_  * |   |_*_  * |   |\\n    ___|   | *  _*_|   | * |   |   | * |   |\\n___|___|___|_*_|___|___|_*_|___|___|_*_|___|___\\n[0,  1,  3,  0,  1,  2,  0,  4,  2,  0,  3,  0]\\n\\nSolution: In this example 13 units of snow (*) could be captured.\\n2) Implement computeSnowpack() correctly.\\n3) Consider adding some additional tests in doTestsPass().\\ntrapping rain water question basically."
-              },
-              {
-                name: "Super day - 1st round",
-                content: "https://leetcode.com/problems/car-pooling/description/\\nhttps://leetcode.com/problems/find-the-winner-of-the-circular-game/description/"
-              },
-              {
-                name: "Super day - 2nd round",
-                content: "https://leetcode.com/problems/rotting-oranges/description/\\nhttps://leetcode.com/problems/single-threaded-cpu/description/"
-              },
-              {
-                name: "Super day - 3rd round",
-                content: "DSA - Everytime somebody comes to the website, we write a record to a log file consisting of TimeStamp, PageId, CustomerId. At the end of the day we have a big log file with many entires in that format. And for every day we have a new file.\\nNow, given two log files (from day 1 and day 2), we want to generate a list of loyal customers that meet the criteria of\\na) they came on both days, and\\nb) they visited at least two unique pages\\n\\nsingleton class implementation\\nAbstract vs interface. When we prefer abstract class\\nArrayList/linked list\\nWhen we prefer array list and linked list\\nStatic\\nProcess vs thread\\nDesign pattern used\\nSingleton class\\nCi/cd process\\nHow Build process happen\\nUnit testing.. Which library? Write Unit testing for a class for database connection.\\nWhich java version and it's features"
-              },
-              {
-                name: "HM round",
-                content: "Discussion on projects on resume.\\nSdlc process\\nStandard behavioral questions\\nWhy leave current company?\\nWhy GS?\\nSituation based questions like\\n\\nIf an important client want some information about the other competitors. Then what you will do in this situation?\\nIf your colleague work in remote location and sent you the completed work. But the work is not relevant to the project than what you will do in this situation?"
-              },
-              {
-                name: "Verdict",
-                content: "Selected ✅"
-              }
-            ]
-},
-{
-  id: 21,
+    yoe: "1.10 Years",
+    date: "Jun 12, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "Current Experience: 1.10 Years\\nCollege: Tier-2\\nPrevious Organization: One of the MNCs\\n\\nOne Employee referred me."
+      },
+      {
+        name: "OA",
+        content: "Online Assessment completed"
+      },
+      {
+        name: "Coder pad round",
+        content: "1st questions -\\nReturn an array containing prime numbers whose product is x\\nExamples:\\nprimeFactorization( 6 ) == [2,3]\\nprimeFactorization( 5 ) == [5]\\nprimeFactorization( 12 ) == [2,2,3]\\n\\n2nd question -\\nGiven an array of non-negative integers representing the elevations\\nfrom the vertical cross section of a range of hills, determine how\\nmany units of snow could be captured between the hills.\\n\\nSee the example array and elevation map below.\\n                            ___\\n        ___                |   |        ___\\n       |   |        ___    |   |___    |   |\\n    ___|   |    ___|   |   |   |   |   |   |\\n___|___|___|___|___|___|___|___|___|___|___|___\\n[0,  1,  3,  0,  1,  2,  0,  4,  2,  0,  3,  0]\\n                            ___\\n        ___                |   |        ___\\n       |   | *   *  _*_  * |   |_*_  * |   |\\n    ___|   | *  _*_|   | * |   |   | * |   |\\n___|___|___|_*_|___|___|_*_|___|___|_*_|___|___\\n[0,  1,  3,  0,  1,  2,  0,  4,  2,  0,  3,  0]\\n\\nSolution: In this example 13 units of snow (*) could be captured.\\n2) Implement computeSnowpack() correctly.\\n3) Consider adding some additional tests in doTestsPass().\\ntrapping rain water question basically."
+      },
+      {
+        name: "Super day - 1st round",
+        content: "https://leetcode.com/problems/car-pooling/description/\\nhttps://leetcode.com/problems/find-the-winner-of-the-circular-game/description/"
+      },
+      {
+        name: "Super day - 2nd round",
+        content: "https://leetcode.com/problems/rotting-oranges/description/\\nhttps://leetcode.com/problems/single-threaded-cpu/description/"
+      },
+      {
+        name: "Super day - 3rd round",
+        content: "DSA - Everytime somebody comes to the website, we write a record to a log file consisting of TimeStamp, PageId, CustomerId. At the end of the day we have a big log file with many entires in that format. And for every day we have a new file.\\nNow, given two log files (from day 1 and day 2), we want to generate a list of loyal customers that meet the criteria of\\na) they came on both days, and\\nb) they visited at least two unique pages\\n\\nsingleton class implementation\\nAbstract vs interface. When we prefer abstract class\\nArrayList/linked list\\nWhen we prefer array list and linked list\\nStatic\\nProcess vs thread\\nDesign pattern used\\nSingleton class\\nCi/cd process\\nHow Build process happen\\nUnit testing.. Which library? Write Unit testing for a class for database connection.\\nWhich java version and it's features"
+      },
+      {
+        name: "HM round",
+        content: "Discussion on projects on resume.\\nSdlc process\\nStandard behavioral questions\\nWhy leave current company?\\nWhy GS?\\nSituation based questions like\\n\\nIf an important client want some information about the other competitors. Then what you will do in this situation?\\nIf your colleague work in remote location and sent you the completed work. But the work is not relevant to the project than what you will do in this situation?"
+      },
+      {
+        name: "Verdict",
+        content: "Selected ✅"
+      }
+    ]
+  },
+  {
+    id: 21,
     role: "Associate (SDE2)",
-      yoe: "4 YOE",
-        date: "Jun 13, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "YOE: 4\\nI applied to Goldman Sachs through a referral from a friend on March 11."
-              },
-              {
-                name: "🔹 Round 1 – DSA (Hackerrank Online Test)",
-                content: "I received a Hackerrank test link on March 31 which included 1 easy and 1 medium-level DSA problem.\\n✅ Went very well."
-              },
-              {
-                name: "🔹 Round 2 – DSA (CoderPad Interview on April 15)",
-                content: "This round focused primarily on DSA. I was asked one medium-level coding question along with a few questions about my projects, Java, and Spring Boot.\\n✅ Went very well."
-              },
-              {
-                name: "🔹 Super Day – April 28",
-                content: "There were four interviews scheduled back-to-back with different focus areas:"
-              },
-              {
-                name: "🔸 Round 3 – DSA",
-                content: "This round involved solving one medium-level problem end-to-end with code and test cases, and discussing the approach (not code) for another algorithmic problem. I wrapped up by asking the panel about the challenges they were currently working on.\\n✅ Went very well."
-              },
-              {
-                name: "🔸 Round 4 – Software Engineering Practices",
-                content: "This round was all about core engineering principles—deep dives into Java, Spring Boot, SQL & NoSQL, design patterns, ACID properties, code reviews, and project discussions. I was also asked to demonstrate a service violating the Single Responsibility Principle and then refactor it correctly.\\n✅ Went very well."
-              },
-              {
-                name: "🔸 Round 5 – System Design & Architecture",
-                content: "It started with a deep discussion on my current project, followed by designing a high-level architecture for an e-commerce platform.\\n✅ Went very well."
-              },
-              {
-                name: "🔹 Round 6 – Hiring Manager Round",
-                content: "This round began with my career journey, followed by a behavioral question which I answered well. However, I was asked three aptitude questions and couldn't solve any of them.\\n➖ Went average."
-              },
-              {
-                name: "Final Verdict",
-                content: "📩 On May 21, I received the final result—and I'm happy to share that I got the offer!\\n✅ SELECTED"
-              }
-            ]
-},
-{
-  id: 22,
+    yoe: "4 YOE",
+    date: "Jun 13, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "YOE: 4\\nI applied to Goldman Sachs through a referral from a friend on March 11."
+      },
+      {
+        name: "🔹 Round 1 – DSA (Hackerrank Online Test)",
+        content: "I received a Hackerrank test link on March 31 which included 1 easy and 1 medium-level DSA problem.\\n✅ Went very well."
+      },
+      {
+        name: "🔹 Round 2 – DSA (CoderPad Interview on April 15)",
+        content: "This round focused primarily on DSA. I was asked one medium-level coding question along with a few questions about my projects, Java, and Spring Boot.\\n✅ Went very well."
+      },
+      {
+        name: "🔹 Super Day – April 28",
+        content: "There were four interviews scheduled back-to-back with different focus areas:"
+      },
+      {
+        name: "🔸 Round 3 – DSA",
+        content: "This round involved solving one medium-level problem end-to-end with code and test cases, and discussing the approach (not code) for another algorithmic problem. I wrapped up by asking the panel about the challenges they were currently working on.\\n✅ Went very well."
+      },
+      {
+        name: "🔸 Round 4 – Software Engineering Practices",
+        content: "This round was all about core engineering principles—deep dives into Java, Spring Boot, SQL & NoSQL, design patterns, ACID properties, code reviews, and project discussions. I was also asked to demonstrate a service violating the Single Responsibility Principle and then refactor it correctly.\\n✅ Went very well."
+      },
+      {
+        name: "🔸 Round 5 – System Design & Architecture",
+        content: "It started with a deep discussion on my current project, followed by designing a high-level architecture for an e-commerce platform.\\n✅ Went very well."
+      },
+      {
+        name: "🔹 Round 6 – Hiring Manager Round",
+        content: "This round began with my career journey, followed by a behavioral question which I answered well. However, I was asked three aptitude questions and couldn't solve any of them.\\n➖ Went average."
+      },
+      {
+        name: "Final Verdict",
+        content: "📩 On May 21, I received the final result—and I'm happy to share that I got the offer!\\n✅ SELECTED"
+      }
+    ]
+  },
+  {
+    id: 22,
     role: "Analyst",
-      yoe: "1.5 YOE",
-        date: "Mar 01, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "1.5 yrs experience at Indian fintech as backend java developer. Applied through referral."
-              },
-              {
-                name: "Round 1 - Online Assessment",
-                content: "Don't remember the questions but one was an easy question and second was leetcode medium level. Was able to solve both of them.\\nFew days later the recruiter reached out to me to take info regarding current CTC, notice period etc, and told that my profile is being forwarded for the rounds to be scheduled. Few days later got email to provide slot for coderpad."
-              },
-              {
-                name: "Round 2 - Coderpad",
-                content: "Q1: https://leetcode.com/problems/string-compression/description/\\nQ2: https://leetcode.com/problems/trapping-rain-water/description/\\nI explained the approach for the first problem and jumped into implementing it. For the second question, I discussed the extra space approach first and then explained the constant space approach and implemented it. I had to execute my code for some test cases. After that the interviewer added some more test cases. I had to handle some corner cases in the first problem in order to pass them.\\nNext working day recruiter called to select a date for superday. 3 interviews of 1 hr each with 30 mins gap in between."
-              },
-              {
-                name: "Superday - Round 3 - Data Structures",
-                content: "Two interviewers were present, one question asked by each of them.\\n\\nQ1: https://leetcode.com/problems/group-anagrams/description/\\nQ2: https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/\\nAgain the expectation here was to produce an optimized working solution that should pass the test cases. For the second question, we did a dry run on some test cases. In between, the first interviewer asked a few questions on APIs and databases, like how will you fetch a large data (1GB) using REST APIs, etc."
-              },
-              {
-                name: "Superday - Round 4 - Software Engineering Practices",
-                content: "Questions on Interfaces in Java, Spring framework, etc.\\nDesign a Payment Gateway Service (LLD). Spent 45 mins here."
-              },
-              {
-                name: "Superday - Round 5 - Software Design and Architecture",
-                content: "Q1. Design a LRU cache.\\nQ2. Given a number like 1234, output it in words one thousand two hundred and thirty four.\\nTwo days later got a call to schedule another technical round."
-              },
-              {
-                name: "Round 6 - Technical Round",
-                content: "String == vs equals difference.\\nExplain string immutability.\\nHow can you make a class immutable?\\nSQL query problem that was solved using group and having clause\\nDesign the backend of a employee details form, was required to implement springboot features, controller, service and repository class, and also explain the APIs"
-              },
-              {
-                name: "Round 7 - Hiring Manager",
-                content: "It was a quick 20-25 mins call. The HM asked some questions like\\n\\nWhy I am leaving the current company at 1.5yrs only?\\nWhy GS?\\nHe explained about the team, tech stack, etc. In the end he concluded on a positive note stating that he wants me in the team as early as possible."
-              },
-              {
-                name: "Verdict",
-                content: "Selected as the HR confirmed verbally. Awaiting offer letter. ✅"
-              }
-            ]
-},
-{
-  id: 23,
+    yoe: "1.5 YOE",
+    date: "Mar 01, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "1.5 yrs experience at Indian fintech as backend java developer. Applied through referral."
+      },
+      {
+        name: "Round 1 - Online Assessment",
+        content: "Don't remember the questions but one was an easy question and second was leetcode medium level. Was able to solve both of them.\\nFew days later the recruiter reached out to me to take info regarding current CTC, notice period etc, and told that my profile is being forwarded for the rounds to be scheduled. Few days later got email to provide slot for coderpad."
+      },
+      {
+        name: "Round 2 - Coderpad",
+        content: "Q1: https://leetcode.com/problems/string-compression/description/\\nQ2: https://leetcode.com/problems/trapping-rain-water/description/\\nI explained the approach for the first problem and jumped into implementing it. For the second question, I discussed the extra space approach first and then explained the constant space approach and implemented it. I had to execute my code for some test cases. After that the interviewer added some more test cases. I had to handle some corner cases in the first problem in order to pass them.\\nNext working day recruiter called to select a date for superday. 3 interviews of 1 hr each with 30 mins gap in between."
+      },
+      {
+        name: "Superday - Round 3 - Data Structures",
+        content: "Two interviewers were present, one question asked by each of them.\\n\\nQ1: https://leetcode.com/problems/group-anagrams/description/\\nQ2: https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/\\nAgain the expectation here was to produce an optimized working solution that should pass the test cases. For the second question, we did a dry run on some test cases. In between, the first interviewer asked a few questions on APIs and databases, like how will you fetch a large data (1GB) using REST APIs, etc."
+      },
+      {
+        name: "Superday - Round 4 - Software Engineering Practices",
+        content: "Questions on Interfaces in Java, Spring framework, etc.\\nDesign a Payment Gateway Service (LLD). Spent 45 mins here."
+      },
+      {
+        name: "Superday - Round 5 - Software Design and Architecture",
+        content: "Q1. Design a LRU cache.\\nQ2. Given a number like 1234, output it in words one thousand two hundred and thirty four.\\nTwo days later got a call to schedule another technical round."
+      },
+      {
+        name: "Round 6 - Technical Round",
+        content: "String == vs equals difference.\\nExplain string immutability.\\nHow can you make a class immutable?\\nSQL query problem that was solved using group and having clause\\nDesign the backend of a employee details form, was required to implement springboot features, controller, service and repository class, and also explain the APIs"
+      },
+      {
+        name: "Round 7 - Hiring Manager",
+        content: "It was a quick 20-25 mins call. The HM asked some questions like\\n\\nWhy I am leaving the current company at 1.5yrs only?\\nWhy GS?\\nHe explained about the team, tech stack, etc. In the end he concluded on a positive note stating that he wants me in the team as early as possible."
+      },
+      {
+        name: "Verdict",
+        content: "Selected as the HR confirmed verbally. Awaiting offer letter. ✅"
+      }
+    ]
+  },
+  {
+    id: 23,
     role: "Analyst",
-      yoe: "1.5 years",
-        date: "Jun 19, 2025",
-          author: "Jaya Vishwakarma",
-            rounds: [
-              {
-                name: "Background",
-                content: "I applied in January through a referral.\\nReceived HackerRank Assessment on 25th March"
-              },
-              {
-                name: "HackerRank Coding Test",
-                content: "It had 2 leetcode medium questions.\\nDon't remember the questions.\\n\\nReceived mail on 10th April that I cleared the round. But after that no communication.\\nReceived recruiter's call on 23rd May to schedule CoderPad Round.\\nGave CoderPad on 29th May."
-              },
-              {
-                name: "CoderPad Round",
-                content: "Asked 2 leetcode questions.\\n1 hard and 1 medium.\\n\\nTrapping Rain water\\nString question : aabbbbccd -> a2b4c2d1\\nTold brute force and optimal solution for both. Told the time and space complexity.\\n\\nAfter a week, received a call that I cleared this round and super day will be scheduled on 12th June."
-              },
-              {
-                name: "SuperDay - Software Principles Round",
-                content: "Every interview had two interviewers.\\n\\nIt had so many questions related to Java.\\nAsked questions related to my experience.\\nProjects\\nJava questions from basic to advance.\\nDesign Patterns like Singleton Pattern, Observer pattern etc.\\n\\nThis round went really well as I answered each and every question very nicely."
-              },
-              {
-                name: "SuperDay - DataStructure Round",
-                content: "It started with a general introduction and then asked about my experience.\\nThen indirectly asked me about some design patterns like observer design pattern, factory design pattern.\\n\\nThen he gave me a Coding question.\\n\\ngiven a 2d array, where each array[i] = [xi, yi, ai,bi].\\ncalculate the area covered by all these rectangles.\\nconstraint after finding the area .\\nI understood it and then told my approach how will I find the maximum area. Interviewer told that it will work.\\n\\nThen he added the following\\n\\nfind the min horizaontal line which will bisect this area into two equals halves.\\nI really did not understand what the question was all about. We discussed it about half an hour. But I think I was not getting close to the solution. Question was very vague. Time was gone and the second interviewer interrupted that we should move on.\\n\\nHe asked me one oops concept related implementation and the interview ended."
-              },
-              {
-                name: "Results",
-                content: "Rejected ❌\\n\\nLast round which was System Design Round was cancelled and I received rejection mail within one hour.\\n\\nPersonally I feel this question should not have been asked in the interview.\\n\\nFeel disheartened!\\n\\nAnyways, what are your thoughts?"
-              }
-            ]
-},
-{
-  id: 24,
+    yoe: "1.5 years",
+    date: "Jun 19, 2025",
+    author: "Jaya Vishwakarma",
+    rounds: [
+      {
+        name: "Background",
+        content: "I applied in January through a referral.\\nReceived HackerRank Assessment on 25th March"
+      },
+      {
+        name: "HackerRank Coding Test",
+        content: "It had 2 leetcode medium questions.\\nDon't remember the questions.\\n\\nReceived mail on 10th April that I cleared the round. But after that no communication.\\nReceived recruiter's call on 23rd May to schedule CoderPad Round.\\nGave CoderPad on 29th May."
+      },
+      {
+        name: "CoderPad Round",
+        content: "Asked 2 leetcode questions.\\n1 hard and 1 medium.\\n\\nTrapping Rain water\\nString question : aabbbbccd -> a2b4c2d1\\nTold brute force and optimal solution for both. Told the time and space complexity.\\n\\nAfter a week, received a call that I cleared this round and super day will be scheduled on 12th June."
+      },
+      {
+        name: "SuperDay - Software Principles Round",
+        content: "Every interview had two interviewers.\\n\\nIt had so many questions related to Java.\\nAsked questions related to my experience.\\nProjects\\nJava questions from basic to advance.\\nDesign Patterns like Singleton Pattern, Observer pattern etc.\\n\\nThis round went really well as I answered each and every question very nicely."
+      },
+      {
+        name: "SuperDay - DataStructure Round",
+        content: "It started with a general introduction and then asked about my experience.\\nThen indirectly asked me about some design patterns like observer design pattern, factory design pattern.\\n\\nThen he gave me a Coding question.\\n\\ngiven a 2d array, where each array[i] = [xi, yi, ai,bi].\\ncalculate the area covered by all these rectangles.\\nconstraint after finding the area .\\nI understood it and then told my approach how will I find the maximum area. Interviewer told that it will work.\\n\\nThen he added the following\\n\\nfind the min horizaontal line which will bisect this area into two equals halves.\\nI really did not understand what the question was all about. We discussed it about half an hour. But I think I was not getting close to the solution. Question was very vague. Time was gone and the second interviewer interrupted that we should move on.\\n\\nHe asked me one oops concept related implementation and the interview ended."
+      },
+      {
+        name: "Results",
+        content: "Rejected ❌\\n\\nLast round which was System Design Round was cancelled and I received rejection mail within one hour.\\n\\nPersonally I feel this question should not have been asked in the interview.\\n\\nFeel disheartened!\\n\\nAnyways, what are your thoughts?"
+      }
+    ]
+  },
+  {
+    id: 24,
     role: "Analyst",
-      yoe: "N/A",
-        date: "May 06, 2025",
-          author: "Anonymous User",
-                       rounds: [
-              {
-                name: "Introduction",
-                content: "📌 My Interview Experience at Goldman Sachs – Analyst Position (April 2025)\n\nVerdict: Selected ✅\n\nHi everyone!\nI'm thrilled to share that I've been selected for the Analyst role at Goldman Sachs. I wanted to document my entire experience here in the hope it helps someone else preparing for the same."
-              },
-              {
-                name: "🧠 Round 1 – CoderPad (April 4)",
-                content: "This was a DSA-based live coding round. The level was easy to medium.\n\nQuestions:\n\nTrapping Rain Water\nDecode Ways\nI was able to complete both problems in 30 minutes. The interviewer asked a small follow-up (don't remember exactly, but it was easy).\n\nAfter that, we discussed my projects and work at my current firm.\n\n⏩ Got the call same day that I was selected for Super Day on April 8."
-              },
-              {
-                name: "🧠 Round 2 – Super Day DSA Round (2 Interviewers)",
-                content: "Both interviewers were super chill and encouraging!\n\nQ1: Tree-Based Problem\nI was given a binary tree and asked to print the diagonal traversal of it.\n\nExample:\n\n        1\n      /   \\\\\n     2     3\n    / \\\\   / \\\\\\\n   4   5 7   6\n\nExpected Output:\n1 2 4\n3 5 7\n6\n\nQ2: Stack & Queue Implementation\nDeep discussion on:\n\nImplementing stack using queue\nQueue using stack\nHandling operations with only one stack or one queue\nMany follow-ups but I was able to answer all."
-              },
-              {
-                name: "🧠 Round 3 – Resume + LLD + DP",
-                content: "Again two interviewers.\n\nResume Discussion\nSince I had mentioned Kafka and automation scripts, we had a detailed discussion on that.\n\nQ1: LLD – Task Scheduler\nDesign a task scheduler where tasks can only start after their dependencies are completed.\nFollow-up: Add priority-based execution.\n\nQ2: DP Problem\nVery similar to Predict The Winner\nFollow-up: Print the steps taken by the winner."
-              },
-              {
-                name: "🧠 Round 4 – DSA + Logical Reasoning",
-                content: "Q1: Burst Balloons\n\nQ2: Logical Array Problem\nGiven a sorted array:\n\nOriginal:    [1, 3, 5, 7, 10, 12, 14, 16]\nTransformed: [1, 7, 5, 3, 10, 16, 14, 12]\n             (Even indices unchanged; odd indices swapped randomly)\nQuestions:\n\nIs 5 present? If yes, at what index?\nIs 16 present? If yes, at what index?\nIs 11 present?\nWith hints from the interviewer, I was able to crack it.\nHonestly, couldn't solve this without hints, but the interviewers were really helpful."
-              },
-              {
-                name: "🧠 Round 5 – HM Round",
-                content: "The Hiring Manager was extremely friendly.\n\nWe discussed:\n\nWhy I'm looking to switch\nWhy Goldman Sachs\nSome situational and behavioral questions\nDiscussed CTC, location preference, etc."
-              },
-              {
-                name: "💬 Final Thoughts & Verdict",
-                content: "This was an extremely positive experience for me.\nEach interviewer was well-prepared, respectful, and genuinely curious.\nOne bad interviewer can ruin an interview process – but I had none here.\nFelt like a two-way conversation, not an interrogation.\n\n🎉 Verdict: SELECTED ✅\n\nI'm beyond grateful for this community – you all have helped me so much during preparation.\nFeel free to ask anything in the comments!"
-              }
-            ]
-},
-{
-  id: 25,
+    yoe: "N/A",
+    date: "May 06, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Introduction",
+        content: "📌 My Interview Experience at Goldman Sachs – Analyst Position (April 2025)\n\nVerdict: Selected ✅\n\nHi everyone!\nI'm thrilled to share that I've been selected for the Analyst role at Goldman Sachs. I wanted to document my entire experience here in the hope it helps someone else preparing for the same."
+      },
+      {
+        name: "🧠 Round 1 – CoderPad (April 4)",
+        content: "This was a DSA-based live coding round. The level was easy to medium.\n\nQuestions:\n\nTrapping Rain Water\nDecode Ways\nI was able to complete both problems in 30 minutes. The interviewer asked a small follow-up (don't remember exactly, but it was easy).\n\nAfter that, we discussed my projects and work at my current firm.\n\n⏩ Got the call same day that I was selected for Super Day on April 8."
+      },
+      {
+        name: "🧠 Round 2 – Super Day DSA Round (2 Interviewers)",
+        content: "Both interviewers were super chill and encouraging!\n\nQ1: Tree-Based Problem\nI was given a binary tree and asked to print the diagonal traversal of it.\n\nExample:\n\n        1\n      /   \\\\\n     2     3\n    / \\\\   / \\\\\\\n   4   5 7   6\n\nExpected Output:\n1 2 4\n3 5 7\n6\n\nQ2: Stack & Queue Implementation\nDeep discussion on:\n\nImplementing stack using queue\nQueue using stack\nHandling operations with only one stack or one queue\nMany follow-ups but I was able to answer all."
+      },
+      {
+        name: "🧠 Round 3 – Resume + LLD + DP",
+        content: "Again two interviewers.\n\nResume Discussion\nSince I had mentioned Kafka and automation scripts, we had a detailed discussion on that.\n\nQ1: LLD – Task Scheduler\nDesign a task scheduler where tasks can only start after their dependencies are completed.\nFollow-up: Add priority-based execution.\n\nQ2: DP Problem\nVery similar to Predict The Winner\nFollow-up: Print the steps taken by the winner."
+      },
+      {
+        name: "🧠 Round 4 – DSA + Logical Reasoning",
+        content: "Q1: Burst Balloons\n\nQ2: Logical Array Problem\nGiven a sorted array:\n\nOriginal:    [1, 3, 5, 7, 10, 12, 14, 16]\nTransformed: [1, 7, 5, 3, 10, 16, 14, 12]\n             (Even indices unchanged; odd indices swapped randomly)\nQuestions:\n\nIs 5 present? If yes, at what index?\nIs 16 present? If yes, at what index?\nIs 11 present?\nWith hints from the interviewer, I was able to crack it.\nHonestly, couldn't solve this without hints, but the interviewers were really helpful."
+      },
+      {
+        name: "🧠 Round 5 – HM Round",
+        content: "The Hiring Manager was extremely friendly.\n\nWe discussed:\n\nWhy I'm looking to switch\nWhy Goldman Sachs\nSome situational and behavioral questions\nDiscussed CTC, location preference, etc."
+      },
+      {
+        name: "💬 Final Thoughts & Verdict",
+        content: "This was an extremely positive experience for me.\nEach interviewer was well-prepared, respectful, and genuinely curious.\nOne bad interviewer can ruin an interview process – but I had none here.\nFelt like a two-way conversation, not an interrogation.\n\n🎉 Verdict: SELECTED ✅\n\nI'm beyond grateful for this community – you all have helped me so much during preparation.\nFeel free to ask anything in the comments!"
+      }
+    ]
+  },
+  {
+    id: 25,
     role: "Associate (US)",
-      yoe: "N/A",
-        date: "Jul 15, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "✨ Interview Experience – Accepted Offer",
-                content: "Application Source:\\nApplied on my behalf by applyjobsforme.com – they handled the job application process for me."
-              },
-              {
-                name: "🧪 Round 1: Online Assessment",
-                content: "The initial round was an online assessment consisting of 2 data structures and algorithms questions, both of which I successfully solved within the time limit.\\n\\nThe questions were of medium difficulty, and focused on core problem-solving ability.\\nThe platform tested for edge cases and optimality."
-              },
-              {
-                name: "💻 Round 2: CoderPad Interview (Live Coding + Discussion)",
-                content: "The interview began with a brief self-introduction and then moved into live coding via CoderPad. The interviewer was collaborative and encouraged thinking out loud.\\n\\n✅ Question 1 (Medium): Top Student Scores Averaging\\nProblem:\\nYou are given a list of [student_id, score] pairs. For each student, return the average of their top scores. If the top score is repeated, it should still be considered.\\nExample Input:\\n\\n[[1, 100], [1, 100], [1, 100], [2, 99]]\\nExpected Output:\\n\\n[[1, 100], [2, 99]]\\n\\n✅ Question 2 (Medium): Fraction to Recurring Decimal\\nProblem:\\nGiven a numerator and denominator, return the result as a string. If the fractional part is recurring, enclose the repeating part in parentheses.\\n\\nExamples:\\n\\n5/10 → 0.5, 1/3, 0.3 \\nI handled edge cases like negative numbers, zero numerators, and long recurring cycles.\\n\\n🎯 Behavioral Segment:\\nDiscussed motivation, past projects, and challenges overcome.\\nShared an example of working under pressure and taking initiative.\\n✅ Successfully cleared this round. Got a call back for the Superday after nearly 2 months of wait."
-              },
-              {
-                name: "🔍 Round 3: Superday – Data Structures Focus",
-                content: "Panel included two interviewers, each of whom asked one technical problem.\\n\\n✅ Question 1: Trapping Rain Water\\nA classic two-pointer problem to calculate the volume of water trapped after rainfall.\\n\\nDiscussed brute-force, prefix-max arrays, and optimized two-pointer approach.\\nEmphasized space optimization and in-place computation.\\n\\n✅ Question 2: Implement stoi (String to Integer)\\nRecreate the stoi function.\\n\\nHandled white spaces, sign, integer overflow, and invalid characters.\\nEdge cases like -42 \\nThe focus was on string parsing, input validation"
-              },
-              {
-                name: "🛠️ Round 4: Superday – Software Engineering Practices",
-                content: "Another panel of two interviewers, this time focused on system and product thinking.\\n\\n✅ Question: Low-Level Design of Google Calendar\\nDesigned a simplified version of Google Calendar with core functionalities:\\n\\nCreate, update, delete events.\\nHandle overlapping events.\\nNotification/reminder system.\\nScalability for millions of users.\\nDiscussed use of:\\n\\nData models (event schema, user calendar),\\nConcurrency handling,\\nAPI structure, and\\nDesign tradeoffs like consistency vs availability.\\nI made sure to cover both object-oriented design and real-world constraints (like syncing across time zones)."
-              },
-              {
-                name: "📄 Round 5: Resume Drill / Deep Dive",
-                content: "Walked through resume projects and past roles.\\nEmphasis on impact, technologies used, and challenges faced.\\nThey asked about one project in depth—how I designed it, what improvements I'd now make, and technical decisions behind it."
-              },
-              {
-                name: "🎉 Result & Tips",
-                content: "Result: Accepted Offer! ✅\\nAfter multiple rounds and a considerable waiting period post-superday, I finally received an offer letter.\\n\\n💡 Tips for Future Candidates:\\nPractice fundamentals – hashing, heaps, prefix/suffix arrays, and string manipulation.\\nBe ready to explain edge cases, time/space tradeoffs, and design choices clearly.\\nFor system design rounds, think like a product engineer – focus on usability, scalability, and reliability.\\nDon't forget behavioral prep – STAR format helps a lot."
-              }
-            ]
-},
-{
-  id: 26,
+    yoe: "N/A",
+    date: "Jul 15, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "✨ Interview Experience – Accepted Offer",
+        content: "Application Source:\\nApplied on my behalf by applyjobsforme.com – they handled the job application process for me."
+      },
+      {
+        name: "🧪 Round 1: Online Assessment",
+        content: "The initial round was an online assessment consisting of 2 data structures and algorithms questions, both of which I successfully solved within the time limit.\\n\\nThe questions were of medium difficulty, and focused on core problem-solving ability.\\nThe platform tested for edge cases and optimality."
+      },
+      {
+        name: "💻 Round 2: CoderPad Interview (Live Coding + Discussion)",
+        content: "The interview began with a brief self-introduction and then moved into live coding via CoderPad. The interviewer was collaborative and encouraged thinking out loud.\\n\\n✅ Question 1 (Medium): Top Student Scores Averaging\\nProblem:\\nYou are given a list of [student_id, score] pairs. For each student, return the average of their top scores. If the top score is repeated, it should still be considered.\\nExample Input:\\n\\n[[1, 100], [1, 100], [1, 100], [2, 99]]\\nExpected Output:\\n\\n[[1, 100], [2, 99]]\\n\\n✅ Question 2 (Medium): Fraction to Recurring Decimal\\nProblem:\\nGiven a numerator and denominator, return the result as a string. If the fractional part is recurring, enclose the repeating part in parentheses.\\n\\nExamples:\\n\\n5/10 → 0.5, 1/3, 0.3 \\nI handled edge cases like negative numbers, zero numerators, and long recurring cycles.\\n\\n🎯 Behavioral Segment:\\nDiscussed motivation, past projects, and challenges overcome.\\nShared an example of working under pressure and taking initiative.\\n✅ Successfully cleared this round. Got a call back for the Superday after nearly 2 months of wait."
+      },
+      {
+        name: "🔍 Round 3: Superday – Data Structures Focus",
+        content: "Panel included two interviewers, each of whom asked one technical problem.\\n\\n✅ Question 1: Trapping Rain Water\\nA classic two-pointer problem to calculate the volume of water trapped after rainfall.\\n\\nDiscussed brute-force, prefix-max arrays, and optimized two-pointer approach.\\nEmphasized space optimization and in-place computation.\\n\\n✅ Question 2: Implement stoi (String to Integer)\\nRecreate the stoi function.\\n\\nHandled white spaces, sign, integer overflow, and invalid characters.\\nEdge cases like -42 \\nThe focus was on string parsing, input validation"
+      },
+      {
+        name: "🛠️ Round 4: Superday – Software Engineering Practices",
+        content: "Another panel of two interviewers, this time focused on system and product thinking.\\n\\n✅ Question: Low-Level Design of Google Calendar\\nDesigned a simplified version of Google Calendar with core functionalities:\\n\\nCreate, update, delete events.\\nHandle overlapping events.\\nNotification/reminder system.\\nScalability for millions of users.\\nDiscussed use of:\\n\\nData models (event schema, user calendar),\\nConcurrency handling,\\nAPI structure, and\\nDesign tradeoffs like consistency vs availability.\\nI made sure to cover both object-oriented design and real-world constraints (like syncing across time zones)."
+      },
+      {
+        name: "📄 Round 5: Resume Drill / Deep Dive",
+        content: "Walked through resume projects and past roles.\\nEmphasis on impact, technologies used, and challenges faced.\\nThey asked about one project in depth—how I designed it, what improvements I'd now make, and technical decisions behind it."
+      },
+      {
+        name: "🎉 Result & Tips",
+        content: "Result: Accepted Offer! ✅\\nAfter multiple rounds and a considerable waiting period post-superday, I finally received an offer letter.\\n\\n💡 Tips for Future Candidates:\\nPractice fundamentals – hashing, heaps, prefix/suffix arrays, and string manipulation.\\nBe ready to explain edge cases, time/space tradeoffs, and design choices clearly.\\nFor system design rounds, think like a product engineer – focus on usability, scalability, and reliability.\\nDon't forget behavioral prep – STAR format helps a lot."
+      }
+    ]
+  },
+  {
+    id: 26,
     role: "Associate Software Engineer",
-      yoe: "2.8 years",
-        date: "May 17, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "I interviewed for Goldman Sachs for Associate level in March, 2025.\\n\\nEducation - Circuital branch, top IIT.\\n\\nExperience - 2.8 years experience\\nPast Company - SDE2 at Product Based Company (26.4 base + 2.6 Bonus) LPA. Had ESOPs.\\n\\nProcess -\\n\\nGot a message from recruiter on linkedIn. Applied without referral."
-              },
-              {
-                name: "Screening round - DSA",
-                content: "Two easy questions. Solved both.\\nOne was on hashmap little logic building, another on reversing linked list.\\nThey made me run both code on coder pad with few test cases."
-              },
-              {
-                name: "Super Day - Overview",
-                content: "Had next four rounds on the same day - Super Day. Initially they scheduled 3 rounds, post the result they scheduled the 4th one in evening."
-              },
-              {
-                name: "Round 1: DSA",
-                content: "2 DSA problems, both around trees. One medium other one LC Hard(Both were on BST, had some discussions around 1st question on optimizing return , the other one involved finding LCA and some further solving)."
-              },
-              {
-                name: "Round 2: LLD and HLD",
-                content: "1 LLD and questions around HLD - This round wasn't that great for me (fumbled a bit in few HLD questions). LLD - LRU cache. The interviewer tried to dig deep in whatever I said, so I chose to not answer questions I was not sure of. HLD was mostly related to how we optimize writes in DB, around replication, archival, scaling and indexing of DB."
-              },
-              {
-                name: "Round 3: HLD Case Study",
-                content: "Mostly HLD case study regarding how you would approach a production issue. Had questions aroung my current experience, projects and their HLD and some related questions around possibilites of failure of production.\\n\\nHad positive feedback from the rounds and was called for a final round with the hiring manager"
-              },
-              {
-                name: "Round 4: Hiring Manager",
-                content: "Hiring manager round - Was supposed to be a non technical round of 30 mins. Hiring manager still asked some design questions (mostly easy) along with a couple HR type ques. Answered all correctly."
-              },
-              {
-                name: "Round 5: Behavioral",
-                content: "Behavioral round"
-              },
-              {
-                name: "Verdict & Compensation",
-                content: "Got the offer ✅\\n\\nCompensation:\\n36 LPA base + ~10 LPA bonus + 1.6L relocation + ESOP equivalency bonus (of current company for current FY)"
-              }
-            ]
-},
-{
-  id: 27,
+    yoe: "2.8 years",
+    date: "May 17, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "I interviewed for Goldman Sachs for Associate level in March, 2025.\\n\\nEducation - Circuital branch, top IIT.\\n\\nExperience - 2.8 years experience\\nPast Company - SDE2 at Product Based Company (26.4 base + 2.6 Bonus) LPA. Had ESOPs.\\n\\nProcess -\\n\\nGot a message from recruiter on linkedIn. Applied without referral."
+      },
+      {
+        name: "Screening round - DSA",
+        content: "Two easy questions. Solved both.\\nOne was on hashmap little logic building, another on reversing linked list.\\nThey made me run both code on coder pad with few test cases."
+      },
+      {
+        name: "Super Day - Overview",
+        content: "Had next four rounds on the same day - Super Day. Initially they scheduled 3 rounds, post the result they scheduled the 4th one in evening."
+      },
+      {
+        name: "Round 1: DSA",
+        content: "2 DSA problems, both around trees. One medium other one LC Hard(Both were on BST, had some discussions around 1st question on optimizing return , the other one involved finding LCA and some further solving)."
+      },
+      {
+        name: "Round 2: LLD and HLD",
+        content: "1 LLD and questions around HLD - This round wasn't that great for me (fumbled a bit in few HLD questions). LLD - LRU cache. The interviewer tried to dig deep in whatever I said, so I chose to not answer questions I was not sure of. HLD was mostly related to how we optimize writes in DB, around replication, archival, scaling and indexing of DB."
+      },
+      {
+        name: "Round 3: HLD Case Study",
+        content: "Mostly HLD case study regarding how you would approach a production issue. Had questions aroung my current experience, projects and their HLD and some related questions around possibilites of failure of production.\\n\\nHad positive feedback from the rounds and was called for a final round with the hiring manager"
+      },
+      {
+        name: "Round 4: Hiring Manager",
+        content: "Hiring manager round - Was supposed to be a non technical round of 30 mins. Hiring manager still asked some design questions (mostly easy) along with a couple HR type ques. Answered all correctly."
+      },
+      {
+        name: "Round 5: Behavioral",
+        content: "Behavioral round"
+      },
+      {
+        name: "Verdict & Compensation",
+        content: "Got the offer ✅\\n\\nCompensation:\\n36 LPA base + ~10 LPA bonus + 1.6L relocation + ESOP equivalency bonus (of current company for current FY)"
+      }
+    ]
+  },
+  {
+    id: 27,
     role: "Analyst",
-      yoe: "N/A",
-        date: "May 07, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "I applied via referral and received the test link almost a month later."
-              },
-              {
-                name: "Round 1: Online HackerRank Test (120 mins)",
-                content: "• There were 2 medium-level questions: one greedy and one graph-based.\\n• Completed both in around 40–45 minutes.\\n\\nI got the interview invite around 20 days later."
-              },
-              {
-                name: "Round 2: CoderPad Interview (1 Interviewer)",
-                content: "• CoderPad is a collaborative platform where both you and the interviewer can write code, with an IDE built-in.\\n• I was expected to write working code that passes test cases.\\n\\nQuestion 1:\\n• First Unique Character in a String – easy one, solved it in about 10 minutes.\\n\\nQuestion 2:\\n• A long string str was given, along with two other strings str1 and str2. I had to find the minimum distance between the occurrences of str1 and str2 in str, making sure str1 appeared before str2.\\n• There were multiple edge cases. The interviewer didn't point them out directly and wanted me to catch them by debugging through test cases. He was very helpful and patient.\\n• I couldn't solve all the edge cases due to time constraints, but the interviewer seemed satisfied with my approach and, I believe, mainly wanted to assess my debugging skills.\\n\\nI got a call the next day that I had cleared the round and would be moving on to the Super Day."
-              },
-              {
-                name: "Super Day: 3–4 Interviews with 1-Hour Gaps",
-                content: "Each round had 2 interviewers: one actively asking questions and the other mostly observing."
-              },
-              {
-                name: "Round 3: Data Structures and Algorithms (60 minutes)",
-                content: "Format: 2 Interviewers, each asked one coding question\\n\\nFind the Kth most frequent element in an array\\nUsed Min Heap\\nFind the length of the longest subarray with at most K distinct characters\\nApplied Sliding Window technique\\nSuccessfully solved both questions and passed test cases"
-              },
-              {
-                name: "Round 4: Java and Software Engineering Principles",
-                content: "Interviewers: 2\\n\\nWrapper classes in Java\\n\\nint vs Integer\\n\\nstatic keyword and static methods (asked to write code)\\n\\nDifference between ArrayList and LinkedList\\n\\nDOI (Date of Inception) in Java (implementation)\\n\\nSingleton class (implementation required)\\n\\nCreation of Linked List with insertion and deletion (code implementation)\\n\\nSeveral additional Java and OOP-related questions\\n\\nStruggled a bit in this round due to limited proficiency in Java"
-              },
-              {
-                name: "Round 5: System Design",
-                content: "Interviewers: 2 (One at VP level)\\nDiscussion on my personal project .How I designed and implemented it,Challenges I faced and how I tackled them\\n\\nDesign a Quora-like application\\n\\nSchema design\\nAPI structure\\nWrite SQL queries based on the schema\\nThis was my first-ever system design interview, and I found it challenging. I made several back-and-forth changes during schema design and missed some best practices."
-              },
-              {
-                name: "Final Verdict & Learnings",
-                content: "Rejected ❌\\n\\nFeedback:\\nSystem Design round received a negative review\\nJava/OOP round was also marked as uncertain\\n\\nOverall, it was a great learning experience. All interviewers were friendly and professional—it never felt like an interrogation."
-              }
-            ]
-},
-{
-  id: 28,
+    yoe: "N/A",
+    date: "May 07, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "I applied via referral and received the test link almost a month later."
+      },
+      {
+        name: "Round 1: Online HackerRank Test (120 mins)",
+        content: "• There were 2 medium-level questions: one greedy and one graph-based.\\n• Completed both in around 40–45 minutes.\\n\\nI got the interview invite around 20 days later."
+      },
+      {
+        name: "Round 2: CoderPad Interview (1 Interviewer)",
+        content: "• CoderPad is a collaborative platform where both you and the interviewer can write code, with an IDE built-in.\\n• I was expected to write working code that passes test cases.\\n\\nQuestion 1:\\n• First Unique Character in a String – easy one, solved it in about 10 minutes.\\n\\nQuestion 2:\\n• A long string str was given, along with two other strings str1 and str2. I had to find the minimum distance between the occurrences of str1 and str2 in str, making sure str1 appeared before str2.\\n• There were multiple edge cases. The interviewer didn't point them out directly and wanted me to catch them by debugging through test cases. He was very helpful and patient.\\n• I couldn't solve all the edge cases due to time constraints, but the interviewer seemed satisfied with my approach and, I believe, mainly wanted to assess my debugging skills.\\n\\nI got a call the next day that I had cleared the round and would be moving on to the Super Day."
+      },
+      {
+        name: "Super Day: 3–4 Interviews with 1-Hour Gaps",
+        content: "Each round had 2 interviewers: one actively asking questions and the other mostly observing."
+      },
+      {
+        name: "Round 3: Data Structures and Algorithms (60 minutes)",
+        content: "Format: 2 Interviewers, each asked one coding question\\n\\nFind the Kth most frequent element in an array\\nUsed Min Heap\\nFind the length of the longest subarray with at most K distinct characters\\nApplied Sliding Window technique\\nSuccessfully solved both questions and passed test cases"
+      },
+      {
+        name: "Round 4: Java and Software Engineering Principles",
+        content: "Interviewers: 2\\n\\nWrapper classes in Java\\n\\nint vs Integer\\n\\nstatic keyword and static methods (asked to write code)\\n\\nDifference between ArrayList and LinkedList\\n\\nDOI (Date of Inception) in Java (implementation)\\n\\nSingleton class (implementation required)\\n\\nCreation of Linked List with insertion and deletion (code implementation)\\n\\nSeveral additional Java and OOP-related questions\\n\\nStruggled a bit in this round due to limited proficiency in Java"
+      },
+      {
+        name: "Round 5: System Design",
+        content: "Interviewers: 2 (One at VP level)\\nDiscussion on my personal project .How I designed and implemented it,Challenges I faced and how I tackled them\\n\\nDesign a Quora-like application\\n\\nSchema design\\nAPI structure\\nWrite SQL queries based on the schema\\nThis was my first-ever system design interview, and I found it challenging. I made several back-and-forth changes during schema design and missed some best practices."
+      },
+      {
+        name: "Final Verdict & Learnings",
+        content: "Rejected ❌\\n\\nFeedback:\\nSystem Design round received a negative review\\nJava/OOP round was also marked as uncertain\\n\\nOverall, it was a great learning experience. All interviewers were friendly and professional—it never felt like an interrogation."
+      }
+    ]
+  },
+  {
+    id: 28,
     role: "Analyst - US",
-      yoe: "N/A",
-        date: "May 30, 2025",
-          author: "starlord_c",
-            rounds: [
-              {
-                name: "Coderpad round: 60mins",
-                content: "Question-1\\nFind kth largest element.\\nGave heap solution. Satisfied with the approach.\\nasked for TC and SC.\\n\\nQuestion-2:\\n\\nGiven a 2D grid, each cell has a item which has value >=0, we are standing at bottom left cell of the grid and need to reach top right cell. So we need to reach from r-1,0 to 0,c-1 with maxValue.\\nused DP.\\nasked TC and SC."
-              },
-              {
-                name: "Super Day - Round 1: Software Engineering Principles (45 mins)",
-                content: "Resume grilling mostly on my work-ex.\\nLast 10 mins asked for Parking Lot LLD. Due to time crunch, wasn't able to frame my approach properly but gave the design."
-              },
-              {
-                name: "Super Day - Round 2: DSA",
-                content: "Question-1:\\nDesign data structure that stores an object that has following:\\nUnique-Id-String\\nVersion- Integer\\nFrom - TimeStamp\\nTo - TimeStamp\\n\\nWhen a new version is inserted, last version To date should be updated to latest version from date and then latest veersion should be inserted.\\n\\nTook about 30 mins to solve this as the question given was very vague and I had to ask all clarifying questions to give correct data structure.\\n\\nDue to time crunch question-2 only approach was asked.\\n\\nQuestion-2:\\n\\nGiven 3 category of people (lets say a,b,c) and no. of people of each category.\\nForm max number of teams of 3 people such that no team contains all people from same category.\\n\\nEx: a = 2, b=1, c=3\\nTeam-1: c c a\\nTeam-2: a b c\\nso answer = 2;\\nGave greedy approach."
-              },
-              {
-                name: "Super Day - Round 3: Final Hiring Manager/Team round",
-                content: "Resume grilling\\n\\nHiring Manager Round (30 mins):\\nAsked few questions from resume\\n\\nFew HR questions:\\n\\nGive a project where you are pruod of youself.\\nYou had more than one high priority tasks, how do you handle this situation.\\nWhy GS?\\nWhy are leaving your current company?"
-              },
-              {
-                name: "Verdict",
-                content: "Got the offer ✅"
-              }
-            ]
-},
-{
-  id: 29,
+    yoe: "N/A",
+    date: "May 30, 2025",
+    author: "starlord_c",
+    rounds: [
+      {
+        name: "Coderpad round: 60mins",
+        content: "Question-1\\nFind kth largest element.\\nGave heap solution. Satisfied with the approach.\\nasked for TC and SC.\\n\\nQuestion-2:\\n\\nGiven a 2D grid, each cell has a item which has value >=0, we are standing at bottom left cell of the grid and need to reach top right cell. So we need to reach from r-1,0 to 0,c-1 with maxValue.\\nused DP.\\nasked TC and SC."
+      },
+      {
+        name: "Super Day - Round 1: Software Engineering Principles (45 mins)",
+        content: "Resume grilling mostly on my work-ex.\\nLast 10 mins asked for Parking Lot LLD. Due to time crunch, wasn't able to frame my approach properly but gave the design."
+      },
+      {
+        name: "Super Day - Round 2: DSA",
+        content: "Question-1:\\nDesign data structure that stores an object that has following:\\nUnique-Id-String\\nVersion- Integer\\nFrom - TimeStamp\\nTo - TimeStamp\\n\\nWhen a new version is inserted, last version To date should be updated to latest version from date and then latest veersion should be inserted.\\n\\nTook about 30 mins to solve this as the question given was very vague and I had to ask all clarifying questions to give correct data structure.\\n\\nDue to time crunch question-2 only approach was asked.\\n\\nQuestion-2:\\n\\nGiven 3 category of people (lets say a,b,c) and no. of people of each category.\\nForm max number of teams of 3 people such that no team contains all people from same category.\\n\\nEx: a = 2, b=1, c=3\\nTeam-1: c c a\\nTeam-2: a b c\\nso answer = 2;\\nGave greedy approach."
+      },
+      {
+        name: "Super Day - Round 3: Final Hiring Manager/Team round",
+        content: "Resume grilling\\n\\nHiring Manager Round (30 mins):\\nAsked few questions from resume\\n\\nFew HR questions:\\n\\nGive a project where you are pruod of youself.\\nYou had more than one high priority tasks, how do you handle this situation.\\nWhy GS?\\nWhy are leaving your current company?"
+      },
+      {
+        name: "Verdict",
+        content: "Got the offer ✅"
+      }
+    ]
+  },
+  {
+    id: 29,
     role: "Analyst",
-      yoe: "0.7 years",
-        date: "May 15, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "Position: Analyst\\nExperience: 0.7 years\\nReferral: Referred by an Associate Software Engineer at Goldman Sachs"
-              },
-              {
-                name: "Round 1: HackerRank Online Assessment (90 minutes)",
-                content: "2 Coding Questions\\nOne question was based on Dynamic Programming\\nThe was Implementation provlem don't exactly remember the questions\\nBoth were of medium difficulty\\nSolved both questions"
-              },
-              {
-                name: "Round 2: CoderPad Live Coding (60 minutes)",
-                content: "Problem:\\nGiven a source and destination, print all the stations in the shortest path between them\\nLanguage: Java (in an online collaborative IDE - CoderPad)\\nFollow-up:\\nWhat if every edge between stations has unit weight (1)?\\nSolved both the main problem and follow-up\\n\\nGot a call from hr on the same fom the next set of rounds"
-              },
-              {
-                name: "Super Day (3 Rounds Back-to-Back, Each ~1 Hour Apart)",
-                content: "3 rounds scheduled back-to-back with approximately 1 hour gap between each"
-              },
-              {
-                name: "Round 3: Data Structures and Algorithms (60 minutes)",
-                content: "Format: 2 Interviewers, each asked one coding question\\n\\nFind the Kth most frequent element in an array\\nUsed Min Heap\\nFind the length of the longest subarray with at most K distinct characters\\nApplied Sliding Window technique\\nSuccessfully solved both questions and passed test cases"
-              },
-              {
-                name: "Round 4: Java and Software Engineering Principles",
-                content: "Interviewers: 2\\n\\nWrapper classes in Java\\n\\nint vs Integer\\n\\nstatic keyword and static methods (asked to write code)\\n\\nDifference between ArrayList and LinkedList\\n\\nDOI (Date of Inception) in Java (implementation)\\n\\nSingleton class (implementation required)\\n\\nCreation of Linked List with insertion and deletion (code implementation)\\n\\nSeveral additional Java and OOP-related questions\\n\\nStruggled a bit in this round due to limited proficiency in Java"
-              },
-              {
-                name: "Round 5: System Design",
-                content: "Interviewers: 2 (One at VP level)\\nDiscussion on my personal project .How I designed and implemented it,Challenges I faced and how I tackled them\\n\\nDesign a Quora-like application\\n\\nSchema design\\nAPI structure\\nWrite SQL queries based on the schema\\nThis was my first-ever system design interview, and I found it challenging. I made several back-and-forth changes during schema design and missed some best practices."
-              },
-              {
-                name: "Final Verdict & Learnings",
-                content: "Rejected ❌\\n\\nFeedback:\\nSystem Design round received a negative review\\nJava/OOP round was also marked as uncertain\\n\\nOverall, it was a great learning experience. All interviewers were friendly and professional—it never felt like an interrogation."
-              }
-            ]
-},
-{
-  id: 30,
+    yoe: "0.7 years",
+    date: "May 15, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "Position: Analyst\\nExperience: 0.7 years\\nReferral: Referred by an Associate Software Engineer at Goldman Sachs"
+      },
+      {
+        name: "Round 1: HackerRank Online Assessment (90 minutes)",
+        content: "2 Coding Questions\\nOne question was based on Dynamic Programming\\nThe was Implementation provlem don't exactly remember the questions\\nBoth were of medium difficulty\\nSolved both questions"
+      },
+      {
+        name: "Round 2: CoderPad Live Coding (60 minutes)",
+        content: "Problem:\\nGiven a source and destination, print all the stations in the shortest path between them\\nLanguage: Java (in an online collaborative IDE - CoderPad)\\nFollow-up:\\nWhat if every edge between stations has unit weight (1)?\\nSolved both the main problem and follow-up\\n\\nGot a call from hr on the same fom the next set of rounds"
+      },
+      {
+        name: "Super Day (3 Rounds Back-to-Back, Each ~1 Hour Apart)",
+        content: "3 rounds scheduled back-to-back with approximately 1 hour gap between each"
+      },
+      {
+        name: "Round 3: Data Structures and Algorithms (60 minutes)",
+        content: "Format: 2 Interviewers, each asked one coding question\\n\\nFind the Kth most frequent element in an array\\nUsed Min Heap\\nFind the length of the longest subarray with at most K distinct characters\\nApplied Sliding Window technique\\nSuccessfully solved both questions and passed test cases"
+      },
+      {
+        name: "Round 4: Java and Software Engineering Principles",
+        content: "Interviewers: 2\\n\\nWrapper classes in Java\\n\\nint vs Integer\\n\\nstatic keyword and static methods (asked to write code)\\n\\nDifference between ArrayList and LinkedList\\n\\nDOI (Date of Inception) in Java (implementation)\\n\\nSingleton class (implementation required)\\n\\nCreation of Linked List with insertion and deletion (code implementation)\\n\\nSeveral additional Java and OOP-related questions\\n\\nStruggled a bit in this round due to limited proficiency in Java"
+      },
+      {
+        name: "Round 5: System Design",
+        content: "Interviewers: 2 (One at VP level)\\nDiscussion on my personal project .How I designed and implemented it,Challenges I faced and how I tackled them\\n\\nDesign a Quora-like application\\n\\nSchema design\\nAPI structure\\nWrite SQL queries based on the schema\\nThis was my first-ever system design interview, and I found it challenging. I made several back-and-forth changes during schema design and missed some best practices."
+      },
+      {
+        name: "Final Verdict & Learnings",
+        content: "Rejected ❌\\n\\nFeedback:\\nSystem Design round received a negative review\\nJava/OOP round was also marked as uncertain\\n\\nOverall, it was a great learning experience. All interviewers were friendly and professional—it never felt like an interrogation."
+      }
+    ]
+  },
+  {
+    id: 30,
     role: "Analyst",
-      yoe: "2 years 3 months",
-        date: "Nov 17, 2024",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "My background: Total 2 years 3 months experience\\nGot a referral for an Associate role. Received hackerrank test link a week later."
-              },
-              {
-                name: "Round 1 - OA",
-                content: "Don't remember the questions but one was an easy level question and second was leetcode medium level. Was able to solve both of them.\\nThe recruiter reached me and informed me that I would be considered for an Analyst profile as my years of experience are less than 3."
-              },
-              {
-                name: "Round 2 - Coderpad (13th Sep 2024)",
-                content: "Question 1\\nhttps://leetcode.com/problems/fraction-to-recurring-decimal/description/\\n\\nQuestion 2\\nhttps://leetcode.com/problems/trapping-rain-water/description/\\n\\nI explained the approach for the first problem and jumped into implementing it. For the second question, I discussed the extra space approach first and then explained the constant space approach and implemented it. I had to execute my code for some test cases. After that the interviewer added some more test cases. I had to handle some corner cases in the first problem in order to pass them."
-              },
-              {
-                name: "Superday (18th Sep 2024) - Round 1: Data Structures",
-                content: "Two interviewers were present, one question asked by each of them.\\nQuestion 1\\nhttps://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/\\n\\nQuestion 2\\nhttps://leetcode.com/problems/median-of-two-sorted-arrays/description/\\n\\nAgain the expectation here was to produce an optimized working solution that should pass the test cases. For the second question, we did a dry run on some test cases. In between, the first interviewer asked a few questions on APIs and databases, like how will you fetch a large data (1GB) using REST APIs, etc."
-              },
-              {
-                name: "Superday - Round 2: Software Engineering Practices",
-                content: "Two interviewers were present. The first interviewer asked this question.\\nQuestion 1\\nhttps://leetcode.com/problems/sliding-window-maximum/description/\\n\\nThe remaining 30 mins were dedicated to some discussion around my resume, operating system and system design concepts.\\nThe interviewer went in depth in one of my recent projects in my current company.\\nAfter that he started asking OS questions like:\\n\\nDifference between process and a thread\\nDeadlocks\\nWhat is semaphore and how it is used in OS\\nThe interviewer then asked how to handle concurrency in a theater booking system, focusing on how to make sure two users don't book the same seat at the same time. I was also asked about handling cases where payment doesn't go through and how to release the seat if the user doesn't complete the payment. The interviewer asked about what would be the best customer experience during the entire process. Additionally, the interviewer wanted to know how to identify and prevent payment failures before the user even goes to the payment page. We discussed using locking methods, setting time limits for holding seats, checking seat availability in real-time, and doing checks before sending users to the payment page."
-              },
-              {
-                name: "Superday - Round 3: Software Design and Architecture",
-                content: "Question 1\\nGiven a 2-D String array of student-marks, find the student with the highest average and output his average score. If the average is in decimals, floor it down to the nearest integer.\\n\\nInput:Bob : 87, Mike:35, Bob : 52, Jason : 35, Mike : 55, Jessica : 99\\nOutput: 99\\nExplanation: Since Jessica's average is greater than Bob's, Mike's and Jason's average.\\nI explained the brute force as well as the optimized approach. Then was expected to code and execute the sample test cases. The interviewer then added some additional test cases for these. Some tests were failing due to negative scores. Fixed the cases.\\n\\nThe second interviewer asked me some Java related questions like:\\n\\nComparator and Comparable\\nSerialization and Deserialization in Java\\nException handling related questions\\nI was asked how to design a system where employee records are sent from an upstream service to my service, which then updates the data in a downstream service. Handling the communication between services (Kafka / SNS-SQS (I had experience with SNS-SQS)). The same employee record with a different timestamp can arrive, we have to update the previous record based on timestamp. This timestamp is different from the current timestamp. (Records can come in any order of timestamps).\\nI clarified the requirements but felt that the time left was too low. Proposed the approach to the interviewer, he then asked me about the database choices (SQL / NOSQL) and was asked to write a schema for the employee record."
-              },
-              {
-                name: "Round 4 - Hiring Manager",
-                content: "It was a quick 20-25 mins call. The HM asked some questions like\\n\\nWhy I am leaving the current company at 1.5yrs only?\\nWhy GS?\\nAsked me to explain one of my recent projects in my current company, asked few questions on that\\nMy expectations from GS and the role\\nMy views on work from office culture\\nI asked him the team charter and goals for the next couple of years."
-              },
-              {
-                name: "Verdict",
-                content: "Received offer 2 weeks later ✅"
-              }
-            ]
-},
-{
-  id: 31,
+    yoe: "2 years 3 months",
+    date: "Nov 17, 2024",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "My background: Total 2 years 3 months experience\\nGot a referral for an Associate role. Received hackerrank test link a week later."
+      },
+      {
+        name: "Round 1 - OA",
+        content: "Don't remember the questions but one was an easy level question and second was leetcode medium level. Was able to solve both of them.\\nThe recruiter reached me and informed me that I would be considered for an Analyst profile as my years of experience are less than 3."
+      },
+      {
+        name: "Round 2 - Coderpad (13th Sep 2024)",
+        content: "Question 1\\nhttps://leetcode.com/problems/fraction-to-recurring-decimal/description/\\n\\nQuestion 2\\nhttps://leetcode.com/problems/trapping-rain-water/description/\\n\\nI explained the approach for the first problem and jumped into implementing it. For the second question, I discussed the extra space approach first and then explained the constant space approach and implemented it. I had to execute my code for some test cases. After that the interviewer added some more test cases. I had to handle some corner cases in the first problem in order to pass them."
+      },
+      {
+        name: "Superday (18th Sep 2024) - Round 1: Data Structures",
+        content: "Two interviewers were present, one question asked by each of them.\\nQuestion 1\\nhttps://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/\\n\\nQuestion 2\\nhttps://leetcode.com/problems/median-of-two-sorted-arrays/description/\\n\\nAgain the expectation here was to produce an optimized working solution that should pass the test cases. For the second question, we did a dry run on some test cases. In between, the first interviewer asked a few questions on APIs and databases, like how will you fetch a large data (1GB) using REST APIs, etc."
+      },
+      {
+        name: "Superday - Round 2: Software Engineering Practices",
+        content: "Two interviewers were present. The first interviewer asked this question.\\nQuestion 1\\nhttps://leetcode.com/problems/sliding-window-maximum/description/\\n\\nThe remaining 30 mins were dedicated to some discussion around my resume, operating system and system design concepts.\\nThe interviewer went in depth in one of my recent projects in my current company.\\nAfter that he started asking OS questions like:\\n\\nDifference between process and a thread\\nDeadlocks\\nWhat is semaphore and how it is used in OS\\nThe interviewer then asked how to handle concurrency in a theater booking system, focusing on how to make sure two users don't book the same seat at the same time. I was also asked about handling cases where payment doesn't go through and how to release the seat if the user doesn't complete the payment. The interviewer asked about what would be the best customer experience during the entire process. Additionally, the interviewer wanted to know how to identify and prevent payment failures before the user even goes to the payment page. We discussed using locking methods, setting time limits for holding seats, checking seat availability in real-time, and doing checks before sending users to the payment page."
+      },
+      {
+        name: "Superday - Round 3: Software Design and Architecture",
+        content: "Question 1\\nGiven a 2-D String array of student-marks, find the student with the highest average and output his average score. If the average is in decimals, floor it down to the nearest integer.\\n\\nInput:Bob : 87, Mike:35, Bob : 52, Jason : 35, Mike : 55, Jessica : 99\\nOutput: 99\\nExplanation: Since Jessica's average is greater than Bob's, Mike's and Jason's average.\\nI explained the brute force as well as the optimized approach. Then was expected to code and execute the sample test cases. The interviewer then added some additional test cases for these. Some tests were failing due to negative scores. Fixed the cases.\\n\\nThe second interviewer asked me some Java related questions like:\\n\\nComparator and Comparable\\nSerialization and Deserialization in Java\\nException handling related questions\\nI was asked how to design a system where employee records are sent from an upstream service to my service, which then updates the data in a downstream service. Handling the communication between services (Kafka / SNS-SQS (I had experience with SNS-SQS)). The same employee record with a different timestamp can arrive, we have to update the previous record based on timestamp. This timestamp is different from the current timestamp. (Records can come in any order of timestamps).\\nI clarified the requirements but felt that the time left was too low. Proposed the approach to the interviewer, he then asked me about the database choices (SQL / NOSQL) and was asked to write a schema for the employee record."
+      },
+      {
+        name: "Round 4 - Hiring Manager",
+        content: "It was a quick 20-25 mins call. The HM asked some questions like\\n\\nWhy I am leaving the current company at 1.5yrs only?\\nWhy GS?\\nAsked me to explain one of my recent projects in my current company, asked few questions on that\\nMy expectations from GS and the role\\nMy views on work from office culture\\nI asked him the team charter and goals for the next couple of years."
+      },
+      {
+        name: "Verdict",
+        content: "Received offer 2 weeks later ✅"
+      }
+    ]
+  },
+  {
+    id: 31,
     role: "Associate",
-      yoe: "N/A",
-        date: "May 12, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "I applied through job portal after recruiter contacted me. Soon after, I recieved a Hackerrank test link."
-              },
-              {
-                name: "Round 1: Hackerrank test",
-                content: "There were 2 Leetcode medium difficulty questions."
-              },
-              {
-                name: "Round 2: Coderpad round",
-                content: "Interviewer gave 2 questions to solve in Coderpad platform. Language was Java, although upon request I was allowed to code in C++.\\nhttps://leetcode.com/problems/merge-intervals/description/\\nhttps://leetcode.com/problems/climbing-stairs/description/\\nAfter solving he asked me if the code was production ready, and discussed the potential issues.\\nNext three rounds were held a week later, as part of the Superday.\\nThere's going to be 2 interviewers in the panel here onwards."
-              },
-              {
-                name: "Round 3: DSA round",
-                content: "I was given two problems to solve.\\nhttps://leetcode.com/problems/best-time-to-buy-and-sell-stock/\\nYou're given a number of Cars, Trucks and Activa's. Each takes a parking space of 2,3 and 1 respectively. You're also given an integer array having empty slots. Return whether its possible to park every vehicle in those slots.\\nAsked me about one of my projects in detail.\\nAdvantages of using Springboot while design APIs.\\nDependency injection. What is Singleton Bean. Design a class which acts like a Singleton bean.\\nI stuttered a bit while explaining Dependency injection, other than that everything went well."
-              },
-              {
-                name: "Round 4: Software Engineering Practices",
-                content: "You're given an integer array. Write a program that shuffles the array in random fashion.\\nThread and concurrency\\nDesign Reddit\\nI couldn't solve the DSA problem. Also I mentioned I had no experience in working with threads so she didn't porceed with the question.\\nAlso struggled with the design problem but interviewer helped me through it. Asked me to write appropriate SQL queries along the way.\\nI feel I messed up really bad in this round."
-              },
-              {
-                name: "Round 5: Software Design and Architecture",
-                content: "Design Bus ticket management system.\\nPart 1: Different busses with routes and bus stops are mentioned. Design an optimal approach that will give us the number of options a passenger will have to chose a bus for one point to another.\\nPart 2: Available tickets are also added to the problem. As bus moves from one stop to another, available tickets keep changing. How to design such a scenario.\\nDesign Google docs(in the form of an array), with features like snapshot. Should be space optimized to the fullest. I gave her 2 semi optimal approaches, but we couldn't discuss further as time was up.\\nThis round was also good imo, I could answer almost all the queries. Could be better if there was more time."
-              },
-              {
-                name: "Verdict",
-                content: "Rejected ❌\\n\\nI did not recieve any mail or call from recruiter post this. In application portal it shows 'Application Turndown', so I guess this is it."
-              }
-            ]
-},
-{
-  id: 32,
+    yoe: "N/A",
+    date: "May 12, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "I applied through job portal after recruiter contacted me. Soon after, I recieved a Hackerrank test link."
+      },
+      {
+        name: "Round 1: Hackerrank test",
+        content: "There were 2 Leetcode medium difficulty questions."
+      },
+      {
+        name: "Round 2: Coderpad round",
+        content: "Interviewer gave 2 questions to solve in Coderpad platform. Language was Java, although upon request I was allowed to code in C++.\\nhttps://leetcode.com/problems/merge-intervals/description/\\nhttps://leetcode.com/problems/climbing-stairs/description/\\nAfter solving he asked me if the code was production ready, and discussed the potential issues.\\nNext three rounds were held a week later, as part of the Superday.\\nThere's going to be 2 interviewers in the panel here onwards."
+      },
+      {
+        name: "Round 3: DSA round",
+        content: "I was given two problems to solve.\\nhttps://leetcode.com/problems/best-time-to-buy-and-sell-stock/\\nYou're given a number of Cars, Trucks and Activa's. Each takes a parking space of 2,3 and 1 respectively. You're also given an integer array having empty slots. Return whether its possible to park every vehicle in those slots.\\nAsked me about one of my projects in detail.\\nAdvantages of using Springboot while design APIs.\\nDependency injection. What is Singleton Bean. Design a class which acts like a Singleton bean.\\nI stuttered a bit while explaining Dependency injection, other than that everything went well."
+      },
+      {
+        name: "Round 4: Software Engineering Practices",
+        content: "You're given an integer array. Write a program that shuffles the array in random fashion.\\nThread and concurrency\\nDesign Reddit\\nI couldn't solve the DSA problem. Also I mentioned I had no experience in working with threads so she didn't porceed with the question.\\nAlso struggled with the design problem but interviewer helped me through it. Asked me to write appropriate SQL queries along the way.\\nI feel I messed up really bad in this round."
+      },
+      {
+        name: "Round 5: Software Design and Architecture",
+        content: "Design Bus ticket management system.\\nPart 1: Different busses with routes and bus stops are mentioned. Design an optimal approach that will give us the number of options a passenger will have to chose a bus for one point to another.\\nPart 2: Available tickets are also added to the problem. As bus moves from one stop to another, available tickets keep changing. How to design such a scenario.\\nDesign Google docs(in the form of an array), with features like snapshot. Should be space optimized to the fullest. I gave her 2 semi optimal approaches, but we couldn't discuss further as time was up.\\nThis round was also good imo, I could answer almost all the queries. Could be better if there was more time."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected ❌\\n\\nI did not recieve any mail or call from recruiter post this. In application portal it shows 'Application Turndown', so I guess this is it."
+      }
+    ]
+  },
+  {
+    id: 32,
     role: "Software Engineer",
-      yoe: "N/A",
-        date: "Jun 02, 2025",
-          author: "Anonymous User",
-            location: "Salt Lake City, US",
-              rounds: [
-                {
-                  name: "Goldman Sachs Coderpad Interview",
-                  content: "I was asked two questions\\n\\nQuestion 1:\\nGiven a 2D grid, each cell has a item which has value >=0, we are standing at bottom left cell of the grid and need to reach top right cell. We can travel in right and up direction.\\nE.g.\\n0 0 5\\n0 1 0\\n2 0 1\\nAns : 8\\n\\nQuestion 2:\\nA popular online retailer allows vendors to specify different prices in advance\\nfor the same item throughout the day. We now need to design an algorithm that\\nhelps identify the lowest price for the item at any point of the day.\\nAssumptions:\\n\\nFor the algorithm, assume all vendors are selling the same product\\nand there is only one product being sold. Given a list that has\\nvendor information - ( startTime, endTime, price ) of the deal,\\nreturn a sorted list with different intervals and\\nthe least price of the product during the interval.\\n\\nThe interval is inclusive of start and end time.\\n\\nAll the 3 values passed by the vendor are integers.\\n\\nsampleInput = { new Interval( 1, 5, 20 ), new Interval( 3, 8, 15 ), new Interval( 7, 10, 8 ) };\\nexpectedOutput = { new Interval( 1, 3, 20 ), new Interval( 3, 7, 15 ), new Interval(7,10,8)};\\n\\nI solved first question starting with brute force recursive approach and was able to pass all the test cases. Then I was telling optimized solution by memoization and bottom up tabulation but interviewer said brute force is fine and moved to 2nd Question.\\nFor 2nd question I was not able to solved it completely interviewer was friendly and gave me hints after hints I was able to write code completely but was not able to run it as time was over.\\nInterviewer was pushing me to write production level code eg. appropriate variable names, function names for eg. I used i, j for row , column for 1st question he asked me to change it to row, column.\\n\\nAfter 3 days I got email for Superday."
-                },
-                {
-                  name: "Superday - Round 1: Data Structures and Algorithms",
-                  content: "My superday had 3 rounds of 45 mins each.\\n\\n2 Interviewers joined the call. Started with introduction. Then asked role specific questios like 1) How will you setup mongoDB cluster? 2) How will you configure your application for MongoDB using Springboot.\\nDSA question asked was as follows :-\\nList indicating a book. Each element in the list represents one page of the book. The page is space delimited.\\nList Glossary word list\\nOutput: Create a glossary for each word in the glossary list which indicates page\\nnumbers where the word occurs.\\n\\nI was able to solve this question. Then as time was still left so they asked question what if you have huge data and limited CPU RAM how will your sort the data? -> I told merge sort and discussing on the same."
-                },
-                {
-                  name: "Superday - Round 2: Resume Depth",
-                  content: "Interviewer grilled on resume. I struggled to answer few questions like I worked on TOCTOU issue and for resolving this issue I used atomicOperation. Then interviewer went to underlying details of atomic operations how it works and how will you implement atomic operation function\\nand then taking this question to hashMap about how will handle concurrnecy in hashMap? I was not able to answer this question thoroughly."
-                },
-                {
-                  name: "Superday - Round 3: Design and Architecture",
-                  content: "I was asked Design Rate Limiter.\\nI was able to design but at the end while discussing about scalability I failed to answer one question which what will you if your redis cache is out of memory? I knew concept of data sharding but got blank not able to answer it properly."
-                },
-                {
-                  name: "Verdict",
-                  content: "I got rejection email after 3 weeks. ❌"
-                }
-              ]
-}
+    yoe: "N/A",
+    date: "Jun 02, 2025",
+    author: "Anonymous User",
+    location: "Salt Lake City, US",
+    rounds: [
+      {
+        name: "Goldman Sachs Coderpad Interview",
+        content: "I was asked two questions\\n\\nQuestion 1:\\nGiven a 2D grid, each cell has a item which has value >=0, we are standing at bottom left cell of the grid and need to reach top right cell. We can travel in right and up direction.\\nE.g.\\n0 0 5\\n0 1 0\\n2 0 1\\nAns : 8\\n\\nQuestion 2:\\nA popular online retailer allows vendors to specify different prices in advance\\nfor the same item throughout the day. We now need to design an algorithm that\\nhelps identify the lowest price for the item at any point of the day.\\nAssumptions:\\n\\nFor the algorithm, assume all vendors are selling the same product\\nand there is only one product being sold. Given a list that has\\nvendor information - ( startTime, endTime, price ) of the deal,\\nreturn a sorted list with different intervals and\\nthe least price of the product during the interval.\\n\\nThe interval is inclusive of start and end time.\\n\\nAll the 3 values passed by the vendor are integers.\\n\\nsampleInput = { new Interval( 1, 5, 20 ), new Interval( 3, 8, 15 ), new Interval( 7, 10, 8 ) };\\nexpectedOutput = { new Interval( 1, 3, 20 ), new Interval( 3, 7, 15 ), new Interval(7,10,8)};\\n\\nI solved first question starting with brute force recursive approach and was able to pass all the test cases. Then I was telling optimized solution by memoization and bottom up tabulation but interviewer said brute force is fine and moved to 2nd Question.\\nFor 2nd question I was not able to solved it completely interviewer was friendly and gave me hints after hints I was able to write code completely but was not able to run it as time was over.\\nInterviewer was pushing me to write production level code eg. appropriate variable names, function names for eg. I used i, j for row , column for 1st question he asked me to change it to row, column.\\n\\nAfter 3 days I got email for Superday."
+      },
+      {
+        name: "Superday - Round 1: Data Structures and Algorithms",
+        content: "My superday had 3 rounds of 45 mins each.\\n\\n2 Interviewers joined the call. Started with introduction. Then asked role specific questios like 1) How will you setup mongoDB cluster? 2) How will you configure your application for MongoDB using Springboot.\\nDSA question asked was as follows :-\\nList indicating a book. Each element in the list represents one page of the book. The page is space delimited.\\nList Glossary word list\\nOutput: Create a glossary for each word in the glossary list which indicates page\\nnumbers where the word occurs.\\n\\nI was able to solve this question. Then as time was still left so they asked question what if you have huge data and limited CPU RAM how will your sort the data? -> I told merge sort and discussing on the same."
+      },
+      {
+        name: "Superday - Round 2: Resume Depth",
+        content: "Interviewer grilled on resume. I struggled to answer few questions like I worked on TOCTOU issue and for resolving this issue I used atomicOperation. Then interviewer went to underlying details of atomic operations how it works and how will you implement atomic operation function\\nand then taking this question to hashMap about how will handle concurrnecy in hashMap? I was not able to answer this question thoroughly."
+      },
+      {
+        name: "Superday - Round 3: Design and Architecture",
+        content: "I was asked Design Rate Limiter.\\nI was able to design but at the end while discussing about scalability I failed to answer one question which what will you if your redis cache is out of memory? I knew concept of data sharding but got blank not able to answer it properly."
+      },
+      {
+        name: "Verdict",
+        content: "I got rejection email after 3 weeks. ❌"
+      }
+    ]
+  }
 ];
 
 const SAMPLE_DATA = [
@@ -1459,6 +1459,7 @@ export default function App() {
   // --- State ---
   const [questions, setQuestions] = useState(SAMPLE_DATA);
   const [completed, setCompleted] = useState({});
+  const [readExperiences, setReadExperiences] = useState({});
   const [user, setUser] = useState(null);
 
   const [activeTab, setActiveTab] = useState('tracker'); // 'tracker' or 'experiences'
@@ -1529,6 +1530,22 @@ export default function App() {
     }
   }, [completed]);
 
+  // 4. Load/Save Read Experiences
+  useEffect(() => {
+    const savedRead = localStorage.getItem('gs-tracker-read-experiences');
+    if (savedRead) {
+      try {
+        setReadExperiences(JSON.parse(savedRead));
+      } catch (e) {
+        console.error('Error loading read experiences');
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('gs-tracker-read-experiences', JSON.stringify(readExperiences));
+  }, [readExperiences]);
+
   // --- Handlers ---
 
   const handleGetHint = async (question) => {
@@ -1585,6 +1602,13 @@ export default function App() {
       ...prev,
       content: response,
       isLoading: false
+    }));
+  };
+
+  const toggleReadExperience = (id) => {
+    setReadExperiences(prev => ({
+      ...prev,
+      [id]: !prev[id]
     }));
   };
 
@@ -2031,47 +2055,62 @@ export default function App() {
 
         {activeTab === 'experiences' && (
           <div className="space-y-6">
-            {INTERVIEW_EXPERIENCES.map((exp) => (
-              <Card key={exp.id} className="overflow-hidden">
-                <div className="p-6 bg-white">
-                  <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-6 border-b border-slate-100 pb-6">
-                    <div>
-                      <h2 className="text-xl font-bold text-slate-900">{exp.role} Interview Experience</h2>
-                      <div className="flex flex-wrap items-center gap-4 mt-2 text-sm text-slate-500">
-                        <div className="flex items-center gap-1.5">
-                          <User className="w-4 h-4" />
-                          {exp.author}
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <Briefcase className="w-4 h-4" />
-                          YOE: {exp.yoe}
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <Calendar className="w-4 h-4" />
-                          {exp.date}
+            {INTERVIEW_EXPERIENCES.map((exp) => {
+              const isRead = !!readExperiences[exp.id];
+              return (
+                <Card key={exp.id} className={`overflow-hidden transition-all duration-300 ${isRead ? 'opacity-80' : ''}`}>
+                  <div className={`p-6 bg-white transition-colors duration-300 ${isRead ? 'bg-slate-50/50' : ''}`}>
+                    <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-6 border-b border-slate-100 pb-6">
+                      <div className="flex items-start gap-4">
+                        <button
+                          onClick={() => toggleReadExperience(exp.id)}
+                          className={`mt-1 p-1 rounded-full transition-all duration-200 flex-shrink-0 ${isRead ? 'text-green-600 bg-green-50 hover:bg-green-100' : 'text-slate-300 hover:text-slate-400 hover:bg-slate-100'}`}
+                          title={isRead ? "Mark as unread" : "Mark as read"}
+                        >
+                          {isRead ? <CheckCircle2 className="w-6 h-6" /> : <Circle className="w-6 h-6" />}
+                        </button>
+                        <div className="flex-1">
+                          <div className="flex items-center gap-3">
+                            <h2 className={`text-xl font-bold transition-colors duration-300 ${isRead ? 'text-slate-600 line-through decoration-slate-400' : 'text-slate-900'}`}>{exp.role} Interview Experience</h2>
+                            {isRead && <span className="text-xs font-bold text-green-700 bg-green-100 px-2 py-0.5 rounded-full border border-green-200">Read</span>}
+                          </div>
+                          <div className="flex flex-wrap items-center gap-4 mt-2 text-sm text-slate-500">
+                            <div className="flex items-center gap-1.5">
+                              <User className="w-4 h-4" />
+                              {exp.author}
+                            </div>
+                            <div className="flex items-center gap-1.5">
+                              <Briefcase className="w-4 h-4" />
+                              YOE: {exp.yoe}
+                            </div>
+                            <div className="flex items-center gap-1.5">
+                              <Calendar className="w-4 h-4" />
+                              {exp.date}
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div className="space-y-6">
-                    {exp.rounds.map((round, idx) => (
-                      <div key={idx} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
-                        <div className="flex items-center gap-2 mb-3">
-                          <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">
-                            {idx + 1}
+                    <div className="space-y-6">
+                      {exp.rounds.map((round, idx) => (
+                        <div key={idx} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
+                          <div className="flex items-center gap-2 mb-3">
+                            <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm">
+                              {idx + 1}
+                            </div>
+                            <h3 className="font-semibold text-slate-900">{round.name}</h3>
                           </div>
-                          <h3 className="font-semibold text-slate-900">{round.name}</h3>
+                          <div className="pl-10 text-slate-700 whitespace-pre-wrap leading-relaxed text-sm">
+                            {round.content}
+                          </div>
                         </div>
-                        <div className="pl-10 text-slate-700 whitespace-pre-wrap leading-relaxed text-sm">
-                          {round.content}
-                        </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </Card>
-            ))}
+                </Card>
+              );
+            })}
           </div>
         )}
 
