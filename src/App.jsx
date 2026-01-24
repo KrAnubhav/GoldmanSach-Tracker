@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { 
-  PieChart, 
-  CheckCircle2, 
-  Circle, 
-  BarChart3, 
-  Upload, 
-  Search, 
-  Filter, 
+import {
+  PieChart,
+  CheckCircle2,
+  Circle,
+  BarChart3,
+  Upload,
+  Search,
+  Filter,
   ExternalLink,
   Trophy,
   BrainCircuit,
@@ -30,10 +30,21 @@ import { getAuth, signInAnonymously, onAuthStateChanged, signInWithCustomToken }
 import { getFirestore, doc, setDoc, deleteDoc, collection, onSnapshot } from "firebase/firestore";
 
 // --- Firebase Configuration ---
-const firebaseConfig = JSON.parse(__firebase_config);
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+let app, auth, db;
+let firebaseEnabled = false;
+
+try {
+  if (typeof __firebase_config !== 'undefined' && __firebase_config && __firebase_config !== '{}') {
+    const firebaseConfig = JSON.parse(__firebase_config);
+    app = initializeApp(firebaseConfig);
+    auth = getAuth(app);
+    db = getFirestore(app);
+    firebaseEnabled = true;
+  }
+} catch (error) {
+  console.warn('Firebase not configured. Running without cloud sync.');
+}
+
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 
 // --- Gemini API Configuration ---
@@ -123,7 +134,7 @@ const AIModal = ({ isOpen, onClose, title, content, isLoading }) => {
           )}
         </div>
         <div className="p-4 border-t border-slate-100 bg-slate-50 flex justify-end">
-          <button 
+          <button
             onClick={onClose}
             className="px-4 py-2 bg-white border border-slate-200 text-slate-700 font-medium rounded-lg hover:bg-slate-100 transition-colors"
           >
@@ -140,12 +151,12 @@ const AIModal = ({ isOpen, onClose, title, content, isLoading }) => {
 const parseCSV = (text) => {
   const lines = text.split('\n').filter(l => l.trim());
   const startIdx = lines[0].toLowerCase().includes('title') ? 1 : 0;
-  
+
   return lines.slice(startIdx).map(line => {
     const values = [];
     let inQuote = false;
     let currentValue = '';
-    
+
     for (let i = 0; i < line.length; i++) {
       const char = line[i];
       if (char === '"') {
@@ -416,7 +427,7 @@ export default function App() {
   const [questions, setQuestions] = useState(SAMPLE_DATA);
   const [completed, setCompleted] = useState({});
   const [user, setUser] = useState(null);
-  
+
   const [activeTab, setActiveTab] = useState('tracker'); // 'tracker' or 'experiences'
 
   const [filterDifficulty, setFilterDifficulty] = useState('All');
@@ -433,11 +444,28 @@ export default function App() {
 
   // 1. Auth Initialization
   useEffect(() => {
+    if (!firebaseEnabled) {
+      // Use localStorage without Firebase
+      const savedProgress = localStorage.getItem('gs-tracker-progress');
+      if (savedProgress) {
+        try {
+          setCompleted(JSON.parse(savedProgress));
+        } catch (e) {
+          console.error('Error loading progress from localStorage');
+        }
+      }
+      return;
+    }
+
     const initAuth = async () => {
-      if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
-        await signInWithCustomToken(auth, __initial_auth_token);
-      } else {
-        await signInAnonymously(auth);
+      try {
+        if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+          await signInWithCustomToken(auth, __initial_auth_token);
+        } else {
+          await signInAnonymously(auth);
+        }
+      } catch (error) {
+        console.error('Firebase auth error:', error);
       }
     };
     initAuth();
@@ -447,7 +475,7 @@ export default function App() {
 
   // 2. Data Synchronization (Firestore)
   useEffect(() => {
-    if (!user) return;
+    if (!firebaseEnabled || !user) return;
     const q = collection(db, 'artifacts', appId, 'users', user.uid, 'progress');
     const unsubscribe = onSnapshot(q, (snapshot) => {
       const newCompleted = {};
@@ -461,14 +489,21 @@ export default function App() {
     return () => unsubscribe();
   }, [user]);
 
+  // 3. Save to localStorage when not using Firebase
+  useEffect(() => {
+    if (!firebaseEnabled) {
+      localStorage.setItem('gs-tracker-progress', JSON.stringify(completed));
+    }
+  }, [completed]);
+
   // --- Handlers ---
 
   const handleGetHint = async (question) => {
-    setAiModal({ 
-      isOpen: true, 
-      title: `Hint for "${question.title}"`, 
-      content: '', 
-      isLoading: true 
+    setAiModal({
+      isOpen: true,
+      title: `Hint for "${question.title}"`,
+      content: '',
+      isLoading: true
     });
 
     const prompt = `I am trying to solve the LeetCode problem "${question.title}" (Difficulty: ${question.difficulty}). 
@@ -478,26 +513,26 @@ export default function App() {
 
     const response = await callGemini(prompt);
 
-    setAiModal(prev => ({ 
-      ...prev, 
-      content: response, 
-      isLoading: false 
+    setAiModal(prev => ({
+      ...prev,
+      content: response,
+      isLoading: false
     }));
   };
 
   const handleGenerateStudyPlan = async () => {
-    setAiModal({ 
-      isOpen: true, 
-      title: "✨ Personalized Study Plan", 
-      content: '', 
-      isLoading: true 
+    setAiModal({
+      isOpen: true,
+      title: "✨ Personalized Study Plan",
+      content: '',
+      isLoading: true
     });
 
     const incomplete = questions
       .filter(q => !completed[q.id])
       .sort((a, b) => b.frequency - a.frequency)
       .slice(0, 5);
-    
+
     const statsStr = `Solved ${Object.values(completed).filter(Boolean).length} out of ${questions.length} total questions.`;
     const topMissed = incomplete.map(q => `- ${q.title} (${q.difficulty})`).join('\n');
 
@@ -513,10 +548,10 @@ export default function App() {
 
     const response = await callGemini(prompt);
 
-    setAiModal(prev => ({ 
-      ...prev, 
-      content: response, 
-      isLoading: false 
+    setAiModal(prev => ({
+      ...prev,
+      content: response,
+      isLoading: false
     }));
   };
 
@@ -532,13 +567,13 @@ export default function App() {
         const parsed = parseCSV(e.target.result);
         if (parsed.length > 0) {
           setQuestions(prev => {
-             const newQs = [...prev];
-             parsed.forEach(p => {
-               if (!newQs.find(q => q.id === p.id)) {
-                 newQs.push(p);
-               }
-             });
-             return newQs;
+            const newQs = [...prev];
+            parsed.forEach(p => {
+              if (!newQs.find(q => q.id === p.id)) {
+                newQs.push(p);
+              }
+            });
+            return newQs;
           });
         }
       } catch (err) {
@@ -549,6 +584,20 @@ export default function App() {
   };
 
   const toggleComplete = async (id) => {
+    if (!firebaseEnabled) {
+      // Use localStorage
+      setCompleted(prev => {
+        const newCompleted = { ...prev };
+        if (newCompleted[id]) {
+          delete newCompleted[id];
+        } else {
+          newCompleted[id] = true;
+        }
+        return newCompleted;
+      });
+      return;
+    }
+
     if (!user) return;
     const docRef = doc(db, 'artifacts', appId, 'users', user.uid, 'progress', id);
     try {
@@ -574,7 +623,7 @@ export default function App() {
   const stats = useMemo(() => {
     const total = questions.length;
     const done = Object.values(completed).filter(Boolean).length;
-    
+
     const byDiff = questions.reduce((acc, q) => {
       acc[q.difficulty] = (acc[q.difficulty] || 0) + 1;
       if (completed[q.id]) {
@@ -651,14 +700,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 pb-20">
-      <AIModal 
-        isOpen={aiModal.isOpen} 
+      <AIModal
+        isOpen={aiModal.isOpen}
         onClose={() => setAiModal(prev => ({ ...prev, isOpen: false }))}
         title={aiModal.title}
         content={aiModal.content}
         isLoading={aiModal.isLoading}
       />
-      
+
       {/* Header */}
       <div className="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-0">
@@ -674,7 +723,7 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-3">
-              <label 
+              <label
                 className={`
                   flex items-center gap-2 px-4 py-2 rounded-lg border cursor-pointer transition-colors
                   ${isDragOver ? 'bg-blue-50 border-blue-300 ring-2 ring-blue-100' : 'bg-white border-slate-200 hover:bg-slate-50'}
@@ -694,7 +743,7 @@ export default function App() {
               </label>
             </div>
           </div>
-          
+
           {/* Navigation Tabs */}
           <div className="flex gap-2 border-t border-slate-100 pt-1">
             <TabButton id="tracker" label="Problem Tracker" icon={List} />
@@ -729,8 +778,8 @@ export default function App() {
                     </div>
                     <ProgressBar current={stats.done} max={stats.total} colorClass="bg-blue-600" />
                   </div>
-                  
-                  <button 
+
+                  <button
                     onClick={handleGenerateStudyPlan}
                     className="w-full flex items-center justify-center gap-2 py-2 px-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg text-sm font-medium shadow-md hover:shadow-lg hover:scale-[1.02] transition-all"
                   >
@@ -784,8 +833,8 @@ export default function App() {
             <div className="flex flex-col xl:flex-row gap-4">
               <div className="relative flex-1">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   placeholder="Search by title or ID..."
                   className="w-full pl-10 pr-4 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
                   value={searchQuery}
@@ -793,7 +842,7 @@ export default function App() {
                 />
               </div>
               <div className="flex flex-wrap gap-2">
-                <select 
+                <select
                   className="px-4 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 text-sm font-medium text-slate-700 cursor-pointer"
                   value={filterDifficulty}
                   onChange={(e) => setFilterDifficulty(e.target.value)}
@@ -803,7 +852,7 @@ export default function App() {
                   <option value="Medium">Medium</option>
                   <option value="Hard">Hard</option>
                 </select>
-                <select 
+                <select
                   className="px-4 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 text-sm font-medium text-slate-700 cursor-pointer"
                   value={filterTopic}
                   onChange={(e) => setFilterTopic(e.target.value)}
@@ -813,7 +862,7 @@ export default function App() {
                     <option key={t} value={t}>{t}</option>
                   ))}
                 </select>
-                <select 
+                <select
                   className="px-4 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/20 text-sm font-medium text-slate-700 cursor-pointer"
                   value={filterStatus}
                   onChange={(e) => setFilterStatus(e.target.value)}
@@ -834,7 +883,7 @@ export default function App() {
                       <th className="px-6 py-3 w-12 text-center">
                         <CheckCircle2 className="w-4 h-4 text-slate-400 mx-auto" />
                       </th>
-                      <th 
+                      <th
                         className="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider cursor-pointer hover:bg-slate-100 transition-colors"
                         onClick={() => handleSort('id')}
                       >
@@ -842,19 +891,19 @@ export default function App() {
                       </th>
                       <th className="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-1/3">Title</th>
                       <th className="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Topic</th>
-                      <th 
+                      <th
                         className="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider cursor-pointer hover:bg-slate-100 transition-colors"
                         onClick={() => handleSort('difficulty')}
                       >
                         <div className="flex items-center gap-1">Difficulty <SortIcon column="difficulty" /></div>
                       </th>
-                      <th 
+                      <th
                         className="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider cursor-pointer hover:bg-slate-100 transition-colors"
                         onClick={() => handleSort('acceptance')}
                       >
                         <div className="flex items-center gap-1">Acceptance <SortIcon column="acceptance" /></div>
                       </th>
-                      <th 
+                      <th
                         className="px-6 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider cursor-pointer hover:bg-slate-100 transition-colors"
                         onClick={() => handleSort('frequency')}
                       >
@@ -874,16 +923,15 @@ export default function App() {
                       filteredQuestions.map((q) => {
                         const isDone = !!completed[q.id];
                         return (
-                          <tr 
-                            key={q.id} 
+                          <tr
+                            key={q.id}
                             className={`group transition-colors hover:bg-slate-50 ${isDone ? 'bg-slate-50/50' : ''}`}
                           >
                             <td className="px-6 py-4 text-center">
                               <button
                                 onClick={() => toggleComplete(q.id)}
-                                className={`p-1 rounded-full transition-colors ${
-                                  isDone ? 'text-blue-600 bg-blue-50' : 'text-slate-300 hover:text-slate-400'
-                                }`}
+                                className={`p-1 rounded-full transition-colors ${isDone ? 'text-blue-600 bg-blue-50' : 'text-slate-300 hover:text-slate-400'
+                                  }`}
                               >
                                 {isDone ? <CheckCircle2 className="w-5 h-5" /> : <Circle className="w-5 h-5" />}
                               </button>
@@ -908,7 +956,7 @@ export default function App() {
                             <td className="px-6 py-4">
                               <div className="flex items-center gap-2">
                                 <div className="h-1.5 w-12 bg-slate-100 rounded-full overflow-hidden">
-                                  <div 
+                                  <div
                                     className="h-full bg-blue-500 rounded-full"
                                     style={{ width: `${Math.min(q.frequency * 50, 100)}%` }}
                                   />
@@ -926,9 +974,9 @@ export default function App() {
                                   <Sparkles className="w-3 h-3" />
                                   <span className="hidden sm:inline">Hint</span>
                                 </button>
-                                <a 
-                                  href={q.link} 
-                                  target="_blank" 
+                                <a
+                                  href={q.link}
+                                  target="_blank"
                                   rel="noopener noreferrer"
                                   className={`inline-flex items-center gap-1 text-sm font-medium transition-colors px-2 py-1 rounded hover:bg-blue-50 ${q.link === '#' ? 'text-slate-400 cursor-not-allowed' : 'text-blue-600 hover:text-blue-800'}`}
                                   onClick={e => q.link === '#' && e.preventDefault()}
