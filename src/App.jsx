@@ -334,7 +334,7 @@ const INTERVIEW_EXPERIENCES = [
     rounds: [
       {
         name: "About Me",
-        content: "Education: B.Tech in Computer Science (Tier-2 College)\\nCurrent Role: SDE-1 at a major startup\\nExperience: 1.2 years of full-time experience"
+        content: "Education: B.Tech in Computer Science (Tier-2 College)\nCurrent Role: SDE-1 at a major startup\nExperience: 1.2 years of full-time experience"
       },
       {
         name: "Application",
@@ -342,15 +342,15 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "Round 1 - Online Assessment (HackerRank)",
-        content: "There were 2 coding questions:\\nQ1: Easy-level math-based question involving modular arithmetic.\\nQ2: Array + logic-based combinatorics problem (medium difficulty).\\nI was able to solve both completely."
+        content: "There were 2 coding questions:\nQ1: Easy-level math-based question involving modular arithmetic.\nQ2: Array + logic-based combinatorics problem (medium difficulty).\nI was able to solve both completely."
       },
       {
         name: "Round 2 - CoderPad Technical Round",
-        content: "Platform: CoderPad (Live Coding)\\nQ1: Max IP Count problem - involved handling log data and finding the IP address with maximum count. Discussed multiple follow-ups and corner cases.\\nQ2: Grid-based Dynamic Programming problem - standard variation requiring counting paths with maximum value (classic DP grid traversal pattern).\\nI solved both problems, though I was slightly stuck on one of the follow-up questions in Problem 1."
+        content: "Platform: CoderPad (Live Coding)\nQ1: Max IP Count problem - involved handling log data and finding the IP address with maximum count. Discussed multiple follow-ups and corner cases.\nQ2: Grid-based Dynamic Programming problem - standard variation requiring counting paths with maximum value (classic DP grid traversal pattern).\nI solved both problems, though I was slightly stuck on one of the follow-up questions in Problem 1."
       },
       {
         name: "Round 3 - Superday Round (Data Structures)",
-        content: "This was a live virtual panel round with 2 interviewers.\\nQ1: Median of Two Sorted Arrays - discussed brute-force, optimal binary search approach, and time/space complexity.\\nQ2: Longest Substring Without Repeating Characters - explained brute-force and optimized sliding window approach, also covered complexity analysis.\\nRound went well - I was able to explain my thought process, and the interviewer seemed satisfied, mentioning \\"good\\" a couple of times."
+        content: "This was a live virtual panel round with 2 interviewers.\nQ1: Median of Two Sorted Arrays - discussed brute-force, optimal binary search approach, and time/space complexity.\nQ2: Longest Substring Without Repeating Characters - explained brute-force and optimized sliding window approach, also covered complexity analysis.\nRound went well - I was able to explain my thought process, and the interviewer seemed satisfied, mentioning 'good' a couple of times."
       },
       {
         name: "Result",
@@ -367,31 +367,31 @@ const INTERVIEW_EXPERIENCES = [
     rounds: [
       {
         name: "Interview Details",
-        content: "Interview Mode: Online\\nMonth: June 2025 - August 2025\\nProcess: Online Assessment + 4 Rounds (Technical ~1 hour) + HM round (~30 min)\\nLocation: Bangalore\\nYOE: 3 years"
+        content: "Interview Mode: Online\nMonth: June 2025 - August 2025\nProcess: Online Assessment + 4 Rounds (Technical ~1 hour) + HM round (~30 min)\nLocation: Bangalore\nYOE: 3 years"
       },
       {
         name: "Online Assessment",
-        content: "2 Questions (LeetCode style)\\n1 easy\\n1 medium (time complexity focused)\\nCleared and got mail in ~3 days for interviews."
+        content: "2 Questions (LeetCode style)\n1 easy\n1 medium (time complexity focused)\nCleared and got mail in ~3 days for interviews."
       },
       {
         name: "Round 1 (Technical DSA ~1 hour)",
-        content: "Asked 2 DSA questions (coding on shared editor):\\nProblem 1: Given a string representing a fraction, e.g., \\"2/5\\", return the decimal representation of that fraction. It can have negative value as well, e.g., \\"-2/5\\"\\nOutput:- 2/3 → \\"0.(6) \\"\\nProblem 2: Didn't fully recall, but it was linked list easy-medium.\\nTest cases were already there in the boiler plate code, I have to pass all of them.\\nAfter 2 weeks I got an email for superday rounds."
+        content: "Asked 2 DSA questions (coding on shared editor):\nProblem 1: Given a string representing a fraction, e.g., \"2/5\", return the decimal representation of that fraction. It can have negative value as well, e.g., \"-2/5\"\nOutput:- 2/3 → \"0.(6) \"\nProblem 2: Didn't fully recall, but it was linked list easy-medium.\nTest cases were already there in the boiler plate code, I have to pass all of them.\nAfter 2 weeks I got an email for superday rounds."
       },
       {
         name: "Superday Round 1 (DSA ~1 hour)",
-        content: "Q1: Check if the string has a cycle or not (I have to write the optimized code).\\nQ2: Build a calculator → Given a string \\"(2 * 5 + 7) \\", return evaluated integer. It was a bit lenghty as interviewer told in between that it can have brackets as well.\\nHad to parse the expression, handle precedence of operators.\\nI was able to solve both the questions."
+        content: "Q1: Check if the string has a cycle or not (I have to write the optimized code).\nQ2: Build a calculator → Given a string \"(2 * 5 + 7) \", return evaluated integer. It was a bit lenghty as interviewer told in between that it can have brackets as well.\nHad to parse the expression, handle precedence of operators.\nI was able to solve both the questions."
       },
       {
         name: "Superday Round 2 (DSA + System Design Lite)",
-        content: "Q1 (Dynamic Programming): 2D array → Find maximum value travelling only diagonally up, diagonally down, or right. I told the recursion and then solved it using optimized approach. Few follow-up questions, if directions are changed.\\nQ2 (Data Structures):\\nGiven a log file of store visits → build a data structure to efficiently query if ≥2 different customers visited the same store on a given day. I wrote a Data structure using Map and Set.\\nFollow-ups:\\nHow to implement using DB or any other way?\\nTrade-offs in approach (space vs query efficiency)."
+        content: "Q1 (Dynamic Programming): 2D array → Find maximum value travelling only diagonally up, diagonally down, or right. I told the recursion and then solved it using optimized approach. Few follow-up questions, if directions are changed.\nQ2 (Data Structures):\nGiven a log file of store visits → build a data structure to efficiently query if ≥2 different customers visited the same store on a given day. I wrote a Data structure using Map and Set.\nFollow-ups:\nHow to implement using DB or any other way?\nTrade-offs in approach (space vs query efficiency)."
       },
       {
         name: "Superday Round 3 (System Design – Twitter Clone)",
-        content: "Design Twitter:\\nFirst half → LLD (Classes & Models): Users, Tweets, Follows.\\nSecond half → HLD (Scalability):\\nHow to notify millions of users simultaneously.\\nDiscussion on queues, database usage, caching, scaling, microservices, kafka.\\nI cleared all the rounds, after an hour I got the call for HM round."
+        content: "Design Twitter:\nFirst half → LLD (Classes & Models): Users, Tweets, Follows.\nSecond half → HLD (Scalability):\nHow to notify millions of users simultaneously.\nDiscussion on queues, database usage, caching, scaling, microservices, kafka.\nI cleared all the rounds, after an hour I got the call for HM round."
       },
       {
         name: "Superday Round 4 (Hiring Manager)",
-        content: "Deep dive into recent project architecture.\\nQuestions on Agile methodology:\\nPros & cons, handling sprint delays.\\nLeadership & Situational:\\nExample: Handling conflicts in team, prioritizing features vs deadlines.\\nPS:- I have got the offer :)"
+        content: "Deep dive into recent project architecture.\nQuestions on Agile methodology:\nPros & cons, handling sprint delays.\nLeadership & Situational:\nExample: Handling conflicts in team, prioritizing features vs deadlines.\nPS:- I have got the offer :)"
       }
     ]
   },
@@ -412,23 +412,23 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "CoderPad - 1 (1 Hr C++)",
-        content: "Trie based question\\nSimple Dfs based question"
+        content: "Trie based question\nSimple Dfs based question"
       },
       {
         name: "Round - 1 (DSA)(1 Hr C++)",
-        content: "Some resume based questions\\nDsa question - based on hashmap\\nBinary Search tree question + two pointers"
+        content: "Some resume based questions\nDsa question - based on hashmap\nBinary Search tree question + two pointers"
       },
       {
         name: "Round - 2",
-        content: "Resume Based questions\\nJava concurrency problem\\nsql questions\\n1 Dsa question - leetcode medium"
+        content: "Resume Based questions\nJava concurrency problem\nsql questions\n1 Dsa question - leetcode medium"
       },
       {
         name: "Round - 3(1 Hr)",
-        content: "Some resume based questions\\nHLD - Design a upload portal for internal users"
+        content: "Some resume based questions\nHLD - Design a upload portal for internal users"
       },
       {
         name: "Round - 4(30 Min)",
-        content: "Related to parking lot : focuced on how to calculate price efficiently on prices calculation if we have different pricing strategy on weekdays and weekends. Also based on week hour (9am-5am)\\nThis is the round that got me rejected - Interviewer was weird didnt respond very well whenever i was asking clarifying question"
+        content: "Related to parking lot : focuced on how to calculate price efficiently on prices calculation if we have different pricing strategy on weekdays and weekends. Also based on week hour (9am-5am)\nThis is the round that got me rejected - Interviewer was weird didnt respond very well whenever i was asking clarifying question"
       }
     ]
   },
@@ -441,7 +441,7 @@ const INTERVIEW_EXPERIENCES = [
     rounds: [
       {
         name: "Background",
-        content: "Current Company - Service Based\\nCurrent Compensation - 8 LPA\\nYOE - 3 yrs\\nI applied directly on their portal and recruiter reached out to me and shared a test link which was on HackerRank."
+        content: "Current Company - Service Based\nCurrent Compensation - 8 LPA\nYOE - 3 yrs\nI applied directly on their portal and recruiter reached out to me and shared a test link which was on HackerRank."
       },
       {
         name: "1st Round - OA",
@@ -449,11 +449,11 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "2nd Round - Coding(Codepad)",
-        content: "Interviewer came up with 2 questions\\nFirst unique character in a string\\nFind the integer in rotated sorted order.\\nInterviewer expected the most optimal code and I was able to solve both and all the test cases were passing. It was over within 30 minutes.\\nSelected for next round. Recruiter told me he will schedule next interview within 1 week.\\nAfter a week I had Super Day. Three rounds in a day."
+        content: "Interviewer came up with 2 questions\nFirst unique character in a string\nFind the integer in rotated sorted order.\nInterviewer expected the most optimal code and I was able to solve both and all the test cases were passing. It was over within 30 minutes.\nSelected for next round. Recruiter told me he will schedule next interview within 1 week.\nAfter a week I had Super Day. Three rounds in a day."
       },
       {
         name: "SuperDay Round 1 (DSA)",
-        content: "Here there were 2 interviewers both asked 1 question\\nDesign a Data Structure to update, return and change all the values. All the method should be in O(1) time complexity.\\nGiven an array and k value you can only take values either from front or back. Output the maximum sum.\\nI was able to partially solve first but completed 2nd with all test case passed."
+        content: "Here there were 2 interviewers both asked 1 question\nDesign a Data Structure to update, return and change all the values. All the method should be in O(1) time complexity.\nGiven an array and k value you can only take values either from front or back. Output the maximum sum.\nI was able to partially solve first but completed 2nd with all test case passed."
       },
       {
         name: "SuperDay Round 2 (Low Level Design)",
@@ -461,7 +461,7 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "SuperDay Round 3 (High Level Design)",
-        content: "Design a monitoring tool.\\nI was not able to answer in this round as my second round didn't went well and in this round I was not able to tell anything."
+        content: "Design a monitoring tool.\nI was not able to answer in this round as my second round didn't went well and in this round I was not able to tell anything."
       },
       {
         name: "Verdict",
@@ -478,7 +478,7 @@ const INTERVIEW_EXPERIENCES = [
     rounds: [
       {
         name: "Background",
-        content: "4 YoE, India\\nRecruiter reached out from Naukri\\nTeam: Compliance Engineering"
+        content: "4 YoE, India\nRecruiter reached out from Naukri\nTeam: Compliance Engineering"
       },
       {
         name: "Structure",
@@ -490,15 +490,15 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "Round 0: CoderPad Interview (1 hr)",
-        content: "Q1: First Unique Character in a String\\nLeetCode Easy: https://leetcode.com/problems/first-unique-character-in-a-string/description/\\nChosen Approach: Two-Pass Fixed-Size Frequency Array; O(N)\\nQ2: Trapping Rain Water\\nLeetcode Hard: https://leetcode.com/problems/trapping-rain-water/description/\\nChosen Approach: Two-pointer scan from both ends, updating bounds and accumulating water.\\nCoded the most optimal solution for both with test cases passed."
+        content: "Q1: First Unique Character in a String\nLeetCode Easy: https://leetcode.com/problems/first-unique-character-in-a-string/description/\nChosen Approach: Two-Pass Fixed-Size Frequency Array; O(N)\nQ2: Trapping Rain Water\nLeetcode Hard: https://leetcode.com/problems/trapping-rain-water/description/\nChosen Approach: Two-pointer scan from both ends, updating bounds and accumulating water.\nCoded the most optimal solution for both with test cases passed."
       },
       {
         name: "SuperDay Round 1: Data Structures (1 hr)",
-        content: "Q1: Reverse Single-Linked-List in k-Groups\\nLeetCode Hard: https://leetcode.com/problems/reverse-nodes-in-k-group/\\nQ2: Longest Increasing Subsequence\\nLeetCode Medium: https://leetcode.com/problems/longest-increasing-subsequence/description/"
+        content: "Q1: Reverse Single-Linked-List in k-Groups\nLeetCode Hard: https://leetcode.com/problems/reverse-nodes-in-k-group/\nQ2: Longest Increasing Subsequence\nLeetCode Medium: https://leetcode.com/problems/longest-increasing-subsequence/description/"
       },
       {
         name: "SuperDay Round 2: Software Engineering Practices or DSA (1 hr)",
-        content: "Q1: Shortest Path with K Hops/ Free Edges\\nLeetCode Hard: https://leetcode.com/problems/find-shortest-path-with-k-hops/description/\\nCould only code Q1 in 1 hr, so not proceeded to Round 3"
+        content: "Q1: Shortest Path with K Hops/ Free Edges\nLeetCode Hard: https://leetcode.com/problems/find-shortest-path-with-k-hops/description/\nCould only code Q1 in 1 hr, so not proceeded to Round 3"
       },
       {
         name: "Verdict",
@@ -519,11 +519,11 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "Round 1 - Online Assessment",
-        content: "Q1 - A question from stack which involved removing substrings if a same character is appearing more than or equal to k times\\nQ2 - A queue based question (simulated what was given in problem statement)"
+        content: "Q1 - A question from stack which involved removing substrings if a same character is appearing more than or equal to k times\nQ2 - A queue based question (simulated what was given in problem statement)"
       },
       {
         name: "Round 2 - Coderpad",
-        content: "Q1 - Standard Grid DP\\nQ2 - Given N Sorted Arrays , Merge them in sorted fashion"
+        content: "Q1 - Standard Grid DP\nQ2 - Given N Sorted Arrays , Merge them in sorted fashion"
       },
       {
         name: "Superday - Round 3 - Data Structures",
@@ -552,15 +552,15 @@ const INTERVIEW_EXPERIENCES = [
     rounds: [
       {
         name: "🟢 Round 1 – Technical + HR Blend",
-        content: "This was my first-ever interview, and I was honestly nervous. But the interviewer made me feel at ease from the start.\\n❓ Question: Tell me something that's not in your resume\\nI spoke about my role as the Technical Head at QCM, where we manage the club's website, conduct quizzes, and handle role-based access. This led to a long technical discussion.\\n💬 We discussed:\\nHow we store quiz data\\nUse of Apprite as BaaS\\nRole-Based Access (RBA)\\nHow quizzes are conducted through our platform\\n🧠 DSA Question:\\nGiven two strings A and B, find the minimum length substring of A that contains all characters of B (order doesn't matter).\\nMy Approach:\\nStarted with a brute-force O(n²) solution and wrote the code\\nThen optimized it using two-pointer sliding window, explained the logic clearly\\nThe interviewer was happy with the explanation — no need to write the optimized code\\nWe ended with a few HR questions like:\\nTell me about a time you faced conflict in a team\\nHow did you resolve it?"
+        content: "This was my first-ever interview, and I was honestly nervous. But the interviewer made me feel at ease from the start.\n❓ Question: Tell me something that's not in your resume\nI spoke about my role as the Technical Head at QCM, where we manage the club's website, conduct quizzes, and handle role-based access. This led to a long technical discussion.\n💬 We discussed:\nHow we store quiz data\nUse of Apprite as BaaS\nRole-Based Access (RBA)\nHow quizzes are conducted through our platform\n🧠 DSA Question:\nGiven two strings A and B, find the minimum length substring of A that contains all characters of B (order doesn't matter).\nMy Approach:\nStarted with a brute-force O(n²) solution and wrote the code\nThen optimized it using two-pointer sliding window, explained the logic clearly\nThe interviewer was happy with the explanation — no need to write the optimized code\nWe ended with a few HR questions like:\nTell me about a time you faced conflict in a team\nHow did you resolve it?"
       },
       {
         name: "🔵 Round 2 – Core DSA Problem",
-        content: "This round focused purely on DSA.\\n❓ DSA Question:\\nGiven a grid with a start and an end cell. Each cell has some coins. Find a path from start to end such that maximum coins are collected.\\n💡 My Approach:\\nProposed a DFS solution\\nInterviewer asked: \\"Why not BFS?\\"\\nExplained that BFS is suitable for shortest path/minimum-based problems, but for maximization, DFS helps explore all possibilities\\nDiscussed time complexity: exponential due to recursion\\nThen I proposed DP with memoization to optimize the solution\\n💻 Coding:\\nWrote a clean recursive + DP solution with minimal bugs\\nInterviewer was impressed with my clarity and approach"
+        content: "This round focused purely on DSA.\n❓ DSA Question:\nGiven a grid with a start and an end cell. Each cell has some coins. Find a path from start to end such that maximum coins are collected.\n💡 My Approach:\nProposed a DFS solution\nInterviewer asked: 'Why not BFS?'\nExplained that BFS is suitable for shortest path/minimum-based problems, but for maximization, DFS helps explore all possibilities\nDiscussed time complexity: exponential due to recursion\nThen I proposed DP with memoization to optimize the solution\n💻 Coding:\nWrote a clean recursive + DP solution with minimal bugs\nInterviewer was impressed with my clarity and approach"
       },
       {
         name: "🟡 Round 3 – HR + Analytical + Tech",
-        content: "Though it was the HR round, it included some technical discussion too.\\nTopics Covered:\\nDeep dive into my Walmart Sparkathon project\\nAsked what improvements I would make if I rebuilt it from scratch with experience\\n❓ Unexpected Twist:\\nGave me a problem without specifying how to solve it\\nI solved it using a DSA approach, which he appreciated\\nThen he asked me to solve the same using MySQL\\nI struggled at first, but after some hints and back-and-forth, I managed to solve it\\nHe was satisfied with my willingness to learn and adapt\\nHR Questions:\\nWhy should we hire you?\\nWhy is Goldman Sachs important to you?"
+        content: "Though it was the HR round, it included some technical discussion too.\nTopics Covered:\nDeep dive into my Walmart Sparkathon project\nAsked what improvements I would make if I rebuilt it from scratch with experience\n❓ Unexpected Twist:\nGave me a problem without specifying how to solve it\nI solved it using a DSA approach, which he appreciated\nThen he asked me to solve the same using MySQL\nI struggled at first, but after some hints and back-and-forth, I managed to solve it\nHe was satisfied with my willingness to learn and adapt\nHR Questions:\nWhy should we hire you?\nWhy is Goldman Sachs important to you?"
       },
       {
         name: "✅ Final Verdict: Selected",
@@ -568,7 +568,7 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "💭 Final Thoughts",
-        content: "An interview isn't just about getting the correct answer.\\nPeople often treat interviews as one-way evaluations, but they're actually conversations.\\nIf you're solving a problem:\\nSpeak your thoughts aloud\\nKeep the interviewer in the loop\\nAsk for hints if you're stuck — don't let ego stop you\\nInterviewers are not there to trap you — they're there to understand your approach and help you succeed.\\nFeel free to reach out if you're preparing for GS or any similar SDE interviews. Happy to help! 😊"
+        content: "An interview isn't just about getting the correct answer.\nPeople often treat interviews as one-way evaluations, but they're actually conversations.\nIf you're solving a problem:\nSpeak your thoughts aloud\nKeep the interviewer in the loop\nAsk for hints if you're stuck — don't let ego stop you\nInterviewers are not there to trap you — they're there to understand your approach and help you succeed.\nFeel free to reach out if you're preparing for GS or any similar SDE interviews. Happy to help! 😊"
       }
     ]
   },
@@ -581,19 +581,19 @@ const INTERVIEW_EXPERIENCES = [
     rounds: [
       {
         name: "Background",
-        content: "Gave hackerrank test around 1 month ago.\\nAfter a week, got a call for coderpad screening round, after multiple rescheduling it got scheduled on 10th june.\\n1st question for coderpad round was 153. Find Minimum in Rotated Sorted Array and second was 42. Trapping Rain Water (the must do problem for GS) solved both of them correctly along with edge cases.\\nAfter two weeks got call from HR that coderpad round feedback was positive so they scheduled superday for 25th june.\\nEach of the below rounds had two interviewers asking 1-1 ques each."
+        content: "Gave hackerrank test around 1 month ago.\nAfter a week, got a call for coderpad screening round, after multiple rescheduling it got scheduled on 10th june.\n1st question for coderpad round was 153. Find Minimum in Rotated Sorted Array and second was 42. Trapping Rain Water (the must do problem for GS) solved both of them correctly along with edge cases.\nAfter two weeks got call from HR that coderpad round feedback was positive so they scheduled superday for 25th june.\nEach of the below rounds had two interviewers asking 1-1 ques each."
       },
       {
         name: "Round-1 (DSA)",
-        content: "Round-1 consisted of two dsa questions, in the first question you have to design a Music Player Shuffler, You will be given a list of n songs and you have to select the next song to be played \\"Randomly\\"\\nConstraint - the next song selected should not be one of the last 'k' played songs. I was able to come up with multiple approaches but couldn't optimise it properly, required multiple hints\\nSecond question was a variation of 496. Next Greater Element I\\nI was able to come up with optimal approach quickly and coded it correctly.\\nFor both of the questions, they had multiple questions on choice of data structures and time complexity, SC optimisation so be prepared for that."
+        content: "Round-1 consisted of two dsa questions, in the first question you have to design a Music Player Shuffler, You will be given a list of n songs and you have to select the next song to be played 'Randomly'\nConstraint - the next song selected should not be one of the last 'k' played songs. I was able to come up with multiple approaches but couldn't optimise it properly, required multiple hints\nSecond question was a variation of 496. Next Greater Element I\nI was able to come up with optimal approach quickly and coded it correctly.\nFor both of the questions, they had multiple questions on choice of data structures and time complexity, SC optimisation so be prepared for that."
       },
       {
         name: "Round-2 (Software Engineering Practices and SDLC)",
-        content: "Round-2 was supposed to be software engineering practises and SDLC round, but instead had one DSA question and one design, dsa q was based on binary tree and its node value was in form of a coin value(positive or zero). And we needed to make each element of that tree to be 1 at the end. And return the total number of moves required for the optimal approach. Seemed like a leetcode hard level problem, but was able to come up with working solution correctly. I beleive they deliberately tried to give a vague prob statement to check whether the candidate is able to figure out the requirements or not.\\nSecond question was based on HLD plus LLD of designing twitter with some constraints, I was able to explain the high level design aspects along with use of CDN, caching( write through depending on use cases), and other concepts really well. For LLD i listed the various entities required along with the classes, but kind of messed up in the db schema part and the relationships."
+        content: "Round-2 was supposed to be software engineering practises and SDLC round, but instead had one DSA question and one design, dsa q was based on binary tree and its node value was in form of a coin value(positive or zero). And we needed to make each element of that tree to be 1 at the end. And return the total number of moves required for the optimal approach. Seemed like a leetcode hard level problem, but was able to come up with working solution correctly. I beleive they deliberately tried to give a vague prob statement to check whether the candidate is able to figure out the requirements or not.\nSecond question was based on HLD plus LLD of designing twitter with some constraints, I was able to explain the high level design aspects along with use of CDN, caching( write through depending on use cases), and other concepts really well. For LLD i listed the various entities required along with the classes, but kind of messed up in the db schema part and the relationships."
       },
       {
         name: "Verdict",
-        content: "Verdict: Got rejection mail one hr after 2nd round.\\nThe reason for rejection I can think can be the low level implementation of designing twitter since he was more inclined towards LLD compared to HLD.\\nlet me know in the comments, the reasons you think for the rejection."
+        content: "Verdict: Got rejection mail one hr after 2nd round.\nThe reason for rejection I can think can be the low level implementation of designing twitter since he was more inclined towards LLD compared to HLD.\nlet me know in the comments, the reasons you think for the rejection."
       }
     ]
   },
@@ -749,113 +749,112 @@ const INTERVIEW_EXPERIENCES = [
       },
       {
         name: "SnakeLadder LLD Discussion",
-        content: "Let me know how SnakeLadder LLD can be done in events so that it will work in distributed environment.\\nBelow logic I gave of course without logs:\\n\\npublic void game() throws InterruptedException {\\n\\tDeque<Player> playerQueue = new LinkedList<>(this.players);\\n\\tQueue<Player> winnerQueue = new LinkedList<>();\\n\\n\\twhile (playerQueue.size() > 1) {\\n\\t\\tPlayer curPlayer = playerQueue.pollFirst();\\n\\t\\tSystem.out.println(curPlayer.getName() + \\" turn\\");\\n\\t\\tSystem.out.println(\\"\\\\tRolling dice...\\");\\n\\t\\tint move = this.diceService.rollDice();\\n\\t\\tSystem.out.println(\\"\\\\tDice gave \\" + move);\\n\\t\\tint nextPos = curPlayer.getPosition() + move;\\n\\t\\tSystem.out.println(\\"\\\\tReached \\" + nextPos);\\n\\t\\tJump jump = this.board.isSnakeOrLadderPresent(nextPos);\\n\\t\\tif (jump != null) {\\n\\t\\t\\tjump.getEncounterMessage();\\n\\t\\t\\tnextPos = jump.getEnd();\\n\\t\\t}\\n\\n\\t\\tint boardEnd = this.board.getDimension() * this.board.getDimension();\\n\\t\\tif (nextPos == boardEnd) {\\n\\t\\t\\tcurPlayer.setPosition(nextPos);\\n\\t\\t\\tSystem.out.println(\\"\\\\tFinally at \\" + nextPos);\\n\\t\\t\\tSystem.out.println(\\"\\\\t=========== HURRAY WON ==============\\");\\n\\t\\t\\twinnerQueue.add(curPlayer);\\n\\t\\t\\tcontinue;\\n\\t\\t} else if (nextPos < boardEnd) {\\n\\t\\t\\tcurPlayer.setPosition(nextPos);\\n\\t\\t\\tSystem.out.println(\\"\\\\tFinally at \\" + nextPos);\\n\\t\\t}\\n\\t\\tif(move==diceService.getMaxDiceValue()){\\n\\t\\t\\tSystem.out.println(\\"\\\\tGot chance again\\");\\n\\t\\t\\tplayerQueue.addFirst(curPlayer);\\n\\t\\t}else{\\n\\t\\t\\tplayerQueue.addLast(curPlayer);\\n\\t\\t}\\n\\n\\t\\tThread.sleep(1000);\\n\\t}\\n\\twinnerQueue.add(playerQueue.pollFirst());\\n\\n\\t//print winner queue\\n}\\n\\nNote:\\nOne solution which is coming in my mind is may be we can use something like choreography design pattern where we will put one event on one kafka topic(or any other message broker) from where next service(may be like diceService, boardService or gameService) can pick, process and put next event on other kafka topic next service is listening to. May be we use library like KStream for this usecase. We can achive same with one kafka topic as well, segregating different event based on kafka header. During interview i could not think of distributing this small code piece."
+        content: "Let me know how SnakeLadder LLD can be done in events so that it will work in distributed environment. Below logic I gave of course without logs: [Code snippet showing game logic with player queue, dice rolling, and winner determination]. Note: One solution which is coming in my mind is may be we can use something like choreography design pattern where we will put one event on one kafka topic(or any other message broker) from where next service can pick, process and put next event on other kafka topic next service is listening to. May be we use library like KStream for this usecase. We can achieve same with one kafka topic as well, segregating different event based on kafka header. During interview i could not think of distributing this small code piece."
       }
-]
-  },
-{
-  id: 17,
-    role: "Associate",
-      yoe: "2.10 YOE",
-        date: "Jun 26, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "YOE : 2.10 YOE\\nCurrent Org : Fintech (India)"
-              },
-              {
-                name: "Round 1: OA - Hackerrank",
-                content: "2 DSA questions don't remember but were easy"
-              },
-              {
-                name: "Round 2 DSA",
-                content: "Find the length of a cycle in an array numbers are from 1-N\\nRain water trapping (leetcode)\\nSelf verdict -> Strong"
-              },
-              {
-                name: "Superday - Round 1",
-                content: "Course schedule II (Leetcode)\\nComplete function getRandomNum generate number from 0 -> target in random fashion you can use function getRandomDigits\\npublic int getRandomDigits(); //0-9\\n\\"public int getRandomNum(int target) {
-                  \\nSelf verdict -> Strong"
-                },
-      {
-                name: "Superday - Round 2",
-                content: "You are a shopping and discount enthusiat. You go to a mall and there each shop has a certain amount of coupon at each shop. you want to colect as much coupns as you can and the only constraint stopping you from getting all of them is that adjacent shop have security systems connected. If two adjacent shops are visited for coupn then the security system will alert the security and you get nothing.\\nGiven an array nums where nums[i] represents the amount of coupon in the i-th shop, return the maximum amount of coupon you can collect without alerting the security.\\nCreate a data structure which provide below functionality\\nInsert, Deletion and getRandom all in O(1) time complexity\\ndelete by key data order doesn't matter\\nInsert by data\\ndelete by data\\nget random from existing data\\n\\nSelf verdict -> Strong\\nCatch -> For shopping question the interviewer didn't knew DSA was not believing my solution in O(N)\\nFor custom data structure interview helped alot"
-              },
-              {
-                name: "Moral & Verdict",
-                content: "Moral -> After all this just last round just last question messed it all\\nHope this helps someone\\n\\nI have two request\\nDo you guys think i am rejected just because of last question even though i solved it with help\\nCan you tell the T.C as interview doesn't think it is O(N) (code is in the comment)"
-              }
-            ]
-},
-{
-  id: 18,
-    role: "Analyst",
-      yoe: "2 YOE",
-        date: "Jul 09, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Current Profile",
-                content: "Company: Competing Investment Bank\\nBase: 15.2 LPA\\nAnnual Bonus: 2.5 L\\nRetention: 3 L\\n\\nRecruiter Reachout on linkedin - Asked for Java specifically and all rounds to be held in java"
-              },
-              {
-                name: "R1 - OA (28 March 2025)",
-                content: "2 DSA Questions\\nClassic 1-0 Knapsack - Medium\\nBinary Search Question - Medium"
-              },
-              {
-                name: "R2 - Coderpad (28 April, 2025)",
-                content: "Basic Array Average Question - Easy\\nString Manipulation - Easy"
-              },
-              {
-                name: "R3 - Algorithms and Java Discussion (In Person)",
-                content: "Hashmap Internals\\nJava Deep Dive\\nTime Complexities"
-              },
-              {
-                name: "R4 - System Design (In Person)",
-                content: "Resume Deep Dive - Kafka, Cloud\\nNotification Sending System: Multiple User Groups, Multiple Transports\\nMultithreading Deep Dives"
-              },
-              {
-                name: "R5 - Techno-Managerial",
-                content: "Resume Deep Dive\\nDSA - Find Kth largest number in a Stream"
-              },
-              {
-                name: "H6 - Hiring Manager Round",
-                content: "Normal Behavioural Questions\\nGot the Offer after a long long wait"
-              },
-              {
-                name: "Offer",
-                content: "Offer: https://leetcode.com/discuss/post/6938216/goldman-sachs-analyst2yoe-comp-bangalore-13ky/"
-              }
-            ]
-},
-{
-  id: 19,
-    role: "Associate",
-      yoe: "N/A",
-        date: "Jun 28, 2025",
-          author: "Anonymous User",
-            rounds: [
-              {
-                name: "Background",
-                content: "I applied directly on the GS career portal. The job title was \\"Global Banking & Markets - Eq GSET Platform - Associate - Bengaluru\\". I received a HackerRank test link after 8 days, which the recruiter had mentioned needed to be completed within 24 hours in the email. There were a total of 5 rounds. A peculiar thing to note was that all communications (OA/Interviews) were sent by email and not by any phone calls."
-      },
-{
-  name: "Online Assessment (120 minutes)",
-    content: "Non-repeating digit in product - GFG Count numbers in range such that digits in it and it's product with q are unequal\\nCoding Wars - LC 1395. Count Number of Teams\\n\\nI got an email the next day itself stating that I cleared the test and they are moving my candidature ahead for the next level of interview processes. They also asked for some basic details and mentioned that the opportunity is a complete WFO. After 8 days, I received an email to provide my next 2 weeks availability for the CoderPad round."
-},
-{
-  name: "CoderPad Interview Round (60 minutes)",
-    content: "The interviewer began with the introduction and mentioned that he was among the sister teams for whom they were hiring. The coderpad was initially set up for the Java language, although in the email, I had mentioned C++ as my preferred language. Upon request, the interviewer allowed me to use C++ and mentioned that for the upcoming rounds to use Java. The interviewer was engaging and helpful.\\n\\nApache log file contains a list of IP addresses. Find the IP address with the highest frequency. If multiple IP addresses tie for the highest frequency, then return the values in a comma-separated format.\\n\\nAnalogous to LC 42. Trapping Rain Water (given as snow instead of rain).\\n\\nFor the trapping rain water problem, I initially gave the O(N) space approach, and since there was time remaining, he asked me to optimise and then gave the two-pointer approach, but could not complete the coding. The interviewer said that I was on the right track for the optimal solution, just had to consider a few edge cases and mentioned that he was anyway happy with the previous approach.\\n\\nNote: By this time, all those who are preparing for GS Interviews would know that the Trapping Rainwater problem is one of Goldman Sachs' all-time favourite problems, so make sure to practice and be familiar with all approaches (brute, better, and optimal).\\n\\nOverall, I was satisfied with my performance and hoped to receive a call for Superday. Soon, I got an email within 45 minutes post-interview asking about my availability for the next rounds, and I gave my preference for next week."
-},
-{
-  name: "Panel Interview - Round 1 - DSA (60 minutes)",
-    content: "I was expecting all 3 interviews to happen the same day. However got the invite to Panel Interview for Round 1 and 2 back-to-back on the same day. They also mentioned that each interview is an eliminatory round. It was supposed to be 1 week later, but unfortunately, I fell sick, so it had to be pushed further 1 more week. One thing I liked very much about GS is their flexibility to schedule interviews based on the candidate's availability. My preparation for the next rounds was from the past 3 months Goldman Sachs interview experience found on the Leetcode Discuss section.\\n\\nThis round was taken by 2 VPs. Began with introductions, and the first interviewer gave a problem with very little context. You are given a list of cities and a function/API boolean isDirectConnected(c1, c2). Implement boolean isConnected(c1, c2). While coding, I had to ask follow-ups, and both interviewers were helpful enough to provide hints if I was stuck anywhere. I took around 40 minutes, including recognising it was a graph + DFS problem and writing pseudocode, as the interviewers also stopped me in between asking some why/hows on the code. Later, the interviewer mentioned that the graph could be bi-directional, and I had forgotten initially to keep a visited array, so I had fixed that too.\\n\\nThe second interviewer then asked a question that if we have 1B numbers and want to find the top 1M numbers, which data structure would you use and what would be the time complexity of it? I told that we would use a min-heap and the T.C. would be O(NLogK). However, the interviewer had a slightly different opinion around the TC, and the interview was wrapped up by me asking a question on the GBM team."
-},
-{
-  name: "Verdict - Rejected",
-    content: "I felt that the interview went good and was honestly preparing to appear for the 'Software Engineering Practices' round. However, I was a bit shocked to receive the rejection mail 10 minutes after the interview. I am not sure how I have messed up, perhaps taking hints to solve. All I know is that I could not have done much better, although I could be more confident. Maybe it's god's plan, anyway, back to square 1!"
-}
     ]
+  },
+  {
+    id: 17,
+    role: "Associate",
+    yoe: "2.10 YOE",
+    date: "Jun 26, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "YOE : 2.10 YOE\\nCurrent Org : Fintech (India)"
+      },
+      {
+        name: "Round 1: OA - Hackerrank",
+        content: "2 DSA questions don't remember but were easy"
+      },
+      {
+        name: "Round 2 DSA",
+        content: "Find the length of a cycle in an array numbers are from 1-N\\nRain water trapping (leetcode)\\nSelf verdict -> Strong"
+      },
+      {
+        name: "Superday - Round 1",
+        content: "Course schedule II (Leetcode)\nComplete function getRandomNum generate number from 0 -> target in random fashion you can use function getRandomDigits\npublic int getRandomDigits(); //0-9\npublic int getRandomNum(int target) { ... }\n\nSelf verdict -> Strong"
+      },
+      {
+        name: "Superday - Round 2",
+        content: "You are a shopping and discount enthusiat. You go to a mall and there each shop has a certain amount of coupon at each shop. you want to colect as much coupns as you can and the only constraint stopping you from getting all of them is that adjacent shop have security systems connected. If two adjacent shops are visited for coupn then the security system will alert the security and you get nothing.\\nGiven an array nums where nums[i] represents the amount of coupon in the i-th shop, return the maximum amount of coupon you can collect without alerting the security.\\nCreate a data structure which provide below functionality\\nInsert, Deletion and getRandom all in O(1) time complexity\\ndelete by key data order doesn't matter\\nInsert by data\\ndelete by data\\nget random from existing data\\n\\nSelf verdict -> Strong\\nCatch -> For shopping question the interviewer didn't knew DSA was not believing my solution in O(N)\\nFor custom data structure interview helped alot"
+      },
+      {
+        name: "Moral & Verdict",
+        content: "Moral -> After all this just last round just last question messed it all\\nHope this helps someone\\n\\nI have two request\\nDo you guys think i am rejected just because of last question even though i solved it with help\\nCan you tell the T.C as interview doesn't think it is O(N) (code is in the comment)"
+      }
+    ]
+  },
+  {
+    id: 18,
+    role: "Analyst",
+    yoe: "2 YOE",
+    date: "Jul 09, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Current Profile",
+        content: "Company: Competing Investment Bank\\nBase: 15.2 LPA\\nAnnual Bonus: 2.5 L\\nRetention: 3 L\\n\\nRecruiter Reachout on linkedin - Asked for Java specifically and all rounds to be held in java"
+      },
+      {
+        name: "R1 - OA (28 March 2025)",
+        content: "2 DSA Questions\\nClassic 1-0 Knapsack - Medium\\nBinary Search Question - Medium"
+      },
+      {
+        name: "R2 - Coderpad (28 April, 2025)",
+        content: "Basic Array Average Question - Easy\\nString Manipulation - Easy"
+      },
+      {
+        name: "R3 - Algorithms and Java Discussion (In Person)",
+        content: "Hashmap Internals\\nJava Deep Dive\\nTime Complexities"
+      },
+      {
+        name: "R4 - System Design (In Person)",
+        content: "Resume Deep Dive - Kafka, Cloud\\nNotification Sending System: Multiple User Groups, Multiple Transports\\nMultithreading Deep Dives"
+      },
+      {
+        name: "R5 - Techno-Managerial",
+        content: "Resume Deep Dive\\nDSA - Find Kth largest number in a Stream"
+      },
+      {
+        name: "H6 - Hiring Manager Round",
+        content: "Normal Behavioural Questions\\nGot the Offer after a long long wait"
+      },
+      {
+        name: "Offer",
+        content: "Offer: https://leetcode.com/discuss/post/6938216/goldman-sachs-analyst2yoe-comp-bangalore-13ky/"
+      }
+    ]
+  },
+  {
+    id: 19,
+    role: "Associate",
+    yoe: "N/A",
+    date: "Jun 28, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Background",
+        content: "I applied directly on the GS career portal. The job title was \\"Global Banking & Markets - Eq GSET Platform - Associate - Bengaluru\\". I received a HackerRank test link after 8 days, which the recruiter had mentioned needed to be completed within 24 hours in the email. There were a total of 5 rounds. A peculiar thing to note was that all communications (OA/Interviews) were sent by email and not by any phone calls."
+      },
+  {
+    name: "Online Assessment (120 minutes)",
+    content: "Non-repeating digit in product - GFG Count numbers in range such that digits in it and it's product with q are unequal\\nCoding Wars - LC 1395. Count Number of Teams\\n\\nI got an email the next day itself stating that I cleared the test and they are moving my candidature ahead for the next level of interview processes. They also asked for some basic details and mentioned that the opportunity is a complete WFO. After 8 days, I received an email to provide my next 2 weeks availability for the CoderPad round."
+  },
+  {
+    name: "CoderPad Interview Round (60 minutes)",
+    content: "The interviewer began with the introduction and mentioned that he was among the sister teams for whom they were hiring. The coderpad was initially set up for the Java language, although in the email, I had mentioned C++ as my preferred language. Upon request, the interviewer allowed me to use C++ and mentioned that for the upcoming rounds to use Java. The interviewer was engaging and helpful.\\n\\nApache log file contains a list of IP addresses. Find the IP address with the highest frequency. If multiple IP addresses tie for the highest frequency, then return the values in a comma-separated format.\\n\\nAnalogous to LC 42. Trapping Rain Water (given as snow instead of rain).\\n\\nFor the trapping rain water problem, I initially gave the O(N) space approach, and since there was time remaining, he asked me to optimise and then gave the two-pointer approach, but could not complete the coding. The interviewer said that I was on the right track for the optimal solution, just had to consider a few edge cases and mentioned that he was anyway happy with the previous approach.\\n\\nNote: By this time, all those who are preparing for GS Interviews would know that the Trapping Rainwater problem is one of Goldman Sachs' all-time favourite problems, so make sure to practice and be familiar with all approaches (brute, better, and optimal).\\n\\nOverall, I was satisfied with my performance and hoped to receive a call for Superday. Soon, I got an email within 45 minutes post-interview asking about my availability for the next rounds, and I gave my preference for next week."
+  },
+  {
+    name: "Panel Interview - Round 1 - DSA (60 minutes)",
+    content: "I was expecting all 3 interviews to happen the same day. However got the invite to Panel Interview for Round 1 and 2 back-to-back on the same day. They also mentioned that each interview is an eliminatory round. It was supposed to be 1 week later, but unfortunately, I fell sick, so it had to be pushed further 1 more week. One thing I liked very much about GS is their flexibility to schedule interviews based on the candidate's availability. My preparation for the next rounds was from the past 3 months Goldman Sachs interview experience found on the Leetcode Discuss section.\\n\\nThis round was taken by 2 VPs. Began with introductions, and the first interviewer gave a problem with very little context. You are given a list of cities and a function/API boolean isDirectConnected(c1, c2). Implement boolean isConnected(c1, c2). While coding, I had to ask follow-ups, and both interviewers were helpful enough to provide hints if I was stuck anywhere. I took around 40 minutes, including recognising it was a graph + DFS problem and writing pseudocode, as the interviewers also stopped me in between asking some why/hows on the code. Later, the interviewer mentioned that the graph could be bi-directional, and I had forgotten initially to keep a visited array, so I had fixed that too.\\n\\nThe second interviewer then asked a question that if we have 1B numbers and want to find the top 1M numbers, which data structure would you use and what would be the time complexity of it? I told that we would use a min-heap and the T.C. would be O(NLogK). However, the interviewer had a slightly different opinion around the TC, and the interview was wrapped up by me asking a question on the GBM team."
+  },
+  {
+    name: "Verdict - Rejected",
+    content: "I felt that the interview went good and was honestly preparing to appear for the 'Software Engineering Practices' round. However, I was a bit shocked to receive the rejection mail 10 minutes after the interview. I am not sure how I have messed up, perhaps taking hints to solve. All I know is that I could not have done much better, although I could be more confident. Maybe it's god's plan, anyway, back to square 1!"
+  }
+]
 },
 {
   id: 20,
@@ -1030,31 +1029,31 @@ const INTERVIEW_EXPERIENCES = [
             rounds: [
               {
                 name: "Introduction",
-                content: "📌 My Interview Experience at Goldman Sachs – Analyst Position (April 2025)\\n\\nVerdict: Selected ✅\\n\\nHi everyone!\\nI'm thrilled to share that I've been selected for the Analyst role at Goldman Sachs. I wanted to document my entire experience here in the hope it helps someone else preparing for the same."
+                content: "📌 My Interview Experience at Goldman Sachs – Analyst Position (April 2025)\n\nVerdict: Selected ✅\n\nHi everyone!\nI'm thrilled to share that I've been selected for the Analyst role at Goldman Sachs. I wanted to document my entire experience here in the hope it helps someone else preparing for the same."
               },
               {
                 name: "🧠 Round 1 – CoderPad (April 4)",
-                content: "This was a DSA-based live coding round. The level was easy to medium.\\n\\nQuestions:\\n\\nTrapping Rain Water\\nDecode Ways\\nI was able to complete both problems in 30 minutes. The interviewer asked a small follow-up (don't remember exactly, but it was easy).\\n\\nAfter that, we discussed my projects and work at my current firm.\\n\\n⏩ Got the call same day that I was selected for Super Day on April 8."
+                content: "This was a DSA-based live coding round. The level was easy to medium.\n\nQuestions:\n\nTrapping Rain Water\nDecode Ways\nI was able to complete both problems in 30 minutes. The interviewer asked a small follow-up (don't remember exactly, but it was easy).\n\nAfter that, we discussed my projects and work at my current firm.\n\n⏩ Got the call same day that I was selected for Super Day on April 8."
               },
               {
                 name: "🧠 Round 2 – Super Day DSA Round (2 Interviewers)",
-                content: "Both interviewers were super chill and encouraging!\\n\\nQ1: Tree-Based Problem\\nI was given a binary tree and asked to print the diagonal traversal of it.\\n\\nExample:\\n\\n        1\\n      /   \\\\\\n     2     3\\n    / \\\\   / \\\\\\n   4   5 7   6\\n\\nExpected Output:\\n1 2 4\\n3 5 7\\n6\\n\\nQ2: Stack & Queue Implementation\\nDeep discussion on:\\n\\nImplementing stack using queue\\nQueue using stack\\nHandling operations with only one stack or one queue\\nMany follow-ups but I was able to answer all."
+                content: "Both interviewers were super chill and encouraging!\n\nQ1: Tree-Based Problem\nI was given a binary tree and asked to print the diagonal traversal of it.\n\nExample:\n\n        1\n      /   \\\\\n     2     3\n    / \\\\   / \\\\\\\n   4   5 7   6\n\nExpected Output:\n1 2 4\n3 5 7\n6\n\nQ2: Stack & Queue Implementation\nDeep discussion on:\n\nImplementing stack using queue\nQueue using stack\nHandling operations with only one stack or one queue\nMany follow-ups but I was able to answer all."
               },
               {
                 name: "🧠 Round 3 – Resume + LLD + DP",
-                content: "Again two interviewers.\\n\\nResume Discussion\\nSince I had mentioned Kafka and automation scripts, we had a detailed discussion on that.\\n\\nQ1: LLD – Task Scheduler\\nDesign a task scheduler where tasks can only start after their dependencies are completed.\\nFollow-up: Add priority-based execution.\\n\\nQ2: DP Problem\\nVery similar to Predict The Winner\\nFollow-up: Print the steps taken by the winner."
+                content: "Again two interviewers.\n\nResume Discussion\nSince I had mentioned Kafka and automation scripts, we had a detailed discussion on that.\n\nQ1: LLD – Task Scheduler\nDesign a task scheduler where tasks can only start after their dependencies are completed.\nFollow-up: Add priority-based execution.\n\nQ2: DP Problem\nVery similar to Predict The Winner\nFollow-up: Print the steps taken by the winner."
               },
               {
                 name: "🧠 Round 4 – DSA + Logical Reasoning",
-                content: "Q1: Burst Balloons\\n\\nQ2: Logical Array Problem\\nGiven a sorted array:\\n\\nOriginal:    [1, 3, 5, 7, 10, 12, 14, 16]\\nTransformed: [1, 7, 5, 3, 10, 16, 14, 12]\\n             (Even indices unchanged; odd indices swapped randomly)\\nQuestions:\\n\\nIs 5 present? If yes, at what index?\\nIs 16 present? If yes, at what index?\\nIs 11 present?\\nWith hints from the interviewer, I was able to crack it.\\nHonestly, couldn't solve this without hints, but the interviewers were really helpful."
+                content: "Q1: Burst Balloons\n\nQ2: Logical Array Problem\nGiven a sorted array:\n\nOriginal:    [1, 3, 5, 7, 10, 12, 14, 16]\nTransformed: [1, 7, 5, 3, 10, 16, 14, 12]\n             (Even indices unchanged; odd indices swapped randomly)\nQuestions:\n\nIs 5 present? If yes, at what index?\nIs 16 present? If yes, at what index?\nIs 11 present?\nWith hints from the interviewer, I was able to crack it.\nHonestly, couldn't solve this without hints, but the interviewers were really helpful."
               },
               {
                 name: "🧠 Round 5 – HM Round",
-                content: "The Hiring Manager was extremely friendly.\\n\\nWe discussed:\\n\\nWhy I'm looking to switch\\nWhy Goldman Sachs\\nSome situational and behavioral questions\\nDiscussed CTC, location preference, etc."
+                content: "The Hiring Manager was extremely friendly.\n\nWe discussed:\n\nWhy I'm looking to switch\nWhy Goldman Sachs\nSome situational and behavioral questions\nDiscussed CTC, location preference, etc."
               },
               {
                 name: "💬 Final Thoughts & Verdict",
-                content: "This was an extremely positive experience for me.\\nEach interviewer was well-prepared, respectful, and genuinely curious.\\nOne bad interviewer can ruin an interview process – but I had none here.\\nFelt like a two-way conversation, not an interrogation.\\n\\n🎉 Verdict: SELECTED ✅\\n\\nI'm beyond grateful for this community – you all have helped me so much during preparation.\\nFeel free to ask anything in the comments!"
+                content: "This was an extremely positive experience for me.\nEach interviewer was well-prepared, respectful, and genuinely curious.\nOne bad interviewer can ruin an interview process – but I had none here.\nFelt like a two-way conversation, not an interrogation.\n\n🎉 Verdict: SELECTED ✅\n\nI'm beyond grateful for this community – you all have helped me so much during preparation.\nFeel free to ask anything in the comments!"
               }
             ]
 },
