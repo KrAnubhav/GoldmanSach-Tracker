@@ -1,38 +1,18 @@
 // Central registry of all supported companies
-export const COMPANIES = [
-    {
-        id: 'goldman-sachs',
-        name: 'Goldman Sachs',
-        logo: '🏦',
-        description: 'Leading global investment banking, securities and investment management firm',
-        color: 'blue',
-        tags: ['Investment Banking', 'Finance', 'Technology'],
-    },
-    // More companies can be added here in the future
-    // {
-    //   id: 'morgan-stanley',
-    //   name: 'Morgan Stanley',
-    //   logo: '💼',
-    //   description: 'Global financial services firm',
-    //   color: 'indigo',
-    //   tags: ['Investment Banking', 'Wealth Management'],
-    // },
-];
+// Now dynamically loaded from dataService
+import { dataService } from '../services/dataService.js';
 
-export const getCompanyById = (id) => {
-    return COMPANIES.find(company => company.id === id);
-};
+export const getCompanies = () => dataService.getCompanies();
+export const getCompanyById = (id) => dataService.getCompanyById(id);
+export const searchCompanies = (query) => dataService.searchCompanies(query);
 
-export const getCompanyByName = (name) => {
-    return COMPANIES.find(company =>
+// Backward compatibility - get company by name
+export const getCompanyByName = async (name) => {
+    const companies = await getCompanies();
+    return companies.find(company =>
         company.name.toLowerCase() === name.toLowerCase()
     );
 };
 
-export const searchCompanies = (query) => {
-    const lowerQuery = query.toLowerCase();
-    return COMPANIES.filter(company =>
-        company.name.toLowerCase().includes(lowerQuery) ||
-        company.tags.some(tag => tag.toLowerCase().includes(lowerQuery))
-    );
-};
+// For components that expect synchronous COMPANIES array
+export const COMPANIES = getCompanies();

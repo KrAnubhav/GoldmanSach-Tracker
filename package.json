@@ -1,17 +1,19 @@
 {
-  "name": "goldman-sachs-tracker",
+  "name": "companycode",
   "version": "1.0.0",
-  "description": "Goldman Sachs Interview Preparation Tracker",
+  "description": "Multi-Company Interview Preparation Tracker - CompanyCode",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "gen-data": "node scripts/generateCompanies.js",
+    "dev": "npm run gen-data && vite",
+    "build": "npm run gen-data && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
     "firebase": "^10.7.1",
     "lucide-react": "^0.294.0",
+    "papaparse": "^5.5.3",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.3.1",
     "react-dom": "^18.2.0",

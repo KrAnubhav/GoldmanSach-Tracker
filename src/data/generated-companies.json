@@ -1,0 +1,5225 @@
+[
+  {
+    "id": "accenture",
+    "name": "Accenture",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Accenture"
+  },
+  {
+    "id": "accolite",
+    "name": "Accolite",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Accolite"
+  },
+  {
+    "id": "acko",
+    "name": "Acko",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Acko"
+  },
+  {
+    "id": "activision",
+    "name": "Activision",
+    "logo": "🎮",
+    "description": "Video game publisher",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Activision"
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "logo": "🏢",
+    "description": "Global leader in digital media and marketing solutions",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Adobe"
+  },
+  {
+    "id": "affirm",
+    "name": "Affirm",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Affirm"
+  },
+  {
+    "id": "agoda",
+    "name": "Agoda",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Agoda"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "logo": "🏢",
+    "description": "Online marketplace for lodging and tourism experiences",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Airbnb"
+  },
+  {
+    "id": "airbus-se",
+    "name": "Airbus SE",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Airbus SE"
+  },
+  {
+    "id": "airtel",
+    "name": "Airtel",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Airtel"
+  },
+  {
+    "id": "airwallex",
+    "name": "Airwallex",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Airwallex"
+  },
+  {
+    "id": "akamai",
+    "name": "Akamai",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Akamai"
+  },
+  {
+    "id": "akuna-capital",
+    "name": "Akuna Capital",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "purple",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Akuna Capital"
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "logo": "🛒",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Alibaba"
+  },
+  {
+    "id": "altimetrik",
+    "name": "Altimetrik",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Altimetrik"
+  },
+  {
+    "id": "amadeus",
+    "name": "Amadeus",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Amadeus"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "logo": "🚀",
+    "description": "E-commerce and cloud computing giant",
+    "color": "orange",
+    "tags": [
+      "Tech Giant",
+      "FAANG",
+      "Technology"
+    ],
+    "folderName": "Amazon"
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "AMD"
+  },
+  {
+    "id": "amdocs",
+    "name": "Amdocs",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Amdocs"
+  },
+  {
+    "id": "american-express",
+    "name": "American Express",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "American Express"
+  },
+  {
+    "id": "analytics-quotient",
+    "name": "Analytics quotient",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Analytics quotient"
+  },
+  {
+    "id": "anduril",
+    "name": "Anduril",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Anduril"
+  },
+  {
+    "id": "aon",
+    "name": "Aon",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Aon"
+  },
+  {
+    "id": "apollo-io",
+    "name": "Apollo.io",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Apollo.io"
+  },
+  {
+    "id": "appdynamics",
+    "name": "AppDynamics",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "AppDynamics"
+  },
+  {
+    "id": "appfolio",
+    "name": "AppFolio",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "AppFolio"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "logo": "🚀",
+    "description": "Innovative technology company known for iPhone, Mac, and services",
+    "color": "blue",
+    "tags": [
+      "Tech Giant",
+      "FAANG",
+      "Technology"
+    ],
+    "folderName": "Apple"
+  },
+  {
+    "id": "applied-intuition",
+    "name": "Applied Intuition",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Applied Intuition"
+  },
+  {
+    "id": "aqr-capital-management",
+    "name": "AQR Capital Management",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "purple",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "AQR Capital Management"
+  },
+  {
+    "id": "arcesium",
+    "name": "Arcesium",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Arcesium"
+  },
+  {
+    "id": "arista-networks",
+    "name": "Arista Networks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Arista Networks"
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Asana"
+  },
+  {
+    "id": "athenahealth",
+    "name": "athenahealth",
+    "logo": "🏥",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "athenahealth"
+  },
+  {
+    "id": "atlassian",
+    "name": "Atlassian",
+    "logo": "🏢",
+    "description": "Software company known for Jira and Confluence",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Atlassian"
+  },
+  {
+    "id": "attentive",
+    "name": "Attentive",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Attentive"
+  },
+  {
+    "id": "audible",
+    "name": "Audible",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Audible"
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Aurora"
+  },
+  {
+    "id": "autodesk",
+    "name": "Autodesk",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Autodesk"
+  },
+  {
+    "id": "avalara",
+    "name": "Avalara",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Avalara"
+  },
+  {
+    "id": "avito",
+    "name": "Avito",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Avito"
+  },
+  {
+    "id": "axon",
+    "name": "Axon",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Axon"
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Baidu"
+  },
+  {
+    "id": "bank-of-america",
+    "name": "Bank of America",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "indigo",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Bank of America"
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Barclays"
+  },
+  {
+    "id": "bentley-systems",
+    "name": "Bentley Systems",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Bentley Systems"
+  },
+  {
+    "id": "bharatpe",
+    "name": "BharatPe",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BharatPe"
+  },
+  {
+    "id": "bill-holdings",
+    "name": "BILL Holdings",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BILL Holdings"
+  },
+  {
+    "id": "bitgo",
+    "name": "BitGo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BitGo"
+  },
+  {
+    "id": "blackrock",
+    "name": "BlackRock",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BlackRock"
+  },
+  {
+    "id": "blackstone",
+    "name": "BlackStone",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BlackStone"
+  },
+  {
+    "id": "blinkit",
+    "name": "blinkit",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "blinkit"
+  },
+  {
+    "id": "blizzard",
+    "name": "Blizzard",
+    "logo": "🎮",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Blizzard"
+  },
+  {
+    "id": "block",
+    "name": "Block",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Block"
+  },
+  {
+    "id": "bloomberg",
+    "name": "Bloomberg",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Bloomberg"
+  },
+  {
+    "id": "bny-mellon",
+    "name": "BNY Mellon",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BNY Mellon"
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Bolt"
+  },
+  {
+    "id": "booking-com",
+    "name": "Booking.com",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Booking.com"
+  },
+  {
+    "id": "bosch",
+    "name": "Bosch",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Bosch"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Box"
+  },
+  {
+    "id": "bp",
+    "name": "BP",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "BP"
+  },
+  {
+    "id": "braze",
+    "name": "Braze",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Braze"
+  },
+  {
+    "id": "brex",
+    "name": "Brex",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Brex"
+  },
+  {
+    "id": "bridgewater-associates",
+    "name": "Bridgewater Associates",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Bridgewater Associates"
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "logo": "🏢",
+    "description": "Technology company behind TikTok",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ByteDance"
+  },
+  {
+    "id": "cadence",
+    "name": "Cadence",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cadence"
+  },
+  {
+    "id": "canonical",
+    "name": "Canonical",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Canonical"
+  },
+  {
+    "id": "capgemini",
+    "name": "Capgemini",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Capgemini"
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "purple",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Capital One"
+  },
+  {
+    "id": "careem",
+    "name": "Careem",
+    "logo": "🚗",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Careem"
+  },
+  {
+    "id": "cars24",
+    "name": "CARS24",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CARS24"
+  },
+  {
+    "id": "carwale",
+    "name": "carwale",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "carwale"
+  },
+  {
+    "id": "cashfree",
+    "name": "Cashfree",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cashfree"
+  },
+  {
+    "id": "cedcoss",
+    "name": "CEDCOSS",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CEDCOSS"
+  },
+  {
+    "id": "celigo",
+    "name": "Celigo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Celigo"
+  },
+  {
+    "id": "chewy",
+    "name": "Chewy",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Chewy"
+  },
+  {
+    "id": "chime",
+    "name": "Chime",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Chime"
+  },
+  {
+    "id": "ciena",
+    "name": "ciena",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ciena"
+  },
+  {
+    "id": "circle",
+    "name": "Circle",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Circle"
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco",
+    "logo": "🏢",
+    "description": "Networking hardware and telecommunications equipment",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cisco"
+  },
+  {
+    "id": "citadel",
+    "name": "Citadel",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Citadel"
+  },
+  {
+    "id": "citigroup",
+    "name": "Citigroup",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Citigroup"
+  },
+  {
+    "id": "citrix",
+    "name": "Citrix",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Citrix"
+  },
+  {
+    "id": "clari",
+    "name": "Clari",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Clari"
+  },
+  {
+    "id": "cleartrip",
+    "name": "Cleartrip",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cleartrip"
+  },
+  {
+    "id": "cloudera",
+    "name": "Cloudera",
+    "logo": "☁️",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cloudera"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "logo": "☁️",
+    "description": "Web infrastructure and security company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cloudflare"
+  },
+  {
+    "id": "cme-group",
+    "name": "CME Group",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CME Group"
+  },
+  {
+    "id": "coforge",
+    "name": "Coforge",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Coforge"
+  },
+  {
+    "id": "cognizant",
+    "name": "Cognizant",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cognizant"
+  },
+  {
+    "id": "cohesity",
+    "name": "Cohesity",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cohesity"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "logo": "💳",
+    "description": "Cryptocurrency exchange platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Coinbase"
+  },
+  {
+    "id": "comcast",
+    "name": "Comcast",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Comcast"
+  },
+  {
+    "id": "commvault",
+    "name": "Commvault",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Commvault"
+  },
+  {
+    "id": "compass",
+    "name": "Compass",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Compass"
+  },
+  {
+    "id": "confluent",
+    "name": "Confluent",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Confluent"
+  },
+  {
+    "id": "consultadd",
+    "name": "ConsultAdd",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ConsultAdd"
+  },
+  {
+    "id": "coupang",
+    "name": "Coupang",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Coupang"
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Coursera"
+  },
+  {
+    "id": "coveo",
+    "name": "Coveo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Coveo"
+  },
+  {
+    "id": "cred",
+    "name": "CRED",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CRED"
+  },
+  {
+    "id": "credit-karma",
+    "name": "Credit Karma",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Credit Karma"
+  },
+  {
+    "id": "criteo",
+    "name": "Criteo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Criteo"
+  },
+  {
+    "id": "crowdstrike",
+    "name": "CrowdStrike",
+    "logo": "🔒",
+    "description": "Cybersecurity technology company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CrowdStrike"
+  },
+  {
+    "id": "cruise",
+    "name": "Cruise",
+    "logo": "🚙",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Cruise"
+  },
+  {
+    "id": "ctc",
+    "name": "CTC",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CTC"
+  },
+  {
+    "id": "curefit",
+    "name": "CureFit",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CureFit"
+  },
+  {
+    "id": "cvent",
+    "name": "CVENT",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "CVENT"
+  },
+  {
+    "id": "darwinbox",
+    "name": "Darwinbox",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Darwinbox"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "logo": "☁️",
+    "description": "Unified analytics platform for big data",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Databricks"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "logo": "🏢",
+    "description": "Monitoring and analytics platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Datadog"
+  },
+  {
+    "id": "dataminr",
+    "name": "Dataminr",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Dataminr"
+  },
+  {
+    "id": "de-shaw",
+    "name": "DE Shaw",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Trading",
+      "Quant",
+      "Finance"
+    ],
+    "folderName": "DE Shaw"
+  },
+  {
+    "id": "delhivery",
+    "name": "Delhivery",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Delhivery"
+  },
+  {
+    "id": "deliveroo",
+    "name": "Deliveroo",
+    "logo": "🍔",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Deliveroo"
+  },
+  {
+    "id": "dell",
+    "name": "Dell",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Dell"
+  },
+  {
+    "id": "deloitte",
+    "name": "Deloitte",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Deloitte"
+  },
+  {
+    "id": "deltax",
+    "name": "DeltaX",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "DeltaX"
+  },
+  {
+    "id": "deutsche-bank",
+    "name": "Deutsche Bank",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "indigo",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Deutsche Bank"
+  },
+  {
+    "id": "devrev",
+    "name": "DevRev",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "DevRev"
+  },
+  {
+    "id": "devsinc",
+    "name": "Devsinc",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Devsinc"
+  },
+  {
+    "id": "devtron",
+    "name": "Devtron",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Devtron"
+  },
+  {
+    "id": "directi",
+    "name": "Directi",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Directi"
+  },
+  {
+    "id": "disney",
+    "name": "Disney",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Disney"
+  },
+  {
+    "id": "docusign",
+    "name": "Docusign",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Docusign"
+  },
+  {
+    "id": "doordash",
+    "name": "DoorDash",
+    "logo": "🍔",
+    "description": "Food delivery platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "DoorDash"
+  },
+  {
+    "id": "dp-world",
+    "name": "DP world",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "DP world"
+  },
+  {
+    "id": "dream11",
+    "name": "Dream11",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Dream11"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "logo": "🏢",
+    "description": "Cloud storage and file sharing service",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Dropbox"
+  },
+  {
+    "id": "druva",
+    "name": "Druva",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Druva"
+  },
+  {
+    "id": "drw",
+    "name": "DRW",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "DRW"
+  },
+  {
+    "id": "dunzo",
+    "name": "Dunzo",
+    "logo": "🍔",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Dunzo"
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Duolingo"
+  },
+  {
+    "id": "dxc-technology",
+    "name": "DXC Technology",
+    "logo": "🏢",
+    "description": "Technology and software solutions company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "DXC Technology"
+  },
+  {
+    "id": "earnin",
+    "name": "EarnIn",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "EarnIn"
+  },
+  {
+    "id": "ebay",
+    "name": "eBay",
+    "logo": "🛒",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "eBay"
+  },
+  {
+    "id": "edelweiss-group",
+    "name": "Edelweiss Group",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Edelweiss Group"
+  },
+  {
+    "id": "electronic-arts",
+    "name": "Electronic Arts",
+    "logo": "🎮",
+    "description": "Video game company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Electronic Arts"
+  },
+  {
+    "id": "epam-systems",
+    "name": "EPAM Systems",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "EPAM Systems"
+  },
+  {
+    "id": "epic-systems",
+    "name": "Epic Systems",
+    "logo": "🎮",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Epic Systems"
+  },
+  {
+    "id": "expedia",
+    "name": "Expedia",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Expedia"
+  },
+  {
+    "id": "ey",
+    "name": "EY",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "EY"
+  },
+  {
+    "id": "factset",
+    "name": "FactSet",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "FactSet"
+  },
+  {
+    "id": "faire",
+    "name": "Faire",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Faire"
+  },
+  {
+    "id": "fastenal",
+    "name": "Fastenal",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Fastenal"
+  },
+  {
+    "id": "fidelity",
+    "name": "Fidelity",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Fidelity"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Fiverr"
+  },
+  {
+    "id": "flexera",
+    "name": "Flexera",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Flexera"
+  },
+  {
+    "id": "flexport",
+    "name": "Flexport",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Flexport"
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart",
+    "logo": "🛒",
+    "description": "Leading company in technology and innovation",
+    "color": "orange",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Flipkart"
+  },
+  {
+    "id": "fortinet",
+    "name": "Fortinet",
+    "logo": "🔒",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Fortinet"
+  },
+  {
+    "id": "fourkites",
+    "name": "fourkites",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "fourkites"
+  },
+  {
+    "id": "fpt",
+    "name": "FPT",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "FPT"
+  },
+  {
+    "id": "freecharge",
+    "name": "Freecharge",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Freecharge"
+  },
+  {
+    "id": "freshworks",
+    "name": "FreshWorks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "FreshWorks"
+  },
+  {
+    "id": "gameskraft",
+    "name": "Gameskraft",
+    "logo": "🎮",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Gameskraft"
+  },
+  {
+    "id": "garmin",
+    "name": "Garmin",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Garmin"
+  },
+  {
+    "id": "ge-digital",
+    "name": "GE Digital",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "GE Digital"
+  },
+  {
+    "id": "ge-healthcare",
+    "name": "GE Healthcare",
+    "logo": "🏥",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "GE Healthcare"
+  },
+  {
+    "id": "geico",
+    "name": "Geico",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Geico"
+  },
+  {
+    "id": "general-motors",
+    "name": "General Motors",
+    "logo": "🚙",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "General Motors"
+  },
+  {
+    "id": "genpact",
+    "name": "Genpact",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Genpact"
+  },
+  {
+    "id": "godaddy",
+    "name": "GoDaddy",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "GoDaddy"
+  },
+  {
+    "id": "gojek",
+    "name": "Gojek",
+    "logo": "🚗",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Gojek"
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "logo": "🏦",
+    "description": "Leading global investment banking and financial services firm",
+    "color": "indigo",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Goldman Sachs"
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "logo": "🏦",
+    "description": "Leading global investment banking, securities and investment management firm",
+    "color": "blue",
+    "tags": [
+      "Investment Banking",
+      "Finance",
+      "Technology"
+    ],
+    "folderName": "goldman-sachs"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "logo": "🚀",
+    "description": "Global technology leader in search, cloud, and AI",
+    "color": "blue",
+    "tags": [
+      "Tech Giant",
+      "FAANG",
+      "Technology"
+    ],
+    "folderName": "Google"
+  },
+  {
+    "id": "grab",
+    "name": "Grab",
+    "logo": "🚗",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Grab"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Grammarly"
+  },
+  {
+    "id": "graviton",
+    "name": "Graviton",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Graviton"
+  },
+  {
+    "id": "groupon",
+    "name": "Groupon",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Groupon"
+  },
+  {
+    "id": "groww",
+    "name": "Groww",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Groww"
+  },
+  {
+    "id": "grubhub",
+    "name": "Grubhub",
+    "logo": "🍔",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Grubhub"
+  },
+  {
+    "id": "gsa-capital",
+    "name": "GSA Capital",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "purple",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "GSA Capital"
+  },
+  {
+    "id": "gsn-games",
+    "name": "GSN Games",
+    "logo": "🎮",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "GSN Games"
+  },
+  {
+    "id": "guidewire",
+    "name": "Guidewire",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Guidewire"
+  },
+  {
+    "id": "gusto",
+    "name": "Gusto",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Gusto"
+  },
+  {
+    "id": "harness",
+    "name": "Harness",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Harness"
+  },
+  {
+    "id": "hashedin",
+    "name": "HashedIn",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "HashedIn"
+  },
+  {
+    "id": "hcl",
+    "name": "HCL",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "HCL"
+  },
+  {
+    "id": "hertz",
+    "name": "Hertz",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Hertz"
+  },
+  {
+    "id": "highspot",
+    "name": "Highspot",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Highspot"
+  },
+  {
+    "id": "hilabs",
+    "name": "HiLabs",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "HiLabs"
+  },
+  {
+    "id": "hive",
+    "name": "Hive",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Hive"
+  },
+  {
+    "id": "hiver",
+    "name": "Hiver",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Hiver"
+  },
+  {
+    "id": "honeywell",
+    "name": "Honeywell",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Honeywell"
+  },
+  {
+    "id": "hotstar",
+    "name": "Hotstar",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Hotstar"
+  },
+  {
+    "id": "houzz",
+    "name": "Houzz",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Houzz"
+  },
+  {
+    "id": "hp",
+    "name": "HP",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "HP"
+  },
+  {
+    "id": "hpe",
+    "name": "HPE",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "HPE"
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "HSBC"
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Huawei"
+  },
+  {
+    "id": "hubspot",
+    "name": "Hubspot",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Hubspot"
+  },
+  {
+    "id": "hudson-river-trading",
+    "name": "Hudson River Trading",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "purple",
+    "tags": [
+      "Trading",
+      "Quant",
+      "Finance"
+    ],
+    "folderName": "Hudson River Trading"
+  },
+  {
+    "id": "hulu",
+    "name": "Hulu",
+    "logo": "🎬",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Hulu"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "logo": "🏢",
+    "description": "Technology and consulting company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "IBM"
+  },
+  {
+    "id": "iit-bombay",
+    "name": "IIT Bombay",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "IIT Bombay"
+  },
+  {
+    "id": "imc",
+    "name": "IMC",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "IMC"
+  },
+  {
+    "id": "indeed",
+    "name": "Indeed",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Indeed"
+  },
+  {
+    "id": "indmoney",
+    "name": "INDmoney",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "INDmoney"
+  },
+  {
+    "id": "info-edge",
+    "name": "Info Edge",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Info Edge"
+  },
+  {
+    "id": "informatica",
+    "name": "Informatica",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Informatica"
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Infosys"
+  },
+  {
+    "id": "inmobi",
+    "name": "InMobi",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "InMobi"
+  },
+  {
+    "id": "instabase",
+    "name": "instabase",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "instabase"
+  },
+  {
+    "id": "instacart",
+    "name": "Instacart",
+    "logo": "🍔",
+    "description": "Grocery delivery service",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Instacart"
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "logo": "🏢",
+    "description": "Semiconductor chip manufacturer",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Intel"
+  },
+  {
+    "id": "intuit",
+    "name": "Intuit",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Intuit"
+  },
+  {
+    "id": "ivp",
+    "name": "IVP",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "IVP"
+  },
+  {
+    "id": "ixl",
+    "name": "IXL",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "IXL"
+  },
+  {
+    "id": "j-p-morgan",
+    "name": "J.P. Morgan",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "indigo",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "J.P. Morgan"
+  },
+  {
+    "id": "jane-street",
+    "name": "Jane Street",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Jane Street"
+  },
+  {
+    "id": "jio",
+    "name": "jio",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "jio"
+  },
+  {
+    "id": "josh-technology",
+    "name": "josh technology",
+    "logo": "🏢",
+    "description": "Technology and software solutions company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "josh technology"
+  },
+  {
+    "id": "jump-trading",
+    "name": "Jump Trading",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "purple",
+    "tags": [
+      "Trading",
+      "Quant",
+      "Finance"
+    ],
+    "folderName": "Jump Trading"
+  },
+  {
+    "id": "juniper-networks",
+    "name": "Juniper Networks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Juniper Networks"
+  },
+  {
+    "id": "juspay",
+    "name": "Juspay",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Juspay"
+  },
+  {
+    "id": "kakao",
+    "name": "Kakao",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Kakao"
+  },
+  {
+    "id": "karat",
+    "name": "Karat",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Karat"
+  },
+  {
+    "id": "kla",
+    "name": "KLA",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "KLA"
+  },
+  {
+    "id": "komprise",
+    "name": "Komprise",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Komprise"
+  },
+  {
+    "id": "larsen-toubro",
+    "name": "Larsen & Toubro",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Larsen & Toubro"
+  },
+  {
+    "id": "lendingkart-technologies",
+    "name": "Lendingkart Technologies",
+    "logo": "🏢",
+    "description": "Technology and software solutions company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Lendingkart Technologies"
+  },
+  {
+    "id": "lenskart",
+    "name": "Lenskart",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Lenskart"
+  },
+  {
+    "id": "licious",
+    "name": "Licious",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Licious"
+  },
+  {
+    "id": "liftoff",
+    "name": "Liftoff",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Liftoff"
+  },
+  {
+    "id": "line",
+    "name": "LINE",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "LINE"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "logo": "💬",
+    "description": "Professional networking platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "LinkedIn"
+  },
+  {
+    "id": "liveramp",
+    "name": "LiveRamp",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "LiveRamp"
+  },
+  {
+    "id": "lowe-s",
+    "name": "Lowe's",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Lowe's"
+  },
+  {
+    "id": "lti",
+    "name": "LTI",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "LTI"
+  },
+  {
+    "id": "lucid",
+    "name": "Lucid",
+    "logo": "🚙",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Lucid"
+  },
+  {
+    "id": "luxoft",
+    "name": "Luxoft",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Luxoft"
+  },
+  {
+    "id": "lyft",
+    "name": "Lyft",
+    "logo": "🚗",
+    "description": "Ride-sharing platform",
+    "color": "pink",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Lyft"
+  },
+  {
+    "id": "machine-zone",
+    "name": "Machine Zone",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Machine Zone"
+  },
+  {
+    "id": "makemytrip",
+    "name": "MakeMyTrip",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "MakeMyTrip"
+  },
+  {
+    "id": "mapbox",
+    "name": "Mapbox",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mapbox"
+  },
+  {
+    "id": "maq-software",
+    "name": "MAQ Software",
+    "logo": "🏢",
+    "description": "Technology and software solutions company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "MAQ Software"
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mastercard"
+  },
+  {
+    "id": "mathworks",
+    "name": "MathWorks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "MathWorks"
+  },
+  {
+    "id": "mckinsey",
+    "name": "McKinsey",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "McKinsey"
+  },
+  {
+    "id": "media-net",
+    "name": "Media.net",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Media.net"
+  },
+  {
+    "id": "meesho",
+    "name": "Meesho",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Meesho"
+  },
+  {
+    "id": "mercari",
+    "name": "Mercari",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mercari"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "logo": "🚀",
+    "description": "Social technology company behind Facebook, Instagram, and WhatsApp",
+    "color": "blue",
+    "tags": [
+      "Tech Giant",
+      "FAANG",
+      "Technology"
+    ],
+    "folderName": "Meta"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "logo": "🚀",
+    "description": "Leading technology company in software, cloud, and AI",
+    "color": "blue",
+    "tags": [
+      "Tech Giant",
+      "FAANG",
+      "Technology"
+    ],
+    "folderName": "Microsoft"
+  },
+  {
+    "id": "microstrategy",
+    "name": "Microstrategy",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Microstrategy"
+  },
+  {
+    "id": "millennium",
+    "name": "Millennium",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Millennium"
+  },
+  {
+    "id": "mindtickle",
+    "name": "Mindtickle",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mindtickle"
+  },
+  {
+    "id": "mindtree",
+    "name": "MindTree",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "MindTree"
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Miro"
+  },
+  {
+    "id": "mitsogo",
+    "name": "Mitsogo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mitsogo"
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mixpanel"
+  },
+  {
+    "id": "mobileye",
+    "name": "Mobileye",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mobileye"
+  },
+  {
+    "id": "moengage",
+    "name": "Moengage",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Moengage"
+  },
+  {
+    "id": "moloco",
+    "name": "Moloco",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Moloco"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "logo": "☁️",
+    "description": "NoSQL database platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "MongoDB"
+  },
+  {
+    "id": "morgan-stanley",
+    "name": "Morgan Stanley",
+    "logo": "🏦",
+    "description": "Global financial services firm specializing in investment banking",
+    "color": "indigo",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Morgan Stanley"
+  },
+  {
+    "id": "mountblue",
+    "name": "Mountblue",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Mountblue"
+  },
+  {
+    "id": "moveworks",
+    "name": "Moveworks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Moveworks"
+  },
+  {
+    "id": "msci",
+    "name": "MSCI",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "MSCI"
+  },
+  {
+    "id": "myntra",
+    "name": "Myntra",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Myntra"
+  },
+  {
+    "id": "nagarro",
+    "name": "Nagarro",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nagarro"
+  },
+  {
+    "id": "national-instruments",
+    "name": "National Instruments",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "National Instruments"
+  },
+  {
+    "id": "national-payments-corporation-of-india",
+    "name": "National Payments Corporation of India",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "National Payments Corporation of India"
+  },
+  {
+    "id": "navan",
+    "name": "Navan",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Navan"
+  },
+  {
+    "id": "navi",
+    "name": "Navi",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Navi"
+  },
+  {
+    "id": "ncr",
+    "name": "NCR",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "NCR"
+  },
+  {
+    "id": "netapp",
+    "name": "NetApp",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "NetApp"
+  },
+  {
+    "id": "netease",
+    "name": "NetEase",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "NetEase"
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "logo": "🎬",
+    "description": "Streaming entertainment service with original content",
+    "color": "red",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Netflix"
+  },
+  {
+    "id": "netskope",
+    "name": "Netskope",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Netskope"
+  },
+  {
+    "id": "netsuite",
+    "name": "Netsuite",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Netsuite"
+  },
+  {
+    "id": "nextdoor",
+    "name": "Nextdoor",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nextdoor"
+  },
+  {
+    "id": "niantic",
+    "name": "Niantic",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Niantic"
+  },
+  {
+    "id": "nielsen",
+    "name": "Nielsen",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nielsen"
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nike"
+  },
+  {
+    "id": "ninjacart",
+    "name": "NinjaCart",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "NinjaCart"
+  },
+  {
+    "id": "nokia",
+    "name": "Nokia",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nokia"
+  },
+  {
+    "id": "nordstrom",
+    "name": "Nordstrom",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nordstrom"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Notion"
+  },
+  {
+    "id": "nuro",
+    "name": "Nuro",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nuro"
+  },
+  {
+    "id": "nutanix",
+    "name": "Nutanix",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nutanix"
+  },
+  {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "logo": "🤖",
+    "description": "Leading designer of graphics processing units and AI chips",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nvidia"
+  },
+  {
+    "id": "nykaa",
+    "name": "Nykaa",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Nykaa"
+  },
+  {
+    "id": "odoo",
+    "name": "Odoo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Odoo"
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "logo": "🔒",
+    "description": "Identity and access management platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Okta"
+  },
+  {
+    "id": "okx",
+    "name": "OKX",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "OKX"
+  },
+  {
+    "id": "ola-cabs",
+    "name": "Ola Cabs",
+    "logo": "🚗",
+    "description": "Leading company in technology and innovation",
+    "color": "pink",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Ola Cabs"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "logo": "🤖",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "OpenAI"
+  },
+  {
+    "id": "opendoor",
+    "name": "Opendoor",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Opendoor"
+  },
+  {
+    "id": "opentext",
+    "name": "opentext",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "opentext"
+  },
+  {
+    "id": "optiver",
+    "name": "Optiver",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Optiver"
+  },
+  {
+    "id": "optum",
+    "name": "Optum",
+    "logo": "🏥",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Optum"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "logo": "🏢",
+    "description": "Enterprise software and cloud solutions provider",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Oracle"
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Otter.ai"
+  },
+  {
+    "id": "oyo",
+    "name": "oyo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "oyo"
+  },
+  {
+    "id": "ozon",
+    "name": "Ozon",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Ozon"
+  },
+  {
+    "id": "palantir-technologies",
+    "name": "Palantir Technologies",
+    "logo": "🏢",
+    "description": "Data analytics and software company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Palantir Technologies"
+  },
+  {
+    "id": "palo-alto-networks",
+    "name": "Palo Alto Networks",
+    "logo": "🔒",
+    "description": "Cybersecurity company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Palo Alto Networks"
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Patreon"
+  },
+  {
+    "id": "paycom",
+    "name": "Paycom",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Paycom"
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "logo": "💳",
+    "description": "Online payments system",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "PayPal"
+  },
+  {
+    "id": "paypay",
+    "name": "PayPay",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "PayPay"
+  },
+  {
+    "id": "paytm",
+    "name": "Paytm",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Paytm"
+  },
+  {
+    "id": "payu",
+    "name": "PayU",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "PayU"
+  },
+  {
+    "id": "peak6",
+    "name": "peak6",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "peak6"
+  },
+  {
+    "id": "peloton",
+    "name": "Peloton",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Peloton"
+  },
+  {
+    "id": "persistent-systems",
+    "name": "persistent systems",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "persistent systems"
+  },
+  {
+    "id": "phonepe",
+    "name": "PhonePe",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "PhonePe"
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "logo": "💬",
+    "description": "Visual discovery and bookmarking platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Pinterest"
+  },
+  {
+    "id": "pocket-gems",
+    "name": "Pocket Gems",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Pocket Gems"
+  },
+  {
+    "id": "point72",
+    "name": "Point72",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Point72"
+  },
+  {
+    "id": "pony-ai",
+    "name": "Pony.ai",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Pony.ai"
+  },
+  {
+    "id": "pornhub",
+    "name": "PornHub",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "PornHub"
+  },
+  {
+    "id": "poshmark",
+    "name": "Poshmark",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Poshmark"
+  },
+  {
+    "id": "postmates",
+    "name": "Postmates",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Postmates"
+  },
+  {
+    "id": "publicis-sapient",
+    "name": "Publicis Sapient",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Publicis Sapient"
+  },
+  {
+    "id": "pubmatic",
+    "name": "PubMatic",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "PubMatic"
+  },
+  {
+    "id": "pure-storage",
+    "name": "Pure Storage",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Pure Storage"
+  },
+  {
+    "id": "pwc",
+    "name": "Pwc",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Pwc"
+  },
+  {
+    "id": "qburst",
+    "name": "QBurst",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "QBurst"
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Qualcomm"
+  },
+  {
+    "id": "qualtrics",
+    "name": "Qualtrics",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Qualtrics"
+  },
+  {
+    "id": "quora",
+    "name": "Quora",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Quora"
+  },
+  {
+    "id": "rakuten",
+    "name": "Rakuten",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Rakuten"
+  },
+  {
+    "id": "razorpay",
+    "name": "razorpay",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "razorpay"
+  },
+  {
+    "id": "rbc",
+    "name": "RBC",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "RBC"
+  },
+  {
+    "id": "redbus",
+    "name": "redbus",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "redbus"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "logo": "💬",
+    "description": "Social news aggregation and discussion platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Reddit"
+  },
+  {
+    "id": "remitly",
+    "name": "Remitly",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Remitly"
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Revolut"
+  },
+  {
+    "id": "riot-games",
+    "name": "Riot Games",
+    "logo": "🎮",
+    "description": "Video game developer and publisher",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Riot Games"
+  },
+  {
+    "id": "ripple",
+    "name": "Ripple",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Ripple"
+  },
+  {
+    "id": "rippling",
+    "name": "Rippling",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Rippling"
+  },
+  {
+    "id": "rivian",
+    "name": "Rivian",
+    "logo": "🚙",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Rivian"
+  },
+  {
+    "id": "robinhood",
+    "name": "Robinhood",
+    "logo": "💳",
+    "description": "Commission-free stock trading platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Robinhood"
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "logo": "🎮",
+    "description": "Online gaming platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Roblox"
+  },
+  {
+    "id": "roche",
+    "name": "Roche",
+    "logo": "🏥",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Roche"
+  },
+  {
+    "id": "rokt",
+    "name": "Rokt",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Rokt"
+  },
+  {
+    "id": "roku",
+    "name": "Roku",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Roku"
+  },
+  {
+    "id": "rubrik",
+    "name": "Rubrik",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Rubrik"
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "logo": "🏢",
+    "description": "Cloud-based customer relationship management platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Salesforce"
+  },
+  {
+    "id": "samsara",
+    "name": "Samsara",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Samsara"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Samsung"
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "SAP"
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "logo": "🤖",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Scale AI"
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Sentry"
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ServiceNow"
+  },
+  {
+    "id": "sharechat",
+    "name": "ShareChat",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ShareChat"
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Shopee"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "logo": "🛒",
+    "description": "E-commerce platform for online stores",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Shopify"
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Siemens"
+  },
+  {
+    "id": "sig",
+    "name": "SIG",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "SIG"
+  },
+  {
+    "id": "sigmoid",
+    "name": "Sigmoid",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Sigmoid"
+  },
+  {
+    "id": "slice",
+    "name": "Slice",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Slice"
+  },
+  {
+    "id": "smartnews",
+    "name": "smartnews",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "smartnews"
+  },
+  {
+    "id": "smartsheet",
+    "name": "Smartsheet",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Smartsheet"
+  },
+  {
+    "id": "snap",
+    "name": "Snap",
+    "logo": "💬",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Snap"
+  },
+  {
+    "id": "snapdeal",
+    "name": "Snapdeal",
+    "logo": "💬",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Snapdeal"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "logo": "☁️",
+    "description": "Cloud data platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Snowflake"
+  },
+  {
+    "id": "societe-generale",
+    "name": "Societe Generale",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Societe Generale"
+  },
+  {
+    "id": "sofi",
+    "name": "SoFi",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "SoFi"
+  },
+  {
+    "id": "softwire",
+    "name": "Softwire",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Softwire"
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Sony"
+  },
+  {
+    "id": "soti",
+    "name": "SOTI",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "SOTI"
+  },
+  {
+    "id": "soundhound",
+    "name": "SoundHound",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "SoundHound"
+  },
+  {
+    "id": "splunk",
+    "name": "Splunk",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Splunk"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "logo": "🎬",
+    "description": "Digital music streaming service",
+    "color": "red",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Spotify"
+  },
+  {
+    "id": "sprinklr",
+    "name": "Sprinklr",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Sprinklr"
+  },
+  {
+    "id": "squarepoint-capital",
+    "name": "Squarepoint Capital",
+    "logo": "🏦",
+    "description": "Financial services and mobile payment company",
+    "color": "purple",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Squarepoint Capital"
+  },
+  {
+    "id": "squarespace",
+    "name": "Squarespace",
+    "logo": "💳",
+    "description": "Financial services and mobile payment company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Squarespace"
+  },
+  {
+    "id": "stackadapt",
+    "name": "StackAdapt",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "StackAdapt"
+  },
+  {
+    "id": "stackline",
+    "name": "Stackline",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Stackline"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "logo": "💳",
+    "description": "Financial infrastructure platform for online payments",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Stripe"
+  },
+  {
+    "id": "sumo-logic",
+    "name": "Sumo Logic",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Sumo Logic"
+  },
+  {
+    "id": "swiggy",
+    "name": "Swiggy",
+    "logo": "🍔",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Swiggy"
+  },
+  {
+    "id": "synopsys",
+    "name": "Synopsys",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Synopsys"
+  },
+  {
+    "id": "tanium",
+    "name": "Tanium",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tanium"
+  },
+  {
+    "id": "target",
+    "name": "Target",
+    "logo": "🛒",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Target"
+  },
+  {
+    "id": "tcs",
+    "name": "tcs",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "tcs"
+  },
+  {
+    "id": "tech-mahindra",
+    "name": "Tech Mahindra",
+    "logo": "🏢",
+    "description": "Technology and software solutions company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tech Mahindra"
+  },
+  {
+    "id": "tejas-networks",
+    "name": "Tejas Networks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tejas Networks"
+  },
+  {
+    "id": "tekion",
+    "name": "Tekion",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tekion"
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tencent"
+  },
+  {
+    "id": "teradata",
+    "name": "Teradata",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Teradata"
+  },
+  {
+    "id": "tesco",
+    "name": "Tesco",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tesco"
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "logo": "🚙",
+    "description": "Electric vehicle and clean energy company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tesla"
+  },
+  {
+    "id": "texas-instruments",
+    "name": "Texas Instruments",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Texas Instruments"
+  },
+  {
+    "id": "the-trade-desk",
+    "name": "The Trade Desk",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "The Trade Desk"
+  },
+  {
+    "id": "thomson-reuters",
+    "name": "Thomson Reuters",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Thomson Reuters"
+  },
+  {
+    "id": "thoughtspot",
+    "name": "thoughtspot",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "thoughtspot"
+  },
+  {
+    "id": "thoughtworks",
+    "name": "ThoughtWorks",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ThoughtWorks"
+  },
+  {
+    "id": "thousandeyes",
+    "name": "ThousandEyes",
+    "logo": "💼",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ThousandEyes"
+  },
+  {
+    "id": "tiger-analytics",
+    "name": "Tiger Analytics",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tiger Analytics"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "logo": "💬",
+    "description": "Short-form video sharing platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "TikTok"
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tinder"
+  },
+  {
+    "id": "tinkoff",
+    "name": "Tinkoff",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tinkoff"
+  },
+  {
+    "id": "toast",
+    "name": "Toast",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Toast"
+  },
+  {
+    "id": "toptal",
+    "name": "Toptal",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Toptal"
+  },
+  {
+    "id": "tower-research-capital",
+    "name": "Tower Research Capital",
+    "logo": "🏦",
+    "description": "Financial services and investment firm",
+    "color": "purple",
+    "tags": [
+      "Finance",
+      "Banking",
+      "Technology"
+    ],
+    "folderName": "Tower Research Capital"
+  },
+  {
+    "id": "trexquant",
+    "name": "Trexquant",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Trexquant"
+  },
+  {
+    "id": "trilogy",
+    "name": "Trilogy",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Trilogy"
+  },
+  {
+    "id": "tripadvisor",
+    "name": "Tripadvisor",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Tripadvisor"
+  },
+  {
+    "id": "turing",
+    "name": "Turing",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Turing"
+  },
+  {
+    "id": "turo",
+    "name": "Turo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Turo"
+  },
+  {
+    "id": "turvo",
+    "name": "Turvo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Turvo"
+  },
+  {
+    "id": "tusimple",
+    "name": "TuSimple",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "TuSimple"
+  },
+  {
+    "id": "twilio",
+    "name": "Twilio",
+    "logo": "🏢",
+    "description": "Cloud communications platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Twilio"
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "logo": "🎬",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Twitch"
+  },
+  {
+    "id": "two-sigma",
+    "name": "Two Sigma",
+    "logo": "📈",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Trading",
+      "Quant",
+      "Finance"
+    ],
+    "folderName": "Two Sigma"
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "logo": "🍔",
+    "description": "Technology platform for ride-sharing and delivery",
+    "color": "pink",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Uber"
+  },
+  {
+    "id": "ubs",
+    "name": "UBS",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "UBS"
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "UiPath"
+  },
+  {
+    "id": "ukg",
+    "name": "UKG",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "UKG"
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "logo": "🎮",
+    "description": "Game development platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Unity"
+  },
+  {
+    "id": "upstart",
+    "name": "Upstart",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Upstart"
+  },
+  {
+    "id": "urban-company",
+    "name": "Urban Company",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Urban Company"
+  },
+  {
+    "id": "usaa",
+    "name": "USAA",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "USAA"
+  },
+  {
+    "id": "valve",
+    "name": "Valve",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Valve"
+  },
+  {
+    "id": "vanguard",
+    "name": "Vanguard",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Vanguard"
+  },
+  {
+    "id": "veeva-systems",
+    "name": "Veeva Systems",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Veeva Systems"
+  },
+  {
+    "id": "verily",
+    "name": "Verily",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Verily"
+  },
+  {
+    "id": "veritas",
+    "name": "Veritas",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Veritas"
+  },
+  {
+    "id": "verkada",
+    "name": "Verkada",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Verkada"
+  },
+  {
+    "id": "vimeo",
+    "name": "Vimeo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Vimeo"
+  },
+  {
+    "id": "virtu-financial",
+    "name": "Virtu Financial",
+    "logo": "🏢",
+    "description": "Financial services and investment firm",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Virtu Financial"
+  },
+  {
+    "id": "virtusa",
+    "name": "Virtusa",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Virtusa"
+  },
+  {
+    "id": "visa",
+    "name": "Visa",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "green",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Visa"
+  },
+  {
+    "id": "vk",
+    "name": "VK",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "VK"
+  },
+  {
+    "id": "vmware",
+    "name": "VMware",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "VMware"
+  },
+  {
+    "id": "walmart-labs",
+    "name": "Walmart Labs",
+    "logo": "🛒",
+    "description": "Leading company in technology and innovation",
+    "color": "orange",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Walmart Labs"
+  },
+  {
+    "id": "warnermedia",
+    "name": "Warnermedia",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Warnermedia"
+  },
+  {
+    "id": "watchguard",
+    "name": "WatchGuard",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "WatchGuard"
+  },
+  {
+    "id": "wayfair",
+    "name": "Wayfair",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wayfair"
+  },
+  {
+    "id": "waymo",
+    "name": "Waymo",
+    "logo": "🚙",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Waymo"
+  },
+  {
+    "id": "wealthfront",
+    "name": "Wealthfront",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wealthfront"
+  },
+  {
+    "id": "wells-fargo",
+    "name": "Wells Fargo",
+    "logo": "🏦",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wells Fargo"
+  },
+  {
+    "id": "weride",
+    "name": "WeRide",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "WeRide"
+  },
+  {
+    "id": "western-digital",
+    "name": "Western Digital",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Western Digital"
+  },
+  {
+    "id": "whatnot",
+    "name": "Whatnot",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Whatnot"
+  },
+  {
+    "id": "winzo",
+    "name": "WinZO",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "WinZO"
+  },
+  {
+    "id": "wipro",
+    "name": "Wipro",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wipro"
+  },
+  {
+    "id": "wise",
+    "name": "Wise",
+    "logo": "💳",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wise"
+  },
+  {
+    "id": "wish",
+    "name": "Wish",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wish"
+  },
+  {
+    "id": "wissen-technology",
+    "name": "Wissen Technology",
+    "logo": "🏢",
+    "description": "Technology and software solutions company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wissen Technology"
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Wix"
+  },
+  {
+    "id": "workday",
+    "name": "Workday",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Workday"
+  },
+  {
+    "id": "works-applications",
+    "name": "Works Applications",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Works Applications"
+  },
+  {
+    "id": "worldquant",
+    "name": "WorldQuant",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "WorldQuant"
+  },
+  {
+    "id": "x",
+    "name": "X",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "X"
+  },
+  {
+    "id": "yahoo",
+    "name": "Yahoo",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Yahoo"
+  },
+  {
+    "id": "yandex",
+    "name": "Yandex",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Yandex"
+  },
+  {
+    "id": "yelp",
+    "name": "Yelp",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Yelp"
+  },
+  {
+    "id": "yext",
+    "name": "Yext",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Yext"
+  },
+  {
+    "id": "zalando",
+    "name": "Zalando",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zalando"
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zendesk"
+  },
+  {
+    "id": "zenefits",
+    "name": "Zenefits",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zenefits"
+  },
+  {
+    "id": "zepto",
+    "name": "Zepto",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zepto"
+  },
+  {
+    "id": "zeta",
+    "name": "Zeta",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zeta"
+  },
+  {
+    "id": "zeta-suite",
+    "name": "zeta suite",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "zeta suite"
+  },
+  {
+    "id": "zillow",
+    "name": "Zillow",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zillow"
+  },
+  {
+    "id": "ziprecruiter",
+    "name": "ZipRecruiter",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ZipRecruiter"
+  },
+  {
+    "id": "zluri",
+    "name": "Zluri",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zluri"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zoho"
+  },
+  {
+    "id": "zomato",
+    "name": "Zomato",
+    "logo": "🍔",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zomato"
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "logo": "🏢",
+    "description": "Video communications platform",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zoom"
+  },
+  {
+    "id": "zoox",
+    "name": "Zoox",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zoox"
+  },
+  {
+    "id": "zopsmart",
+    "name": "Zopsmart",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zopsmart"
+  },
+  {
+    "id": "zs-associates",
+    "name": "ZS Associates",
+    "logo": "🏢",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ZS Associates"
+  },
+  {
+    "id": "zscaler",
+    "name": "ZScaler",
+    "logo": "🔒",
+    "description": "Cloud security company",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "ZScaler"
+  },
+  {
+    "id": "zynga",
+    "name": "Zynga",
+    "logo": "🎮",
+    "description": "Leading company in technology and innovation",
+    "color": "blue",
+    "tags": [
+      "Technology"
+    ],
+    "folderName": "Zynga"
+  }
+]

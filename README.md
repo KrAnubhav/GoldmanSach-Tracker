@@ -1,6 +1,6 @@
-# Goldman Sachs Interview Prep Tracker
+# CompanyCode - Interview Prep Tracker
 
-A comprehensive interview preparation tracker for Goldman Sachs technical interviews, featuring LeetCode problem tracking, interview experiences, and AI-powered study assistance.
+A comprehensive multi-company interview preparation tracker for top tech companies, featuring LeetCode problem tracking, interview experiences, and dynamic company support.
 
 ## 🚀 Deployment to Netlify
 
@@ -84,9 +84,9 @@ If you're using Firebase or Gemini API, add these environment variables in Netli
 ## 📦 Project Structure
 
 ```
-GoldmanSach-Tracker/
+CompanyCode/
 ├── src/
-│   ├── App.jsx          # Main React component (your original code)
+│   ├── App.jsx          # Main React component
 │   ├── main.jsx         # React entry point
 │   └── index.css        # Global styles
 ├── index.html           # HTML template

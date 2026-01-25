@@ -1,17 +1,35 @@
-import React, { useState, useMemo } from 'react';
-import { Search, TrendingUp, Building2, ArrowRight } from 'lucide-react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { Search, TrendingUp, Building2, ArrowRight, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { COMPANIES, searchCompanies } from '../../data/companies';
+import { getCompanies, searchCompanies } from '../../data/companies';
 import Card from '../common/Card';
 
 const CompanySearch = () => {
     const [searchQuery, setSearchQuery] = useState('');
+    const [companies, setCompanies] = useState([]);
+    const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
 
+    // Load companies on mount
+    useEffect(() => {
+        const loadCompanies = async () => {
+            setLoading(true);
+            try {
+                const data = await getCompanies();
+                setCompanies(data);
+            } catch (error) {
+                console.error('Error loading companies:', error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        loadCompanies();
+    }, []);
+
     const filteredCompanies = useMemo(() => {
-        if (!searchQuery.trim()) return COMPANIES;
+        if (!searchQuery.trim()) return companies;
         return searchCompanies(searchQuery);
-    }, [searchQuery]);
+    }, [searchQuery, companies]);
 
     const handleCompanyClick = (companyId) => {
         navigate(`/company/${companyId}`);
@@ -51,59 +69,69 @@ const CompanySearch = () => {
                 )}
             </div>
 
+            {/* Loading State */}
+            {loading && (
+                <div className="flex justify-center items-center py-16">
+                    <Loader2 className="w-8 h-8 text-blue-500 animate-spin" />
+                    <span className="ml-3 text-slate-600">Loading companies...</span>
+                </div>
+            )}
+
             {/* Companies Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredCompanies.map((company, index) => (
-                    <Card
-                        key={company.id}
-                        className="group cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] overflow-hidden animate-fade-in-up"
-                        style={{ animationDelay: `${index * 0.1}s` }}
-                        onClick={() => handleCompanyClick(company.id)}
-                    >
-                        <div className="p-6 space-y-4">
-                            {/* Company Header */}
-                            <div className="flex items-start justify-between">
-                                <div className="flex items-center gap-3">
-                                    <div className="text-4xl transform group-hover:scale-110 transition-transform duration-300">{company.logo}</div>
-                                    <div>
-                                        <h3 className="text-xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
-                                            {company.name}
-                                        </h3>
+            {!loading && (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {filteredCompanies.map((company, index) => (
+                        <Card
+                            key={company.id}
+                            className="group cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] overflow-hidden animate-fade-in-up"
+                            style={{ animationDelay: `${index * 0.1}s` }}
+                            onClick={() => handleCompanyClick(company.id)}
+                        >
+                            <div className="p-6 space-y-4">
+                                {/* Company Header */}
+                                <div className="flex items-start justify-between">
+                                    <div className="flex items-center gap-3">
+                                        <div className="text-4xl transform group-hover:scale-110 transition-transform duration-300">{company.logo}</div>
+                                        <div>
+                                            <h3 className="text-xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
+                                                {company.name}
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <ArrowRight className="w-5 h-5 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all" />
+                                </div>
+
+                                {/* Description */}
+                                <p className="text-sm text-slate-600 line-clamp-2">
+                                    {company.description}
+                                </p>
+
+                                {/* Tags */}
+                                <div className="flex flex-wrap gap-2">
+                                    {company.tags.map((tag, index) => (
+                                        <span
+                                            key={index}
+                                            className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200 hover:bg-slate-200 transition-colors"
+                                        >
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+
+                                {/* CTA Button */}
+                                <div className="pt-2">
+                                    <div className={`w-full py-2.5 px-4 bg-gradient-to-r ${getColorClasses(company.color)} text-white font-semibold rounded-lg text-center transition-all duration-300 shadow-md group-hover:shadow-lg transform group-hover:scale-105`}>
+                                        View Tracker
                                     </div>
                                 </div>
-                                <ArrowRight className="w-5 h-5 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all" />
                             </div>
-
-                            {/* Description */}
-                            <p className="text-sm text-slate-600 line-clamp-2">
-                                {company.description}
-                            </p>
-
-                            {/* Tags */}
-                            <div className="flex flex-wrap gap-2">
-                                {company.tags.map((tag, index) => (
-                                    <span
-                                        key={index}
-                                        className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200 hover:bg-slate-200 transition-colors"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
-
-                            {/* CTA Button */}
-                            <div className="pt-2">
-                                <div className={`w-full py-2.5 px-4 bg-gradient-to-r ${getColorClasses(company.color)} text-white font-semibold rounded-lg text-center transition-all duration-300 shadow-md group-hover:shadow-lg transform group-hover:scale-105`}>
-                                    View Tracker
-                                </div>
-                            </div>
-                        </div>
-                    </Card>
-                ))}
-            </div>
+                        </Card>
+                    ))}
+                </div>
+            )}
 
             {/* Empty State */}
-            {filteredCompanies.length === 0 && (
+            {!loading && filteredCompanies.length === 0 && (
                 <div className="text-center py-16">
                     <Building2 className="w-16 h-16 text-slate-300 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-slate-700 mb-2">No companies found</h3>
