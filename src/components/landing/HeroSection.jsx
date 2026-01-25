@@ -1,9 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import { Search, Sparkles } from 'lucide-react';
+import { useWaterRipple } from '../../hooks/useWaterRipple';
 
 const HeroSection = () => {
     const heroRef = useRef(null);
     const particlesRef = useRef([]);
+    const canvasRef = useRef(null);
+
+    // Initialize water ripple effect
+    useWaterRipple(canvasRef);
 
     useEffect(() => {
         // Create floating particles
@@ -47,6 +52,13 @@ const HeroSection = () => {
             {/* Animated gradient background */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/20 to-indigo-600/20 animate-gradient-shift"></div>
 
+            {/* Water Ripple Canvas - Interactive layer */}
+            <canvas
+                ref={canvasRef}
+                className="absolute inset-0 w-full h-full pointer-events-auto cursor-pointer z-10"
+                style={{ mixBlendMode: 'screen' }}
+            />
+
             {/* Floating orbs with parallax */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="floating-orb absolute -top-40 -right-40 w-80 h-80 bg-blue-500/30 rounded-full blur-3xl animate-float-slow"></div>
@@ -74,7 +86,7 @@ const HeroSection = () => {
                 ))}
             </div>
 
-            <div className="relative max-w-7xl mx-auto px-6 py-24 sm:py-32">
+            <div className="relative z-20 max-w-7xl mx-auto px-6 py-24 sm:py-32">
                 <div className="text-center space-y-8">
                     {/* Logo/Icon with floating animation */}
                     <div className="flex justify-center animate-float-gentle">
