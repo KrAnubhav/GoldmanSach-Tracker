@@ -30,7 +30,7 @@ const CompanySearch = () => {
     return (
         <div className="max-w-7xl mx-auto px-6 py-16">
             {/* Search Section */}
-            <div className="mb-12">
+            <div className="mb-12 animate-fade-in-up">
                 <div className="relative max-w-2xl mx-auto">
                     <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                         <Search className="h-5 w-5 text-slate-400" />
@@ -40,12 +40,12 @@ const CompanySearch = () => {
                         placeholder="Search companies..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-full pl-12 pr-4 py-4 text-lg border-2 border-slate-200 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all shadow-sm"
+                        className="w-full pl-12 pr-4 py-4 text-lg border-2 border-slate-200 rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all shadow-sm hover:shadow-md"
                     />
                 </div>
 
                 {searchQuery && (
-                    <p className="text-center mt-4 text-slate-600">
+                    <p className="text-center mt-4 text-slate-600 animate-fade-in-up">
                         Found {filteredCompanies.length} {filteredCompanies.length === 1 ? 'company' : 'companies'}
                     </p>
                 )}
@@ -53,17 +53,18 @@ const CompanySearch = () => {
 
             {/* Companies Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredCompanies.map((company) => (
+                {filteredCompanies.map((company, index) => (
                     <Card
                         key={company.id}
-                        className="group cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+                        className="group cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] overflow-hidden animate-fade-in-up"
+                        style={{ animationDelay: `${index * 0.1}s` }}
                         onClick={() => handleCompanyClick(company.id)}
                     >
                         <div className="p-6 space-y-4">
                             {/* Company Header */}
                             <div className="flex items-start justify-between">
                                 <div className="flex items-center gap-3">
-                                    <div className="text-4xl">{company.logo}</div>
+                                    <div className="text-4xl transform group-hover:scale-110 transition-transform duration-300">{company.logo}</div>
                                     <div>
                                         <h3 className="text-xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors">
                                             {company.name}
@@ -83,7 +84,7 @@ const CompanySearch = () => {
                                 {company.tags.map((tag, index) => (
                                     <span
                                         key={index}
-                                        className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200"
+                                        className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200 hover:bg-slate-200 transition-colors"
                                     >
                                         {tag}
                                     </span>
@@ -92,7 +93,7 @@ const CompanySearch = () => {
 
                             {/* CTA Button */}
                             <div className="pt-2">
-                                <div className={`w-full py-2.5 px-4 bg-gradient-to-r ${getColorClasses(company.color)} text-white font-semibold rounded-lg text-center transition-all duration-300 shadow-md group-hover:shadow-lg`}>
+                                <div className={`w-full py-2.5 px-4 bg-gradient-to-r ${getColorClasses(company.color)} text-white font-semibold rounded-lg text-center transition-all duration-300 shadow-md group-hover:shadow-lg transform group-hover:scale-105`}>
                                     View Tracker
                                 </div>
                             </div>
