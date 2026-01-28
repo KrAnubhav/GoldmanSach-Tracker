@@ -1,0 +1,15 @@
+[
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "logo": "🏦",
+    "description": "Leading global investment banking, securities and investment management firm",
+    "color": "blue",
+    "tags": [
+      "Investment Banking",
+      "Finance",
+      "Technology"
+    ],
+    "folderName": "goldman-sachs"
+  }
+]

@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Search, TrendingUp, Building2, ArrowRight, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { getCompanies, searchCompanies } from '../../data/companies';
+import companiesData from '../../data/generated-companies.json';
 import Card from '../common/Card';
 
 const CompanySearch = () => {
@@ -15,8 +15,8 @@ const CompanySearch = () => {
         const loadCompanies = async () => {
             setLoading(true);
             try {
-                const data = await getCompanies();
-                setCompanies(data);
+                // Simulating async behavior if usually fetched, but here it's static import
+                setCompanies(companiesData);
             } catch (error) {
                 console.error('Error loading companies:', error);
             } finally {
@@ -28,7 +28,12 @@ const CompanySearch = () => {
 
     const filteredCompanies = useMemo(() => {
         if (!searchQuery.trim()) return companies;
-        return searchCompanies(searchQuery);
+        const query = searchQuery.toLowerCase();
+        return companies.filter(company =>
+            company.name.toLowerCase().includes(query) ||
+            company.description.toLowerCase().includes(query) ||
+            (company.tags && company.tags.some(tag => tag.toLowerCase().includes(query)))
+        );
     }, [searchQuery, companies]);
 
     const handleCompanyClick = (companyId) => {
