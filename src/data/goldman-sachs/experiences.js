@@ -1171,5 +1171,393 @@ export const INTERVIEW_EXPERIENCES = [
         content: "I got rejection email after 3 weeks. ❌"
       }
     ]
+  },
+  {
+    id: 33,
+    role: "Associate",
+    yoe: "4.5 years",
+    date: "May 06, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "OA",
+        content: "Two questions were asked, one of them was easy and another one was medium level. All Test cases for both the questions passed."
+      },
+      {
+        name: "Coderpad Round",
+        content: "Two questions were asked:\\nQue 1 -> Trapping rain water problem (Space optimization to O(1) required).\\nQue 2 -> Find length of circular loop in an array where you will be given a starting index and you need to jump to the index which it points to, while traversing if you find loop, you need to return the length of loop. Example: arr-> [1,2,3,0,2,1] and startingIndex -> 0, answer will be -> 4."
+      },
+      {
+        name: "Superday Round 1 - DSA",
+        content: "Que 1 -> You are given a hashmap where key is a child and value is parent, with this map we can create a forest of trees, we need to find the root of the tree which has highest number of nodes (Disjoint Set based solution).\\nQue 2 -> Longest Substring Without Repeating Characters."
+      },
+      {
+        name: "Superday Round 2 - Software Engineering Practices",
+        content: "Low level design of Parking Lot system.\\nDeep dive into one of the projects mentioned in resume (database, api endpoint structure, api performance optimization).\\nCaching related questions (how caching used, how it optimized API performance).\\nWhat is Shallow copy and deep copy of objects in java and some question on multi threading."
+      },
+      {
+        name: "Superday Round 3 - Software Design and Architecture",
+        content: "HLD round.\\nThreading concepts in java (10 minute discussion).\\nRate Limiting (usage, algorithms, why not at client side, ways to use at client side).\\nCoding: Sliding window algorithm.\\nWhatsapp message delivery mechanism (offline/online handling, tech stack).\\nRedis vs Kafka discussion (low latency)."
+      },
+      {
+        name: "HM Round",
+        content: "Introductions.\\nTeam and project discussion.\\nBehavioral and situation based questions."
+      },
+      {
+        name: "Verdict",
+        content: "Selected. Cleared all rounds."
+      }
+    ]
+  },
+  {
+    id: 34,
+    role: "Associate",
+    yoe: "3.5+ years",
+    date: "Jan 23, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Round 1: HackerRank Test",
+        content: "HackerRank Online Assessment test of 90 minutes, with 2 DSA questions to solve. I have coded both the questions."
+      },
+      {
+        name: "Round 2: CoderPad Virtual Interview",
+        content: "Virtual interview of 1 hour, interviewer asked me 2 DSA questions. Both questions were LeetCode medium level, solved both."
+      },
+      {
+        name: "Round 3: DSA Round",
+        content: "This is a 1 hour long interview.\\nQuestion 1: Dynamic programming leetcode medium (house robber)\\nQuestion 2: Backtracking and Recursion medium level leetcode problem"
+      },
+      {
+        name: "Round 4: DSA",
+        content: "Question 1: Binary search leetcode medium level\\nQuestion 2: Check if given tree is subtree or not"
+      },
+      {
+        name: "Round 5: OOPs + DBMS + Resume",
+        content: "OOPs based question, Collections, REST, Springboot related questions like dependency Injection, Annotations\\nOne puzzle question on binary representations and some questions on project from resume."
+      },
+      {
+        name: "Round 6: TechnoManagerial Round",
+        content: "Starts with introduction.\\nBrief discussion about my current company, projects, architecture, my contributions etc.\\nMostly questions were from the points or skills mentioned in resume."
+      },
+      {
+        name: "Verdict",
+        content: "Selected"
+      }
+    ]
+  },
+  {
+    id: 35,
+    role: "Analyst",
+    yoe: "N/A",
+    date: "Jun 14, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Round 1: Online Assessment",
+        content: "Question 1 (Easy): Priority Queue based LeetCode easy question.\\nQuestion 2 (Medium): Count Number of Teams (Similar to LC 1395)."
+      },
+      {
+        name: "Round 2: Coderpad Round",
+        content: "Question 1 (Easy): Given a chessboard with a bishop and a seahorse, return the minimum number of moves required for the bishop to capture the seahorse (BFS).\\nQuestion 2 (Medium): Maximum path sum in matrix (DP)."
+      },
+      {
+        name: "Round 3: Superday (Data Structures)",
+        content: "Question 1: Find Median from Data Stream (LC 295).\\nQuestion 2: Greatest Sum Divisible by Three (LC 1262)."
+      },
+      {
+        name: "Round 4: Superday (Software Engineering Practices)",
+        content: "Question 1 (Hard): Decode Ways II (LC 639).\\nQuestion 2: Design distributed caching system (Basic Class Implementation).\\nQuestion 3 (Medium): Fraction to Recurring Decimal (LC 166).\\nQuestion 4: Handling cache miss stampede (Thundering Herd level) from a database perspective."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected after Round 4."
+      }
+    ]
+  },
+  {
+    id: 36,
+    role: "Analyst",
+    yoe: "N/A",
+    date: "Apr 07, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Online Assessment (OA)",
+        content: "HackerRank platform. Standard LeetCode questions."
+      },
+      {
+        name: "CoderPad Round",
+        content: "Question 1: IP Address Frequency - Find most frequent IP from log lines.\\nQuestion 2: Trapping Rain Water.\\nQuestion 3: Find Minimum in a Sorted Rotated Array."
+      },
+      {
+        name: "Superday Round 1",
+        content: "Question 1: Gas Station Problem (Struggled, took 45 mins).\\nQuestion 2: House Robber Problem (Explained approach in 5 mins, no code)."
+      },
+      {
+        name: "Superday Round 2",
+        content: "Deep dive into resume and projects. Asked to extend a project into a problem-solving scenario (couldn't solve).\\nQuestion: LRU Cache - Attempted using LinkedList + HashMap, but interviewers expected LinkedHashMap approach."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected."
+      }
+    ]
+  },
+  {
+    id: 37,
+    role: "Software Engineer",
+    yoe: "N/A",
+    date: "May 24, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Round 1: Data Structures & Algorithms (DSA)",
+        content: "Problem: Find the maximum number of non-overlapping activities, given their start and end times (classic Activity Selection problem).\\nThe interviewer also discussed details from my resume."
+      },
+      {
+        name: "Round 2: Software Engineering",
+        content: "Two coding problems were asked:\\n1. Two Sum Problem – Given an array and a target, return the indices of two numbers that add up to the target.\\n2. Subarray Sum Equals Target – Find the starting and ending index of a subarray that sums to the given target.\\nAdditionally, I was asked questions about the Software Development Life Cycle (SDLC) and how I've applied it in past projects."
+      },
+      {
+        name: "Round 3: System Design (Low-Level Design)",
+        content: "Design a simple version of Tic Tac Toe (LLD):\\nDiscussed designing the classes, game board, player moves, and how to check for a winner."
+      }
+    ]
+  },
+  {
+    id: 38,
+    role: "N/A",
+    yoe: "N/A",
+    date: "N/A",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Round 1: DSA",
+        content: "Started with basic introduction, and then few questions on Resume.\\nDSA Questions:\\n1. Count number of Unique Triplets in an array.\\n2. Find an element in a sorted rotated array.\\nSolved both of them, ran code on test cases."
+      },
+      {
+        name: "Round 2: SDLC",
+        content: "Mostly grilling on resume. Discussion about design patterns, and Spring Boot annotations. You should be very clear on what you're writing in your resume."
+      },
+      {
+        name: "Round 3: System Design",
+        content: "Turned into a resume deep dive. Discussed entire structure of projects, implementation details, failure handling. Very deep discussion."
+      },
+      {
+        name: "Round 4: HCM",
+        content: "Received call from HR to attend HCM call. Fairly simple, casual chat."
+      },
+      {
+        name: "Process Note",
+        content: "Coderpad on Monday, Superday on Friday (3 rounds typically). Allowed to choose language for DSA Round. For others it had to be JAVA."
+      }
+    ]
+  },
+  {
+    id: 39,
+    role: "N/A",
+    yoe: "N/A",
+    date: "Mar 12, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "CoderPad Round",
+        content: "Two questions to be solved with optimal performance, handling edge cases and writing basic test cases.\\n\\nQuestion 1: Given a string like \"aabbbbccd\", Find the starting Index and length of the longest continuous characters in the string.\\nExample: \"aabbbbccd\" -> starting index 2, length 4.\\n\\nQuestion 2: Given a 2D grid with values >= 0, find the path with maximum value from bottom-left (r-1, 0) to top-right (0, c-1). Movement allowed towards the destination.\\nExample Grid:\\n0 0 5\\n0 1 0\\n2 0 1\\nAnswer: 8"
+      }
+    ]
+  },
+  {
+    id: 40,
+    role: "Associate",
+    yoe: "2.7 Years",
+    date: "May 08, 2025",
+    author: "Anonymous User",
+    location: "Hyderabad",
+    rounds: [
+      {
+        name: "Round 1: Online Assessment",
+        content: "Two easy-medium coding questions."
+      },
+      {
+        name: "Round 2: Coderpad Round 1",
+        content: "1. Smallest element in rotated sorted array.\\n2. Shortest effort to reach a m*n matrix filled with numbers from top-right to bottom left."
+      },
+      {
+        name: "Round 3: Coderpad Round 2 (Superday)",
+        content: "1. Number of Connected Islands (Asked to make code production ready and thread safe).\\n2. Path Sum III (Optimized from O(n^2) to O(n) using backtracking and prefix sum)."
+      },
+      {
+        name: "Round 4: LLD Round (Superday)",
+        content: "1. Singleton Pattern (Thread safe implementation).\\n2. SOLID principles discussion - Identified violation in provided Vehicle, Car, Bike classes and fixed it.\\n3. Design Snake and Ladder Game (LLD code required with specific requirements)."
+      },
+      {
+        name: "Round 5: HLD Round (Superday)",
+        content: "Design a Customer Support Portal Spring Boot application:\\n- Ticket assignment based on support agent expertise.\\n- In-memory database design and data structure optimization.\\n- Entity structure (models) and API routing discussion.\\n- Feedback system integration (Sync vs Async/Message Queue trade-offs, Batch updates).\\n- Role Based Access Control (RBAC) and JWT discussion."
+      },
+      {
+        name: "Round 6: HM Round",
+        content: "Behavioral questions, team work, and team orientation briefing. Two HM rounds were conducted due to team change, both were formalities."
+      },
+      {
+        name: "Verdict",
+        content: "Selected. Offered Associate role."
+      }
+    ]
+  },
+  {
+    id: 41,
+    role: "Analyst",
+    yoe: "2.5+ years",
+    date: "Aug 25, 2024",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Round 1: OA (Hackerrank)",
+        content: "Two easy to medium level coding questions.\\nCompleted both in 30 minutes."
+      },
+      {
+        name: "Round 2: Coderpad",
+        content: "1. Variation of Pascal's Triangle II - Given row and col, return corresponding number.\\n2. Average Sum - Given list of (name, score), return average score for each student.\\nSolved both with most optimized solution in 30 minutes."
+      },
+      {
+        name: "Round 3: Superday - Data Structures",
+        content: "Deep discussion on current project (Fintech domain).\\nCoding Questions:\\n1. Best Time to Buy and Sell Stock (LC 121).\\n2. Best Time to Buy and Sell Stock II (LC 122).\\n3. Reorganize String (LC 767) - Discussed approach only due to time constraints."
+      },
+      {
+        name: "Round 4: Superday - Software Engineering Practice",
+        content: "Deep discussion on current project architecture. Key cross-questions on design decisions.\\nCoding Question: Two-level Aggregation.\\nInput: Tuples of (clientId, stockId, Quantity)\\nMake a map (client, stockId, quantity) aggregating quantities.\\nExample:\\nIn: [(\"simran\",\"hdfc\",30), (\"simran\",\"hdfc\",20) ...]\\nOut: [(\"simran\",\"hdfc\",50) ...]\\nWrote clean code in text file."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected. Likely due to not convincing interviewers on some project architecture cross-questions."
+      }
+    ]
+  },
+  {
+    id: 42,
+    role: "Associate",
+    yoe: "N/A",
+    date: "Mar 08, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Round 1: Online Assessment (Jan 8th)",
+        content: "HackerRank assessment with one medium and one hard level question.\\nSubmitted optimal solutions for both."
+      },
+      {
+        name: "Round 2: Coderpad Round 1 (Feb 10th)",
+        content: "1. Remove repeated characters from string (e.g., abaabc -> a1b1a2b1c1).\\n2. Hard-level graph question (Struggled with implementation). call from HR for another chance."
+      },
+      {
+        name: "Round 3: Coderpad Round 2 (Feb 19th)",
+        content: "Retake of Coderpad round.\\nTwo DSA questions similar to round 1.\\nProvided fairly optimal solutions, needed help with one bug."
+      },
+      {
+        name: "Round 4: SuperDay Round 1 (DSA) (Mar 7th)",
+        content: "1. Asteroid Collision (Stack problem - LC 735).\\n2. Merge Intervals (LC 56)."
+      },
+      {
+        name: "Round 5: SuperDay Round 2 (Resume & Tech)",
+        content: "Resume-focused: Handling failed processes, systematic exception handling.\\nTech Deep Dive: Event-Driven Architecture, Load Balancing (Kafka developer interviewer), Pseudo code for Pub/Sub and Multithreading.\\nJava: Hashing, Collision resolution, Multithreading."
+      },
+      {
+        name: "Round 6: SuperDay Round 3 (Senior/Managerial)",
+        content: "Resume based: Project work, challenges, responsibilities.\\nSimple DB design question.\\nBasic Spring Boot questions."
+      },
+      {
+        name: "Round 7: HM Round (Mar 7th)",
+        content: "Short two-way interview.\\nResume questions.\\nHM explained department and answered questions."
+      },
+      {
+        name: "Verdict",
+        content: "Selected. Cleared all rounds."
+      }
+    ]
+  },
+  {
+    id: 43,
+    role: "Analyst",
+    yoe: "1.3 Years",
+    date: "Sep 25, 2024",
+    author: "Anonymous User",
+    location: "Bangalore",
+    rounds: [
+      {
+        name: "Round 1: HackerRank Test",
+        content: "Two DSA questions (1 Easy, 1 Medium).\\nSolved both in 10-15 minutes."
+      },
+      {
+        name: "Round 2: Coderpad Virtual",
+        content: "Two DSA problems (1 DP Hard, 1 Medium).\\nFully solved both with corner cases."
+      },
+      {
+        name: "Round 3: SuperDay - Data Structures",
+        content: "1. Maximal Square (LC 221).\\n2. Ugly Number II (LC 264).\\nWrote working code for both and handled edge cases."
+      },
+      {
+        name: "Round 4: SuperDay - Software Design and Architecture",
+        content: "DSA Q: Kth Largest Element in an Array (Approach only, Min-heap).\\nSystem Design: E-commerce website (Classes, APIs, DB Schema).\\nConcurrency: Threading, locks, race conditions."
+      },
+      {
+        name: "Round 5: SuperDay - Software Engineering Practices",
+        content: "Project Deep Dive: Architecture and working.\\nGolang Specifics: Go routines, mutex locks, semaphores.\\nSDLC Process: Releases, vulnerability fixes."
+      },
+      {
+        name: "Round 6: Hiring Manager Round",
+        content: "Discussion on team work, tech stack, and role expectations."
+      },
+      {
+        name: "Verdict",
+        content: "Selected. Offer received after 1.5 weeks."
+      }
+    ]
+  },
+  {
+    id: 44,
+    role: "Associate SDE-2",
+    yoe: "N/A",
+    date: "Feb 15, 2025",
+    author: "Anonymous User",
+    rounds: [
+      {
+        name: "Online Assessment (2 Hours)",
+        content: "Question 1: String Encoding - Run Length Encoding even for single characters.\\nExample: \"GGGGrrrrrrrrrrrrt\" -> \"5G14r1t\"\\n\\nQuestion 2: Array Burst Problem - Shrink array by removing sequentially repeating elements >= burst length recursively.\\nInput: [a, b, c, c, c, d, e, e], Burst Length: 3\\nProcessing: 'c' appears 3 times (>=3), remove them -> [a, b, d, e, e]. 'e' appears 2 times (<3), keep them.\\nOutput: [a, b, d, e, e]"
+      }
+    ]
+  },
+  {
+    id: 45,
+    role: "Associate",
+    yoe: "3+ Years",
+    date: "Feb 24, 2024",
+    author: "Anonymous User",
+    location: "Bangalore",
+    rounds: [
+      {
+        name: "OA (Online Assessment)",
+        content: "2 Easy questions on Hackerrank. Verdict: Cleared."
+      },
+      {
+        name: "DSA Round I",
+        content: "1. Find cycle length in array jumping by index values (arr[startInd] -> points to index).\\n2. Minimum Path Sum variation (Max sum) - DP."
+      },
+      {
+        name: "DSA Round II (Superday)",
+        content: "1. Design Splitwise (Graph simplification) - inputs [['a', 'b', 200]...], answer queries for who owes whom.\\n2. Number of Islands variation (LC 200)."
+      },
+      {
+        name: "DSA Round III (Superday)",
+        content: "1. First Missing Positive (LC 41) - Used cycle sort.\\n2. Best Time to Buy and Sell Stock variation - Show trades and minimize fees with minimum trades."
+      },
+      {
+        name: "DSA + Design Round IV (Superday)",
+        content: "1. Design Question: Interviewer was hostile. Asked database specific questions.\\n2. DSA: Sum of lengths of all valid substrings containing only allowed characters. Solved in O(N) time, O(1) space."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected / Ghosted. Negative experience in Round IV."
+      }
+    ]
   }
 ];
