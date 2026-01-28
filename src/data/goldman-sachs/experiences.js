@@ -1559,5 +1559,261 @@ export const INTERVIEW_EXPERIENCES = [
         content: "Rejected / Ghosted. Negative experience in Round IV."
       }
     ]
+  },
+  {
+    id: 46,
+    role: "Associate",
+    yoe: "2.5+ years",
+    date: "Dec 2024",
+    author: "Anonymous User",
+    location: "Bangalore",
+    rounds: [
+      {
+        name: "Round 1: Online Assessment",
+        content: "HackerRank test (90 mins). 2 DSA questions (1 Easy, 1 Medium). Solved both."
+      },
+      {
+        name: "Round 2: CoderPad Virtual Interview",
+        content: "1. Find First and Last Position of Element in Sorted Array (LC 34).\\n2. Heap based question (Not on LC).\\nSolved both."
+      },
+      {
+        name: "Round 3: DSA Round (Superday)",
+        content: "1. Container With Most Water (LC 11).\\n2. Take/No Take DP variation.\\nSolved both."
+      },
+      {
+        name: "Round 4: DSA + Java Core + Kafka (Superday)",
+        content: "1. Hashtable vs HashMap vs ConcurrentHashMap (Tradeoffs).\\n2. Concurrency (Optimistic vs Pessimistic).\\n3. Kafka Internals (vs RabbitMQ).\\n4. DSA: Find the longest increasing or decreasing subarray (Easy)."
+      },
+      {
+        name: "Round 5: OOPs + Java Internals + LLD + HLD (Superday)",
+        content: "Extended to 1.5 hours.\\n1. OOPs questions.\\n2. Deployment process (Java compilation, Maven, JAR vs WAR, JVM/JDK/JRE/JIT, CI/CD).\\n3. LLD: Rate Limiter (OTP reset limit: 3 times in 5 mins).\\n4. HTTP vs HTTPS, TCP vs UDP.\\n5. HLD: Rate Limiter integration (CDN, Gateway, Load Balancers)."
+      },
+      {
+        name: "Round 6: TechnoManagerial Round",
+        content: "Project deep dive, Architecture, Resume skills."
+      },
+      {
+        name: "Verdict",
+        content: "Selected. Offer received after 3 weeks."
+      }
+    ]
+  },
+  {
+    id: 47,
+    role: "Associate",
+    yoe: "2.5 Years",
+    date: "Dec 6, 2024",
+    author: "Anonymous User",
+    location: "Bengaluru",
+    rounds: [
+      {
+        name: "Round 1: Coderpad",
+        content: "1. Detect loop in array where values are indices (arr[startIndex] -> next index) and return length.\\n2. Remove All Adjacent Duplicates in String II (LC 1209) variation with fixed k=3."
+      },
+      {
+        name: "Round 2: Coderpad",
+        content: "1. Two Sum IV - Input is a BST (LC 653). Expected O(h) space solution using BST Iterator.\\n2. Merge Intervals (LC 56)."
+      },
+      {
+        name: "Round 3: Software Engineering Practices",
+        content: "Project deep dive.\\nStandard questions on SOLID principles, design patterns (Composite, Factory, Singleton, Proxy).\\nImplement LRU Cache taking care of OOPs and Design Principles."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected after Round 3 (Ran out of time)."
+      }
+    ]
+  },
+  {
+    id: 48,
+    role: "N/A",
+    yoe: "4.5 Years",
+    date: "N/A",
+    author: "Anonymous User",
+    location: "Bangalore",
+    rounds: [
+      {
+        name: "Round 1: HackerRank",
+        content: "2 LeetCode Mediums. Verdict: Passed."
+      },
+      {
+        name: "Round 2: Coderpad",
+        content: "1. Grid based DP.\\n2. Pascal's Triangle."
+      },
+      {
+        name: "Round 3: DSA",
+        content: "1. Find Subarrays whose sum is 0.\\n2. Meeting Rooms II."
+      },
+      {
+        name: "Round 4: Software Design Principles",
+        content: "HLD of candidate's application. Intense Q&A."
+      },
+      {
+        name: "Round 5: System Design",
+        content: "HLD of a Billing System for the interviewer's application. Interviewers were unhelpful and ended early."
+      },
+      {
+        name: "Verdict",
+        content: "Failed in Round 5."
+      }
+    ]
+  },
+  {
+    id: 49,
+    role: "Associate",
+    yoe: "2.5 Years",
+    date: "Jan 20, 2025",
+    author: "Anonymous User",
+    location: "N/A",
+    rounds: [
+      {
+        name: "OA (Online Assessment)",
+        content: "2 hours Hackerrank test. 2 medium level LC questions.\\nSolved both in 40 mins."
+      },
+      {
+        name: "Round 1: Coderpad",
+        content: "25 min discussion on Resume, Monolithic vs Microservices.\\nMinimum Path Sum variation (Max path from bottom-left to top-right).\\nSolved with DP, missed edge case due to time/interviewer lateness."
+      },
+      {
+        name: "Round 2: Data Structures (Superday)",
+        content: "No coding questions asked (contrary to expectation).\\nMicroservices vs Monolithic (Scalability).\\nTesting lifecycle (Unit test, contract testing).\\nSystem Performance & Latency measurement.\\nSystem Design: Scheduler design (DB polling vs Messaging Queue tradeoffs).\\nResume deep dive & SOLID principles."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected. Negative experience with interviewer attitude and process confusion (No coding in DSA round)."
+      }
+    ]
+  },
+  {
+    id: 50,
+    role: "Associate",
+    yoe: "3 Years",
+    date: "Aug 17, 2024",
+    author: "Anonymous User",
+    location: "Bengaluru",
+    rounds: [
+      {
+        name: "OA (Online Assessment)",
+        content: "1. Better Compression of String (LC 443/String Compression III variation).\\n2. Cutting Metal Surplus (profit maximization problem)."
+      },
+      {
+        name: "Round 1: Coderpad",
+        content: "1. House Robber (LC 198).\\n2. Robot Bounded In Circle (LC 1041) - modified easy version."
+      },
+      {
+        name: "Round 2: Data Structures (Superday)",
+        content: "1. Maximum Profit in Job Scheduling (LC 1235) - Solved with Brute Force.\\n2. Reorder List variation (1->2->3->4...->8 to 1->8->2->7->6->3->5->4) - Optimized approach discussed, partial code."
+      },
+      {
+        name: "Round 3: Software Engineering Practices (Superday)",
+        content: "Project grill and rapid fire questions:\\n- Increase API response time.\\n- SQL vs NoSQL.\\n- ACID compliance.\\n- Circuit Breaker pattern (Handling microservice call failures).\\n- DB Server failure recovery.\\nCoding Question: Reorder Linked List groups of 3 (a->b->c... to b->c->a...). Code had a bug."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected. Issues with confidence and project/design answers."
+      }
+    ]
+  },
+  {
+    id: 51,
+    role: "Associate",
+    yoe: "2.4 Years",
+    date: "Dec 2024",
+    author: "Anonymous User",
+    location: "Hyderabad",
+    rounds: [
+      {
+        name: "OA",
+        content: "HackerRank test. 2 Easy-Medium coding questions.\\nResult: Cleared."
+      },
+      {
+        name: "Round 1: Technical Phone Screen",
+        content: "1. Find cycle in a circular array.\\n2. Find the median of two sorted arrays (LC 4).\\nAdditional: Core Java and Spring Boot questions.\\nResult: Cleared."
+      },
+      {
+        name: "Super Day Round 1: DSA",
+        content: "1. Koko Eating Bananas (LC 875).\\n2. String Compression Variation: Replace largest repeated substring at every point with '*'.\\nExample 1: \"abcabcd\" -> \"abc*d\"\\nExample 2: \"aabbaabb\" -> \"a*bb*\"\\nDiscussed approach and dry-run, but couldn't code due to time constraints."
+      },
+      {
+        name: "Super Day Round 2",
+        content: "Scheduled, but interviewer didn't join. HR later informed the round wouldn't proceed."
+      },
+      {
+        name: "Verdict",
+        content: "Rejected. Likely due to inability to implement 2nd problem in Super Day Round 1."
+      }
+    ]
+  },
+  {
+    id: 52,
+    role: "Associate",
+    yoe: "2+ Years",
+    date: "Jan 29, 2025",
+    author: "Anonymous User",
+    location: "N/A",
+    rounds: [
+      {
+        name: "Round 1: HackerRank Test",
+        content: "90-minute OA with two DSA questions. Solved both."
+      },
+      {
+        name: "Round 2: CoderPad Virtual Interview",
+        content: "1. Class Average: Given list of {student: marks}, find class average.\\n2. String replacement: Replace repeating segments with '*'. Example: ABCABCEABCABCE -> ABCE*."
+      },
+      {
+        name: "Round 3: DSA Round (Superday)",
+        content: "1. Segment Tree Implementation: Implement 'insert' functionality (skeleton code provided).\\n2. Dictionary Subsequence Check: Check if word is subsequence of any word in dictionary (Trie based). Couldn't complete due to time."
+      },
+      {
+        name: "Round 4: Software Engineering Practices (LLD) (Superday)",
+        content: "Project discussion.\\nDesign a URL Shortener (LLD focus). Database feasibility questions."
+      },
+      {
+        name: "Round 5: Design (LLD + HLD) (Superday)",
+        content: "1. E-commerce Checkout Design: Design patterns for checkout (Order cancellation, payment flows).\\n2. Inter-System Communication: Patterns, APIs, Fallback mechanisms, DB management.\\n3. Behavioral: Handling client change requests."
+      },
+      {
+        name: "Verdict",
+        content: "Waiting for result (4 days post-interview)."
+      }
+    ]
+  },
+  {
+    id: 53,
+    role: "Associate",
+    yoe: "N/A",
+    date: "Oct 22, 2024",
+    author: "Anonymous User",
+    location: "N/A",
+    rounds: [
+      {
+        name: "Round 1: Online Assessment (OA)",
+        content: "Two questions: One on Dynamic Programming and one on Graphs."
+      },
+      {
+        name: "Round 2: Screening Round",
+        content: "1. Easy question involving a character array.\\n2. Medium question related to finding max-min in an array."
+      },
+      {
+        name: "Round 3: DSA Round (Superday)",
+        content: "1. Rearrange Array with Alternating Positive and Negative Numbers (LC 2149). Maintain relative order was not specified but example implies it.\\n2. Majority Element (>n/2 occurrences) (LC 169).\\nCore Java questions: HashMap internals, MultiMap, intricacies."
+      },
+      {
+        name: "Round 4: DSA + Approach (Superday)",
+        content: "1. Weighted Job Scheduling (Max profit without overlapping jobs) (LC 1235) - Approach + Complexity.\\n2. Puzzle: 1000 bottles of wine and 10 prisoners (Binary representation puzzle).\\n3. K Closest Points to Origin (LC 973) - Approach + Complexity.\\n4. Shuffle a Deck of Cards (LC 384) - Implement getNextCard()."
+      },
+      {
+        name: "Round 5: High-Level Design (Superday)",
+        content: "Design Twitter:\\n- Functional Reqs: Post tweets, User Timeline, Home Timeline (Feed), Search (Hashtags/Keywords), Follow.\\n- Non-Functional: Celebrity tweets < 5s propagation."
+      },
+      {
+        name: "Round 6: Hiring Manager Round",
+        content: "Discussion on past experiences, future goals, work-life balance."
+      },
+      {
+        name: "Verdict",
+        content: "Selected. In team matching phase."
+      }
+    ]
   }
 ];
