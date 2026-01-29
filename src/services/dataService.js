@@ -135,9 +135,9 @@ class DataService {
 
             // For Goldman Sachs, use the existing JS file
             if (normalizedId === 'goldman-sachs') {
-                const { EXPERIENCES } = await import(`../data/goldman-sachs/experiences.js`);
-                this.cache.set(cacheKey, EXPERIENCES);
-                return EXPERIENCES;
+                const { INTERVIEW_EXPERIENCES } = await import(`../data/goldman-sachs/experiences.js`);
+                this.cache.set(cacheKey, INTERVIEW_EXPERIENCES);
+                return INTERVIEW_EXPERIENCES;
             }
 
             // For other companies, return empty array for now
